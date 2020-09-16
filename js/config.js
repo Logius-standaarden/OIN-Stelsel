@@ -17,9 +17,9 @@ var respecConfig = {
   // Als er geen publishDate is opgegeven, genereert ReSpec de dataum o.b.v. de laatste wijzigingen
   // Belangrijk: als publishDate niet opgegeven is, wordt bij de link "Laatst gepubliceerde versie" "geen" gezet. Anders wordt een link opgebouwd voor de laatste versie, met het formaat:
   // https://docs.centrumvoorstandaarden.nl/{pubDomain}/{shortName}
-  publishDate: "2017-12-22",
+  publishDate: "2020-09-18",
   // Als er een eerder gepubliceerde versie is, geef dan de datum daarvan op
-  previousPublishDate: "2017-05-31",
+  //previousPublishDate: "2017-05-31",
   // Zie https://github.com/w3c/respec/wiki/previousMaturity. Dit moet een
   // Als previousMaturity niet opgegeven wprdt, maar previousPublishDate wel, dan wordt dezelfde status gebruikt als bij specStatus
   previousMaturity: "DK-VV",
@@ -29,13 +29,20 @@ var respecConfig = {
   doJsonLd: true,
   editors: [
     {
-      name: "...",
-      company: "...",
+      name: "Pieter Hering",
+      company: "Logius",
       companyURL: "http://www.logius.nl/",
     },
     {
-      name: "...",
-      company: "...",
+      name: "Maarten van der Veen",
+      company: "Logius",
+      companyURL: "http://www.logius.nl/",
+    },
+  ],
+  authors: [
+    {
+      name: "Pieter Hering",
+      company: "Logius",
       companyURL: "http://www.logius.nl/",
     },
   ],
