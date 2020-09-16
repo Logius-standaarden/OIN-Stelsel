@@ -677,31 +677,24 @@ Beschrijving van de onderdelen van COR
 
 # Bijlage A Begrippen
 
-**Centrale OIN Raadpleegvoorziening (COR)** - De COR biedt een publiek deel voor online inzage in de identificerende nummers van organisaties en
-organisatieonderdelen en biedt een besloten omgeving met een beheermodule voor het registreren van subOIN's. Het subOIN-register is onderdeel van de COR.
-**TSP** – Certificatiedienstverlener (*Trust Service Provider*), marktpartijen die PKIoverheid certificaten verstrekken conform het Programma van Eisen van
-PKIoverheid. Voorheen CSP - Certificate Service provider-  genoemd.
-**Digitaal berichtenverkeer** – het uitwisselen van gegevens via digitale berichten
-**Erkend authenticatiemiddel** - Een authenticatiestelsel voor organisaties waarbij natuurlijke personen namens de organisatie worden gemachtigd om
-specifieke activiteiten te verrichten. Bijvoorbeeld eHerkenning, Idensys.
-**Handelsregister (HR) -** Het Handelsregister is een bij wet ingestelde basisregistratie voor rechtspersonen en ondernemingen in Nederland. Het maakt
-deel uit van het stelsel van basisregistraties. Daarmee draagt het Handelsregister bij aan een efficiëntere overheid en aan een betere
-dienstverlening voor ondernemers. Zie <http://www.digitaleoverheid.nl>
-**KvK Nummer** - Het KvK nummer is het inschrijvingsnummer van de onderneming in het Handelsregister. Elke onderneming of maatschappelijke activiteit krijgt in
-het handelsregister één KvK-nummer, dit KvK-nummer bestaat altijd uit 8 cijfers. Bij bedrijfsoverdracht houden ondernemingen wijzigt hun KvK-nummer.
-**Niet-natuurlijk persoon -** Een niet-natuurlijk persoon is een organisatie of samenwerkingsverband dat rechten en plichten heeft en wordt gedefinieerd aan de hand van het RSIN (bron KvK).
-**OIN-beheerder -** Een overheidsorganisatie die is toegelaten om OIN of subOIN's aan organisaties toe te kennen. De OIN-beheerder draagt zorg voor de registratie van subOIN's voor organisaties die niet in een aangesloten register voorkomen maar die wel bij een broninstantie of op basis van brondocumenten kunnen worden geïdentificeerd en geverifieerd. De OIN-beheerder stelt de identificatie van een partij vast aan de hand van bewijsstukken of zelfstandig onderzoek.
-**OIN-houder -** De OIN-houder is een rechtspersoon met een publieke taak, die gebruik maakt van het OIN. Alleen OIN houders met rechtspersoonlijkheid kunnen een subOIN aanvragen voor een organisatie of organisatieonderdeel die onder zijn juridische verantwoordelijkheid valt. Zij zijn verantwoordelijk voor de door hun aangevraagde subOIN(s).
-**subOIN -** Organisaties en organisatieonderdelen die niet in een aangesloten overheidsregister voorkomen, komen mogelijk in aanmerking voor een subOIN. Deze worden geregistreerd in het subOIN-register. In eerdere publicaties over het OIN-beleid werd ook de term *OIN subnummer* gebruikt.
-**subOIN-register** – Een register met alle uitgegeven OIN's die niet in een bronregister voorkomen.
-**Organisatie -** Art 3.1 van *de NEN-ISO/IEC 6532-1* definieert een organisatie als een samenwerking van meerdere personen die met autoriteit acteren of mogen acteren ten behoeve van een doel *"a unique framework of authority within which a person or persons act, or are designated to act, towards some purpose''.*. Een organisatie kan een rechtspersoon zijn, of een samenwerking zonder rechtspersoonlijkheid die met autoriteit zelfstandig kan handelen.
-**Organisatieonderdeel -** In de NEN – ISO/IEC 6532-1, Art.3.2 is de omschrijving van een organisatieonderdeel elke afdeling, dienst of entiteit
-binnen een organisatie die geïdentificeerd moet worden t.b.v. informatie-uitwisseling *"Any department, service or other entity within an*
-organization*, which needs to be identified for information interchange''*. 
-**Overheidsregistraties -** Onder een overheidsregistratie wordt verstaan een landelijk dekkende registratie, met een wettelijke grondslag, waarin gegevens over individuele en identificeerbare objecten, subjecten of rechten zijn vastgelegd.
-**PKIoverheid** – het Nederlandse stelsel van public key infrastructure dat door Logius wordt beheerd. Het Programma van Eisen (PvE) van PKIoverheid specificeert de eisen die aan de uitgifte van PKIoverheid certificaten door CSP's worden
-gesteld.
-**Prefix** – de eerste 8 posities van het OIN komen overeen met een unieke code voor een uniek identificerend nummer uit een bronregister.
-**Prefix tabel** – mapping tussen een unieke code en het identificerende nummer uit een bronregister (b.v. het RSIN nummer).
-**RSIN –** Alle rechtspersonen en samenwerkingsverbanden, zoals bv's, verenigingen, stichtingen, vof's en maatschappen (eenmanszaken niet) krijgen bij inschrijving bij de KvK naast een KvK-nummer ook een Rechtspersonen en Samenwerkingsverbanden Informatienummer (RSIN). Dit nummer wordt gebruikt om gegevens uit te wisselen met andere (overheids)organisaties, zoals de Belastingdienst (bron KvK). Het RSIN is identiek aan het fiscale nummer.
-**Voorziening –** De implementatie / fysieke realisatie van een systeem waarmee informatie of diensten daadwerkelijk geleverd worden, voorbeelden van voorzieningen zijn de Basisregistraties, MijnOverheid en Digilevering.
+|begrip|omschrijving|
+|---|---|
+|**Centrale OIN Raadpleegvoorziening (COR)**|De COR biedt een publiek deel voor online inzage in de identificerende nummers van organisaties en organisatieonderdelen en biedt een besloten omgeving met een beheermodule voor het registreren van subOIN's. Het subOIN-register is onderdeel van de COR.|
+|**TSP**|Certificatiedienstverlener (*Trust Service Provider*), marktpartijen die PKIoverheid certificaten verstrekken conform het Programma van Eisen van PKIoverheid. Voorheen CSP - Certificate Service provider-  genoemd.|
+|**Digitaal berichtenverkeer**|het uitwisselen van gegevens via digitale berichten|
+|**Erkend authenticatiemiddel**|Een authenticatiestelsel voor organisaties waarbij natuurlijke personen namens de organisatie worden gemachtigd om specifieke activiteiten te verrichten. Bijvoorbeeld eHerkenning, Idensys.|
+|**Handelsregister (HR)**|Het Handelsregister is een bij wet ingestelde basisregistratie voor rechtspersonen en ondernemingen in Nederland. Het maakt deel uit van het stelsel van basisregistraties. Daarmee draagt het Handelsregister bij aan een efficiëntere overheid en aan een betere dienstverlening voor ondernemers. Zie <http://www.digitaleoverheid.nl>
+|**KvK Nummer**|Het KvK nummer is het inschrijvingsnummer van de onderneming in het Handelsregister. Elke onderneming of maatschappelijke activiteit krijgt in het handelsregister één KvK-nummer, dit KvK-nummer bestaat altijd uit 8 cijfers. Bij bedrijfsoverdracht houden ondernemingen wijzigt hun KvK-nummer.|
+|**Niet-natuurlijk persoon**|Een niet-natuurlijk persoon is een organisatie of samenwerkingsverband dat rechten en plichten heeft en wordt gedefinieerd aan de hand van het RSIN (bron KvK).|
+|**OIN-beheerder**|Een overheidsorganisatie die is toegelaten om OIN of subOIN's aan organisaties toe te kennen. De OIN-beheerder draagt zorg voor de registratie van subOIN's voor organisaties die niet in een aangesloten register voorkomen maar die wel bij een broninstantie of op basis van brondocumenten kunnen worden geïdentificeerd en geverifieerd. De OIN-beheerder stelt de identificatie van een partij vast aan de hand van bewijsstukken of zelfstandig onderzoek.|
+|**OIN-houder**|De OIN-houder is een rechtspersoon met een publieke taak, die gebruik maakt van het OIN. Alleen OIN houders met rechtspersoonlijkheid kunnen een subOIN aanvragen voor een organisatie of organisatieonderdeel die onder zijn juridische verantwoordelijkheid valt. Zij zijn verantwoordelijk voor de door hun aangevraagde subOIN(s).|
+|**subOIN**|Organisaties en organisatieonderdelen die niet in een aangesloten overheidsregister voorkomen, komen mogelijk in aanmerking voor een subOIN. Deze worden geregistreerd in het subOIN-register. In eerdere publicaties over het OIN-beleid werd ook de term *OIN subnummer* gebruikt.|
+|**subOIN-register**|Een register met alle uitgegeven OIN's die niet in een bronregister voorkomen.|
+|**Organisatie**|Art 3.1 van *de NEN-ISO/IEC 6532-1* definieert een organisatie als een samenwerking van meerdere personen die met autoriteit acteren of mogen acteren ten behoeve van een doel *"a unique framework of authority within which a person or persons act, or are designated to act, towards some purpose''.*. Een organisatie kan een rechtspersoon zijn, of een samenwerking zonder rechtspersoonlijkheid die met autoriteit zelfstandig kan handelen.|
+|**Organisatieonderdeel**|In de NEN – ISO/IEC 6532-1, Art.3.2 is de omschrijving van een organisatieonderdeel elke afdeling, dienst of entiteit binnen een organisatie die geïdentificeerd moet worden t.b.v. informatie-uitwisseling *"Any department, service or other entity within an* organization*, which needs to be identified for information interchange''*.| 
+|**Overheidsregistraties**|Onder een overheidsregistratie wordt verstaan een landelijk dekkende registratie, met een wettelijke grondslag, waarin gegevens over individuele en identificeerbare objecten, subjecten of rechten zijn vastgelegd.|
+|**PKIoverheid**|het Nederlandse stelsel van public key infrastructure dat door Logius wordt beheerd. Het Programma van Eisen (PvE) van PKIoverheid specificeert de eisen die aan de uitgifte van PKIoverheid certificaten door CSP's worden gesteld.|
+|**Prefix**|de eerste 8 posities van het OIN komen overeen met een unieke code voor een uniek identificerend nummer uit een bronregister.|
+|**Prefix tabel**|mapping tussen een unieke code en het identificerende nummer uit een bronregister (b.v. het RSIN nummer).|
+|**RSIN**|Alle rechtspersonen en samenwerkingsverbanden, zoals bv's, verenigingen, stichtingen, vof's en maatschappen (eenmanszaken niet) krijgen bij inschrijving bij de KvK naast een KvK-nummer ook een Rechtspersonen en Samenwerkingsverbanden Informatienummer (RSIN). Dit nummer wordt gebruikt om gegevens uit te wisselen met andere (overheids)organisaties, zoals de Belastingdienst (bron KvK). Het RSIN is identiek aan het fiscale nummer.|
+|**Voorziening**|De implementatie / fysieke realisatie van een systeem waarmee informatie of diensten daadwerkelijk geleverd worden, voorbeelden van voorzieningen zijn de Basisregistraties, MijnOverheid en Digilevering.|
