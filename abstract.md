@@ -2,7 +2,7 @@ OIN Stelsel 2.0 is een concept voor een nieuwe document die het OIN beleid en de
 
 - aanpassingen in de regels voor uitgifte van SubOIN's (voorstel)
 
-- in lijn brengen van het document met de huidige en nieuw (voorgestelde) *Voorwaarden Digikoppeling* en *Gebruikersvoorwaarden Digikoppeling*
+- in lijn brengen van het document met de huidige en nieuw (voorgestelde) *Voorwaarden Digikoppeling* en *Gebruiksvoorwaarden Digikoppeling*
 
 - up-to-date brengen met de Logius dienstverlening voor het OIN en de COR.
 
