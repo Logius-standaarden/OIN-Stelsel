@@ -45,7 +45,7 @@ De behoefte aan een identificatienummer ontstond om een aantal redenen:
 
 Het nummer wordt opgenomen in het PKIoverheidcertificaat - als inhoud van het attribuut Subject.serialNumber -  en wordt daarnaast gebruik in de adressering van berichten.
 
-### Overheids Identifcatienummer
+### *Overheids* Identificatienummer
 
 Het unieke nummer werd het OIN, het *Overheidsorganisatie Identificatie Nummer*. De KvK - beheerder van het Handelsregister (HR) - adviseerde om het nummer op het FI-nummer te baseren. In het Handelsregister waren echter in die tijd niet alle overheidsorganisaties opgenomen die in het kader van de elektronische overheid van belang waren. Zo hadden allerlei zelfstandige onderdelen van een ministerie, zoals de Belastingdienst en Douane, geen eigen FI-nummer. Voor het gebruik van Digikoppeling was echter afgesproken dat organisaties én onderdelen van organisaties die berichten willen uitwisselen met een andere overheid, en daartoe zelfstandig contracten afsluiten, een identificerend nummer moeten krijgen, ook als dat onderdeel niet beschikt over een eigen FI-nummer. Afgesproken werd dat Logius het OIN ging uitdelen. Op termijn zou dan mogelijk altijd met een FI-nummer gewerkt kunnen worden, wanneer al die zelfstandige onderdelen ook in het Handelsregister zouden worden opgenomen. [bron document "Evaluatie OIN uitgiftev2", 2010] 
 
@@ -199,7 +199,7 @@ In 2017 zijn - naast duidelijker uitgeschreven juridische kaders- de volgende aa
 
 - de mogelijkheid voor organisaties met publieke rechtspersoonlijkheid om SubOINs aan te vragen voor aan hen gerelateerde organisatieonderdelen, voorzieningen en samenwerkingsverbanden
 
-- de mogelijkheid voor houders van sectorregistraties om op te gaan treden als OIN-beheerder en op die manier door hen geregistreerde organisaties die geen eigen (Nederlandse) rechtspersoonlijkheid bezitten ook van SubOINs’s te voorzien.
+- de mogelijkheid voor houders van sectorregistraties om op te gaan treden als SubOIN-beheerder en op die manier door hen geregistreerde organisaties die geen eigen (Nederlandse) rechtspersoonlijkheid bezitten ook van SubOINs’s te voorzien.
 
 - private partijen, die staan geregistreerd bij de KvK, krijgen de mogelijkheid om zich ook te laten registreren in de COR waarbij er een OIN afgeleid wordt van het KvK-nummer toegekend en de organisatiegegevens vanuit het Handelsregister worden overgenomen.
 
@@ -209,13 +209,13 @@ In 2017 verving de COR het toenmalige OIN register. Aan de COR werden de volgend
 
 - De relatie tussen SubOINs en de verantwoordelijke rechtspersoon kan in de COR worden vastgelegd en wordt publiekelijk getoond bij raadpleging van de voorziening.
 
-- De mogelijkheid tot aanmaak, wijziging en intrekking van OIN’s door beheerders is toegevoegd.
+- De mogelijkheid tot aan laten maken, wijziging en intrekking van OIN’s door beheerders van de COR is toegevoegd.
 
-- Beheerders hebben de mogelijk gekregen om de organisatiegegevens behorend bij een OIN rechtstreeks vanuit het Handelsregister via de KVK-API op te vragen en in de COR over te nemen waarmee de kwaliteit van geregistreerde gegevens kan worden verhoogd zonder extra handmatige handelingen.
+- Beheerders van de COR hebben de mogelijk gekregen om de organisatiegegevens behorend bij een OIN rechtstreeks vanuit het Handelsregister via de KVK-API op te vragen en in de COR over te nemen waarmee de kwaliteit van geregistreerde gegevens kan worden verhoogd zonder extra handmatige handelingen.
 
 - De exportfunctionaliteit waarmee de inhoud van de COR-database in CSV-formaat kan worden gedownload is publiek beschikbaar gemaakt.
 
-- Beheerders hebben de mogelijkheid gekregen om de relatie met een OIN van de ene rechtspersoon naar een andere rechtspersoon over te dragen. Dit komt van pas als er een organisatieonderdeel of voorziening overgaat van de ene instantie naar een andere.
+- Beheerders van de COR hebben de mogelijkheid gekregen om de relatie met een OIN van de ene rechtspersoon naar een andere rechtspersoon over te dragen. Dit komt van pas als er een organisatieonderdeel of voorziening overgaat van de ene instantie naar een andere.
 
 - Het al dan niet kunnen gebruiken van OINs of SubOINs voor e-facturatie wordt publiekelijk getoond.
 
@@ -270,9 +270,9 @@ Logius beheert de Centrale OIN Raadpleegvoorziening (COR). Logius Team Interface
 
 De registerhouder beheert een overheidsregister en waarborgt de kwaliteit van de te raadplegen nummers en bijbehorende gegevens. Voor elke entiteit die is opgenomen in het overheidsregister is duidelijk wie de verantwoordelijke rechtspersoon is. De verantwoordelijke rechtspersoon is herkenbaar aan de hand van het identificerende nummer (RSIN, KvK nummer of OIN). Het register heeft geborgd dat als de rechtspersoon ophoudt te bestaan, de registratie van de entiteit vervalt.
 
-### OIN-beheerder
+### SubOIN-beheerder
 
-Een overheidsorganisatie kan na invulling van het aansluitformulier en toetsingprocedure door de COR beheerder toegelaten worden als OIN-beheerder. De OIN-beheerder draagt zorg voor de registratie van SubOINs voor organisaties die niet in een aangesloten register voorkomen maar die wel bij een broninstantie of op basis van brondocumenten kunnen worden geïdentificeerd en geverifieerd. De OIN-beheerder stelt de identificatie van een buitenlandse partij vast aan de hand van bewijsstukken of zelfstandig onderzoek. Een OIN-beheerder kan een OIN aan laten maken voor specifieke partijen die niet in het Handelsregister staan maar wel identificeerbaar moeten zijn. De identiteit van de aanvrager moet door de OIN-beheerder worden gecontroleerd aan de hand van brondocumenten of andere bronnen. De OIN-beheerder kan SubOINs aan laten maken en publiceren of intrekken. De OIN-beheerder is verantwoordelijk voor het doorgeven van mutaties.
+Een overheidsorganisatie kan na invulling van het aansluitformulier en toetsingprocedure door de COR beheerder toegelaten worden als SubOIN-beheerder. De SubOIN-beheerder draagt zorg voor de registratie van SubOINs voor organisaties die niet in een aangesloten register voorkomen maar die wel bij een broninstantie of op basis van brondocumenten kunnen worden geïdentificeerd en geverifieerd. De SubOIN-beheerder stelt de identificatie van een buitenlandse partij vast aan de hand van bewijsstukken of zelfstandig onderzoek. Een SubOIN-beheerder kan een OIN aan laten maken voor specifieke partijen die niet in het Handelsregister staan maar wel identificeerbaar moeten zijn. De identiteit van de aanvrager moet door de SubOIN-beheerder worden gecontroleerd aan de hand van brondocumenten of andere bronnen. De SubOIN-beheerder kan SubOINs aan laten maken en publiceren of intrekken. De SubOIN-beheerder is verantwoordelijk voor het doorgeven van mutaties.
 
 ### Certificatiedienstverlener (TSP)
 
@@ -315,7 +315,7 @@ Rechtspersonen en samenwerkingsverbanden *Dit zijn de samenwerkingsverbanden die
 
 ### Buitenlandse rechtspersonen en organisaties
 
-Buitenlandse rechtspersonen en organisaties die niet ingeschreven kunnen worden in een Nederlands overheidsregister, maar wel voldoen aan de vereisten voor een PKIoverheidscertificaat, kunnen bij een OIN-beheerder een aanvraag indienen voor een OIN. Na controle door een OIN-Beheerder kunnen deze buitenlandse organisaties een OIN krijgen.
+Buitenlandse rechtspersonen en organisaties die niet ingeschreven kunnen worden in een Nederlands overheidsregister, maar wel voldoen aan de vereisten voor een PKIoverheidscertificaat, kunnen bij een SubOIN-beheerder een aanvraag indienen voor een OIN. Na controle door een SubOIN-beheerder kunnen deze buitenlandse organisaties een OIN krijgen.
 
 ### OIN
 
@@ -351,7 +351,7 @@ De beheerder van het OIN-stelsel controleert op basis van signalen en steekproef
 
 ### Naleving overeenkomsten
 
-De beheerder van het OIN-stelsel controleert de naleving van de overeenkomsten, af te sluiten met de OIN-beheerders en met de registratiehouders.
+De beheerder van het OIN-stelsel controleert de naleving van de overeenkomsten, af te sluiten met de SubOIN-beheerders en met de registratiehouders.
 
 ### Toezicht BZK
 
@@ -476,7 +476,7 @@ De beheerder van de COR registreert in het besloten gedeelte van de COR:
 
 ### Publiceren van OIN en SubOINs
 
-het OIN of SubOIN is pas openbaar toegankelijk, nadat de beheerder het OIN heeft gepubliceerd. Het OIN of SubOIN bezit dan de status *Actief*. De COR toont ook OIN en SubOINs die ingetrokken zijn.
+het OIN of SubOIN is pas openbaar toegankelijk, nadat de beheerder van de COR het OIN heeft gepubliceerd. Het OIN of SubOIN bezit dan de status *Actief*. De COR toont ook OIN en SubOINs die ingetrokken zijn.
 
 ### Aansluiten COR op overheidsregisters
 
@@ -503,7 +503,7 @@ SubOINs: uitgifte
 
 **Aanmaken SubOINs**
 
-Een rechtspersoon, die SubOINs–houder is, kan een OIN aanvragen voor een entiteit zonder rechtspersoonlijkheid - te weten een organisatie, organisatieonderdeel of voorziening - waarvoor hij de juridische verantwoordelijkheid neemt voor het gebruik van SubOINs. De SubOINs worden beheerd in het *SubOIN-register*, onderdeel van de COR. Onder de definitie van een entiteit vallen ook diensten zoals (landelijke) voorzieningen, mits deze als een onderdeel van een organisatie beschouwd kunnen worden en geïdentificeerd moeten worden voor informatie-uitwisseling. Logius maakt op verzoek van een OIN-houders SubOINs aan in de COR.
+Een rechtspersoon, die SubOIN–houder is, kan een OIN aanvragen voor een entiteit zonder rechtspersoonlijkheid - te weten een organisatie, organisatieonderdeel of voorziening - waarvoor hij de juridische verantwoordelijkheid neemt voor het gebruik van SubOINs. De SubOINs worden beheerd in het *SubOIN-register*, onderdeel van de COR. Onder de definitie van een entiteit vallen ook diensten zoals (landelijke) voorzieningen, mits deze als een onderdeel van een organisatie beschouwd kunnen worden en geïdentificeerd moeten worden voor informatie-uitwisseling. Logius maakt op verzoek van een OIN-houders SubOINs aan in de COR.
 
 **Organisaties in andere registers dan het Handelsregister**
 
@@ -526,7 +526,7 @@ De OIN–houder moet alle mutaties met betrekking tot de SubOINs doorgeven aan L
 
 ### Intrekkingsplicht
 
-De OIN–houder is verplicht een OIN in te trekken in de COR, indien het voor frauduleus handelen kan worden of wordt gebruikt, of de betreffende organisatie of organisatieonderdeel ophoudt te bestaan of overgaat naar een andere organisatie of rechtspersoon. Daarnaast beschikken de OIN-beheerders en Logius over de bevoegdheid tot het intrekken van SubOINs.
+De OIN–houder is verplicht een OIN in te trekken in de COR, indien het voor frauduleus handelen kan worden of wordt gebruikt, of de betreffende organisatie of organisatieonderdeel ophoudt te bestaan of overgaat naar een andere organisatie of rechtspersoon. Daarnaast beschikken de SubOIN-beheerders en Logius over de bevoegdheid tot het intrekken van SubOINs.
 
 ### Beheerder van een overheidsregister
 
@@ -575,7 +575,7 @@ Logius maakt afspraken met registerhouders over het gebruik van overheidsregiste
 Prefix tabel
 ------------
 
-Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het register wordt toegevoegd aan het OIN-stelsel. Dit wordt ook een OIN register genoemd. De prefix tabel wordt als aparte lijst beheerd door de Beheerder van het OIN-stelsel en wordt gepubliceerd op de website.
+Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het register wordt toegevoegd aan het OIN-stelsel. Dit wordt ook een OIN register genoemd. De prefix tabel wordt als aparte lijst beheerd door de beheerder van het OIN-stelsel en wordt gepubliceerd op de website.
 
 | **Prefix** | **Identificerend nummer** | **Bron**|
 |------------|-----------------------------------------|---|
@@ -586,7 +586,7 @@ Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het r
 | **00000005** | Onderdelen van de Staat der Nederlanden | nog aan te wijzen |
 | **00000006** | Onderdelen van het Rijk | nog aan te wijzen |
 | **00000007** | BRIN nummer | De Basisregistratie Instellingen (BRIN) is een register van onderwijsinstellingen dat door DUO wordt beheerd in opdracht van het Ministerie van OCW.|
-| **00000008** | Buitenlandse nummers| Op verzoek van een OINbeheerder door Logius uitgegeven nummers voor buitenlandse organisaties die niet in het Handelsregister zijn ingeschreven|
+| **00000008** | Buitenlandse nummers| Op verzoek van een SubOIN-beheerder door Logius uitgegeven nummers voor buitenlandse organisaties die niet in het Handelsregister zijn ingeschreven|
 | **00000009** | UZI-nummer| Het Unieke Zorgverlener Identificatie Register (UZI-register) is de organisatie die de unieke identificatie van zorgaanbieders en indicatieorganen in het elektronisch verkeer mogelijk maakt.|
 | **00000099** | Test OIN's| Elke organisatie mag een test OIN gebruiken mits voorzien van deze prefix.|
 
@@ -643,7 +643,7 @@ Beschrijving van de onderdelen van COR
 | 3| **Logius Beheerder** De Logius beheerder kan na authenticatie conform de Logius richtlijnen in het besloten gedeelte van de COR OINs en SubOIN-registraties aanmaken, wijzigen of intrekken. |
 ||**Centrale OIN Raadpleegvoorziening**|
 | 6| **OIN Raadpleegportaal** Webportaal. Op basis van een in te geven zoekitem (zoals deel van een naam van een organisatie of een OIN kan de OIN van een organisatie, de naam en de status (actief of ingetrokken) worden opgevraagd. Als er sprake is van een HoofdOIN – SubOIN relatie wordt deze getoond. De COR biedt ook de mogelijkheid om een CSV export te maken van de gehele registratie. |
-| 8| **OIN-SubOIN Beheerportaal** Beheerders maken gebruik van het portaal om registraties aan te maken, te wijzigen of in te trekken.|
+| 8| **OIN-SubOIN Beheerportaal** Beheerders van de COR maken gebruik van het portaal om registraties aan te maken, te wijzigen of in te trekken.|
 | 7| **Centrale OIN Raadpleegvoorziening Module** |
 | 7A | **OIN Raadpleegapplicatie** De applicatie handelt de verzoeken van het OIN Raadpleegvoorziening portaal en de SubOINs Raadpleegservice af. De applicatie bevraagt het OIN register en retourneert zoekresultaten.|
 | 7B | **OIN-Beheerapplicatie** De applicatie handelt de acties van het OIN-registratieportaal af. De applicatie registreert organisaties en organisatieonderdelen in het OIN-register . |
@@ -668,7 +668,7 @@ Beschrijving van de onderdelen van COR
 |**Handelsregister (HR)**|Het Handelsregister is een bij wet ingestelde basisregistratie voor rechtspersonen en ondernemingen in Nederland. Het maakt deel uit van het stelsel van basisregistraties. Daarmee draagt het Handelsregister bij aan een efficiëntere overheid en aan een betere dienstverlening voor ondernemers. Zie <http://www.digitaleoverheid.nl>
 |**KvK Nummer**|Het KvK nummer is het inschrijvingsnummer van de onderneming in het Handelsregister. Elke onderneming of maatschappelijke activiteit krijgt in het handelsregister één KvK-nummer, dit KvK-nummer bestaat altijd uit 8 cijfers. Bij bedrijfsoverdracht houden ondernemingen wijzigt hun KvK-nummer.|
 |**Niet-natuurlijk persoon**|Een niet-natuurlijk persoon is een organisatie of samenwerkingsverband dat rechten en plichten heeft en wordt gedefinieerd aan de hand van het RSIN (bron KvK).|
-|**OIN-beheerder**|Een overheidsorganisatie die is toegelaten om OINs of SubOINs aan organisaties toe te kennen. De OIN-beheerder draagt zorg voor de registratie van SubOINs voor organisaties die niet in een aangesloten register voorkomen maar die wel bij een broninstantie of op basis van brondocumenten kunnen worden geïdentificeerd en geverifieerd. De OIN-beheerder stelt de identificatie van een partij vast aan de hand van bewijsstukken of zelfstandig onderzoek.|
+|**SubOIN-beheerder**|Een overheidsorganisatie die is toegelaten om OINs of SubOINs aan organisaties toe te kennen. De SubOIN-beheerder draagt zorg voor de registratie van SubOINs voor organisaties die niet in een aangesloten register voorkomen maar die wel bij een broninstantie of op basis van brondocumenten kunnen worden geïdentificeerd en geverifieerd. De SubOIN-beheerder stelt de identificatie van een partij vast aan de hand van bewijsstukken of zelfstandig onderzoek.|
 |**OIN-houder**|De OIN-houder is een rechtspersoon met een publieke taak, die gebruik maakt van het OIN. Alleen OIN-houders met rechtspersoonlijkheid kunnen een OIN aanvragen voor een organisatie of organisatieonderdeel die onder zijn juridische verantwoordelijkheid valt. Zij zijn verantwoordelijk voor de door hun aangevraagde SubOINs(s).|
 |**SubOIN**|Organisaties en organisatieonderdelen die niet in een aangesloten overheidsregister voorkomen, komen mogelijk in aanmerking voor een OIN. Deze worden geregistreerd in het OIN-register. In eerdere publicaties over het OIN-beleid werd ook de term *OIN subnummer* gebruikt.|
 |**SubOIN-register**|Een register met alle uitgegeven SubOINs die niet in een bronregister voorkomen.|
