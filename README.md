@@ -147,7 +147,7 @@ De volgende kaders en bronnen zijn gehanteerd bij de uitwerking van het OIN-stel
 
 - NORA is het kader voor de uitwerking van de Centrale OIN Raadpleegvoorziening.
 
-- Memo OIN: *Gebruik van OIN, knelpunten en oplossingen Het memo met opleggers zijn op aangeboden aan de Regieraad Gegevens van 14 januari 2016. De stukken zijn schriftelijk besproken. De stukken zijn te vinden op* <https://digitaleoverheid.pleio.nl/file/group/30207952/all#41536872>
+- Memo OIN: *Gebruik van OIN, knelpunten en oplossingen Het memo met opleggers zijn op aangeboden aan de Regieraad Gegevens van 14 januari 2016. De stukken zijn schriftelijk besproken. De stukken zijn te vinden op* [https://digitaleoverheid.pleio.nl/file/group/30207952/all#41536872](https://digitaleoverheid.pleio.nl/file/group/30207952/all#41536872)]
 
 - *200421 Voorwaarden Digikoppeling v1.09.docx:* conceptversie metwijzigingsvoorstellen voor verruiming van het beleid van OIN uitgifte
 voor afnemers.
@@ -178,7 +178,7 @@ Op welke manier kan een organisatie een OIN verkrijgen
 
 Bedrijven en privaatrechtelijke instellingen die digitaal communiceren met de overheid hebben daarvoor in veel gevallen een identificerend nummer nodig. Dit identificerende nummer kan op twee manieren verkregen worden:
 
-1. Bij Logius: Door een OIN (Organisatie Identificatie Nummer) aan te vragen bij Logius via een aanvraagformulier op Logius.nl. Het OIN wordt afgeleid van het KvK-nummer uit het Handelsregister. Het OIN wordt vastgelegd in een register dat publiek raadpleegbaar is via de centrale OIN Raadpleegvoorziening (<https://portaal.digikoppeling.nl/registers/>) via een website en een API. De regels uit de Voorwaarden Digikoppeling en de Gebruiksvoorwaarden Digikoppeling zijn van toepassing. Er zijn geen kosten verbonden aan deze registratie.
+1. Bij Logius: Door een OIN (Organisatie Identificatie Nummer) aan te vragen bij Logius via een aanvraagformulier op Logius.nl. Het OIN wordt afgeleid van het KvK-nummer uit het Handelsregister. Het OIN wordt vastgelegd in een register dat publiek raadpleegbaar is via de centrale OIN Raadpleegvoorziening ([https://portaal.digikoppeling.nl/registers/](https://portaal.digikoppeling.nl/registers/)]) via een website en een API. De regels uit de Voorwaarden Digikoppeling en de Gebruiksvoorwaarden Digikoppeling zijn van toepassing. Er zijn geen kosten verbonden aan deze registratie.
 
 2. Bij de TSP: Bij de aanvraag van een PKIoverheid-certificaat zal de Trust Service Provider (TSP), bij ontbreken van een OIN, het identificerend nummer bij de creatie van het certificaat zelf afleiden op basis van het KvK-nummer uit het Handelsregister op gelijke wijze als bij de afleiding van het OIN. Er vindt echter geen publiek raadpleegbare registratie plaats. Voor de werking van het dataverkeer met de overheid is er verder geen verschil.
 
@@ -605,7 +605,12 @@ Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het r
 | **00000009** | UZI-nummer| Het Unieke Zorgverlener Identificatie Register (UZI-register) is de organisatie die de unieke identificatie van zorgaanbieders en indicatieorganen in het elektronisch verkeer mogelijk maakt.|
 | **00000099** | Test OIN's| Elke organisatie mag een test OIN gebruiken mits voorzien van deze prefix.|
 
+## Voorbeeld OIN structuur
 
+Hieronder wordt de structuur van een aantal OIN registraties weergeven. 
+
+![Resultaat van het zoeken in de COR naar een organisatie ](media/OIN-structuur.png)
+Schematische weergave OIN structuur
 
 SubOIN: een betekenisloos nummer
 ---------------------------------
@@ -623,6 +628,7 @@ Het prefix verwijst naar het OIN-register.
 > **Waarom hebben wij gekozen voor betekenisloze SubOINs?**
 >  
 > In de discussie met betrokkenen is besproken op welke manier SubOINs worden vastgelegd. Er zijn twee alternatieven besproken: 
+
 > 1. Als basis het OIN van de rechtspersoon met een volgnummer van 3 cijfers in het suffix|
 > 2. Een uniek betekenisloos nummer
 > 
@@ -750,10 +756,10 @@ Beschrijving van de onderdelen van COR
 
 |documentatie of voorziening|url|
 |---|---|
-|Digikoppeling Voorwaarden (oud)|<https://www.logius.nl/diensten/digikoppeling/documentatie/voorwaarden-digikoppeling>|
-|Digikoppeling Gebruiksvoorwaarden (oud)|<https://www.logius.nl/sites/default/files/public/bestanden/diensten/DigiKoppeling/Gebruiksvoorwaarden-Digikoppeling.pdf>|
-|Informatie over OIN op Logius|<https://www.logius.nl/diensten/oin>|
+|Digikoppeling Voorwaarden (oud)|[https://www.logius.nl/diensten/digikoppeling/documentatie/voorwaarden-digikoppeling](https://www.logius.nl/diensten/digikoppeling/documentatie/voorwaarden-digikoppeling)]|
+|Digikoppeling Gebruiksvoorwaarden (oud)|[https://www.logius.nl/sites/default/files/public/bestanden/diensten/DigiKoppeling/Gebruiksvoorwaarden-Digikoppeling.pdf](https://www.logius.nl/sites/default/files/public/bestanden/diensten/DigiKoppeling/Gebruiksvoorwaarden-Digikoppeling.pdf)|
+|Informatie over OIN op Logius|[https://www.logius.nl/diensten/oin](https://www.logius.nl/diensten/oin)]|
 |||
-|COR Web| <https://portaal.digikoppeling.nl/registers/>|
-|COR API - handleiding| <https://portaal.digikoppeling.nl/registers/corApi/index>|
-|COR API - OAS| <https://portaal.digikoppeling.nl/registers/api/>|
+|COR Web| [https://portaal.digikoppeling.nl/registers/](https://portaal.digikoppeling.nl/registers/)]|
+|COR API - handleiding| [https://portaal.digikoppeling.nl/registers/corApi/index](https://portaal.digikoppeling.nl/registers/corApi/index)]|
+|COR API - OAS| [https://portaal.digikoppeling.nl/registers/api/](https://portaal.digikoppeling.nl/registers/api/)]|
