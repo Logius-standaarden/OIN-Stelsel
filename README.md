@@ -576,6 +576,17 @@ Logius maakt afspraken met registerhouders over het gebruik van overheidsregiste
 
 # Data Architectuur
 
+Samenstelling OIN
+-----------------
+
+De lengte van het OIN is 20 posities, omdat dit wordt opgenomen in het *subject serial number* veld van het PKIoverheid certificaat. Het OIN is opgebouwd uit de volgende elementen:
+
+| **Element** | **Lengte**| **Waarde**|
+|---|---|---|
+| **Prefix**| 8 posities| Zie Prefix tabel|
+| **Hoofdnummer** | 8 of 9 posities | Identificerend nummer *Dit kan ook alfanumeriek zijn, afhankelijk van het geraadpleegde register.* uit een register. Als het hoofdnummer een KvK nummer is, is het hoofdnummer 8 posities lang. |
+| **Suffix**| 3 of 4 posities | Als het hoofdnummer 9 posities heeft dan is het suffix 000. Als het hoofdnummer 8 posities heeft dan is het suffix 0000.|
+
 Prefix tabel
 ------------
 
@@ -594,16 +605,7 @@ Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het r
 | **00000009** | UZI-nummer| Het Unieke Zorgverlener Identificatie Register (UZI-register) is de organisatie die de unieke identificatie van zorgaanbieders en indicatieorganen in het elektronisch verkeer mogelijk maakt.|
 | **00000099** | Test OIN's| Elke organisatie mag een test OIN gebruiken mits voorzien van deze prefix.|
 
-Samenstelling OIN
------------------
 
-De lengte van het OIN is 20 posities, omdat dit wordt opgenomen in het *subject serial number* veld van het PKIoverheid certificaat. Het OIN is opgebouwd uit de volgende elementen:
-
-| **Element** | **Lengte**| **Waarde**|
-|---|---|---|
-| **Prefix**| 8 posities| Zie Prefix tabel|
-| **Hoofdnummer** | 8 of 9 posities | Identificerend nummer *Dit kan ook alfanumeriek zijn, afhankelijk van het geraadpleegde register.* uit een register. Als het hoofdnummer een KvK nummer is, is het hoofdnummer 8 posities lang. |
-| **Suffix**| 3 of 4 posities | Als het hoofdnummer 9 posities heeft dan is het suffix 000. Als het hoofdnummer 8 posities heeft dan is het suffix 0000.|
 
 SubOIN: een betekenisloos nummer
 ---------------------------------
@@ -629,6 +631,65 @@ Het prefix verwijst naar het OIN-register.
 > 
 > Het is niet onmogelijk dat organisatieonderdelen wijzigen van een juridische verantwoordelijke, of dat een samenwerkingsverband van samenstelling wijzigt. Met een volgnummerconstructie wordt de ontkoppeling van rechtspersoon en OIN-houder onmogelijk.
 
+## Voorbeelden van OIN weergave in COR Web en COR API
+
+## COR WEB
+
+De COR Website retourneert een relevante attributen van een OIN-registratie. Hieronder twee schermvoorbeelden:
+![Resultaat van het zoeken in de COR naar een organisatie ](media/CORWEB-OIN.png)
+voorbeeld van een zoekactie op een organisatie met een OIN
+
+![Resultaat van het zoeken in de COR naar een voorziening](media/CORWEB-SUBOIN.png)
+voorbeeld van een zoekactie op een organisatie met een SubOIN
+
+
+### CORAPI
+
+Hieronder een voorbeeld van een REST-API call naar de COR API. In het voorbeeld wordt het OIN van de `Digilevering Integrator` opgevraagd, dit is een voorziening van Logius. Naast het OIN van de Digilevering Integrator, wordt ook een HAL referentie naar de SUBOIN-Houder (in dit geval Logius) geretourneerd. Het valt op dat de COR API meer attributen vermeldt dan de COR website. 
+
+Voorbeeldaanroep van de CORAPI  
+```http
+https://portaal.digikoppeling.nl/registers/api/v1/organisaties?naam=Digilevering Integrator
+```
+
+Voorbeeldresultaat van de CORAPI  
+```json
+{
+    "_links": {
+        "self": {
+            "href": "https://portaal.digikoppeling.nl/registers/api/v1/organisaties?naam=Digilevering Integrator",
+            "type": "application/hal+json"
+        }
+    },
+    "organisaties": [{
+        "_links": {
+            "self": {
+                "href": "https://portaal.digikoppeling.nl/registers/api/v1/organisaties/00000004194049711000",
+                "type": "application/hal+json"
+            }
+        },
+        "oin": "00000004194049711000",
+        "naam": "Logius (Digilevering Integrator)",
+        "status": "Actief",
+        "kvkNummer": null,
+        "organisatieCode": null,
+        "organisatieType": null,
+        "afgifteDatum": "2017-08-23T22:00:00Z",
+        "laatstAangepastDatum": "2017-08-24T09:57:11Z",
+        "intrekDatum": null,
+        "hoofdOIN": {
+            "_links": {
+                "self": {
+                    "href": "https://portaal.digikoppeling.nl/registers/api/v1/organisaties/00000001822477348000",
+                    "type": "application/hal+json"
+                }
+            }
+        },
+        "subOINs": null
+    }]
+}
+```
+
 # Technologie-architectuur
 
 Schets van de COR
@@ -647,7 +708,7 @@ Beschrijving van de onderdelen van COR
 | 3| **Logius Beheerder** De Logius beheerder kan na authenticatie conform de Logius richtlijnen in het besloten gedeelte van de COR OINs en SubOIN-registraties aanmaken, wijzigen of intrekken. |
 ||**Centrale OIN Raadpleegvoorziening**|
 | 6| **OIN Raadpleegportaal** Webportaal. Op basis van een in te geven zoekitem (zoals deel van een naam van een organisatie of een OIN kan de OIN van een organisatie, de naam en de status (actief of ingetrokken) worden opgevraagd. Als er sprake is van een HoofdOIN – SubOIN relatie wordt deze getoond. De COR biedt ook de mogelijkheid om een CSV export te maken van de gehele registratie. |
-| 8| **OIN-SubOIN Beheerportaal** Beheerders van de COR maken gebruik van het portaal om registraties aan te maken, te wijzigen of in te trekken.|
+| 8| **OIN/SubOIN Beheerportaal** Beheerders van de COR maken gebruik van het portaal om registraties aan te maken, te wijzigen of in te trekken.|
 | 7| **Centrale OIN Raadpleegvoorziening Module** |
 | 7A | **OIN Raadpleegapplicatie** De applicatie handelt de verzoeken van het OIN Raadpleegvoorziening portaal en de SubOINs Raadpleegservice af. De applicatie bevraagt het OIN register en retourneert zoekresultaten.|
 | 7B | **OIN-Beheerapplicatie** De applicatie handelt de acties van het OIN-registratieportaal af. De applicatie registreert organisaties en organisatieonderdelen in het OIN-register . |
@@ -684,3 +745,15 @@ Beschrijving van de onderdelen van COR
 |**Prefix tabel**|mapping tussen een unieke code en het identificerende nummer uit een bronregister (b.v. het RSIN nummer).|
 |**RSIN**|Alle rechtspersonen en samenwerkingsverbanden, zoals bv's, verenigingen, stichtingen, vof's en maatschappen (eenmanszaken niet) krijgen bij inschrijving bij de KvK naast een KvK-nummer ook een Rechtspersonen en Samenwerkingsverbanden Informatienummer (RSIN). Dit nummer wordt gebruikt om gegevens uit te wisselen met andere (overheids)organisaties, zoals de Belastingdienst (bron KvK). Het RSIN is identiek aan het fiscale nummer.|
 |**Voorziening**|De implementatie / fysieke realisatie van een systeem waarmee informatie of diensten daadwerkelijk geleverd worden, voorbeelden van voorzieningen zijn de Basisregistraties, MijnOverheid en Digilevering.|
+
+# Bijlage B - Nuttige links
+
+|documentatie of voorziening|url|
+|---|---|
+|Digikoppeling Voorwaarden (oud)|<https://www.logius.nl/diensten/digikoppeling/documentatie/voorwaarden-digikoppeling>|
+|Digikoppeling Gebruiksvoorwaarden (oud)|<https://www.logius.nl/sites/default/files/public/bestanden/diensten/DigiKoppeling/Gebruiksvoorwaarden-Digikoppeling.pdf>|
+|Informatie over OIN op Logius|<https://www.logius.nl/diensten/oin>|
+|||
+|COR Web| <https://portaal.digikoppeling.nl/registers/>|
+|COR API - handleiding| <https://portaal.digikoppeling.nl/registers/corApi/index>|
+|COR API - OAS| <https://portaal.digikoppeling.nl/registers/api/>|
