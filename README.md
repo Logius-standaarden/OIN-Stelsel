@@ -95,7 +95,8 @@ De structuur van dit document is gebaseerd op de TOGAF standaard - TOGAF staat v
 |Het beheer van SubOINs in de COR| een apart hoofdstuk over uitgifte en beheer van SubOINs|
 |Data Architectuur|beschrijft de structuur van het OIN en SubOIN|
 |Technologie-Architectuur| geeft een technische beschrijving van de COR en de hieraan gekoppelde systemen en bronnen|
-|bijlage A|Begrippenlijst|
+|Bijlage A|Begrippenlijst|
+|Bijlage B|Nuttige links|
 
 # Architectuurvisie
 
