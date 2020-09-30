@@ -3,10 +3,10 @@
 Het OIN stelsel
 ---------------
 
-In dit document beschrijven we het doel en de werking van het OIN Stelsel. Het OIN is gestart als een noodzakelijk onderdeel van de Digikoppeling Standaard en is inmiddels een veel gebruikt identificatienummer binnen en zeker ook buíten Digikoppeling. De regels van uitgifte en gebruik van het OIN staan beschreven in de *Voorwaarden Digikoppeling* en de *Gebruiksvoorwaarden Digikoppeling*. Daarnaast geeft Logius OINs en SubOINs uit en slaat de informatie hiervan op in het OIN https://www.data-infrastructure.eu/GAIAX/Navigation/EN/Home/home.htmlregister en ontsluit die met de *COR*, de Centrale OIN Raadpleegvoorziening. Dit geheel van regels en uitvoering noemen we het *OIN stelsel*.
+In dit document beschrijven we het doel en de werking van het OIN Stelsel. Het OIN is gestart als een noodzakelijk onderdeel van de Digikoppeling Standaard en is inmiddels een veel gebruikt identificatienummer binnen en zeker ook buíten Digikoppeling. De regels van uitgifte en gebruik van het OIN staan beschreven in de *Voorwaarden Digikoppeling* en de *Gebruiksvoorwaarden Digikoppeling*. Daarnaast geeft Logius OINs en SubOINs uit en slaat de informatie hiervan op in het OIN register en ontsluit die met de *COR*, de Centrale OIN Raadpleegvoorziening. Dit geheel van regels en uitvoering noemen we het *OIN stelsel*.
 
 >
-> voor een overview met navigatie in html: https://centrumvoorstandaarden.github.io/OIN-Stelsel2.0/snapshot.html
+> Voor een overview van dit document met navigatie in html: https://centrumvoorstandaarden.github.io/OIN-Stelsel2.0/snapshot.html
 >
 
 Waarom dit document 
