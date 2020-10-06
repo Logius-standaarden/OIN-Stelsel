@@ -254,7 +254,7 @@
     }
   </style>
   <link rel="stylesheet" href="http://docs.centrumvoorstandaarden.nl/respec-tools/media/DK-WV.css">
-   <style>
+    <style>
     /*
 
 github.com style (c) Vasily Polovnyov <vast@whiteants.net>
@@ -783,12 +783,10 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
             </ol>
           </li>
           <li class="tocline"><a class="tocxref" href="#suboins-aanvraagformulieren"><span class="secno">5.4
-              </span>SubOINs: Aanvraagformulieren</a></li>
-          <li class="tocline"><a class="tocxref" href="#suboins-samenstelling-en-raadpleging"><span class="secno">5.5
-              </span>SubOINs: samenstelling en raadpleging</a>
+              </span>SubOINs: Aanvraagformulieren</a>
             <ol class="toc">
               <li class="tocline"><a class="tocxref" href="#registerhouders-van-overheidsregisters"><span
-                    class="secno">5.5.1 </span>Registerhouders van overheidsregisters</a></li>
+                    class="secno">5.4.1 </span>Registerhouders van overheidsregisters</a></li>
             </ol>
           </li>
         </ol>
@@ -808,7 +806,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
                 class="secno">6.5 </span>Voorbeelden van OIN weergave in COR Web en COR API</a></li>
           <li class="tocline"><a class="tocxref" href="#cor-web"><span class="secno">6.6 </span>COR WEB</a>
             <ol class="toc">
-              <li class="tocline"><a class="tocxref" href="#corapi"><span class="secno">6.6.1 </span>CORAPI</a></li>
+              <li class="tocline"><a class="tocxref" href="#cor-api"><span class="secno">6.6.1 </span>COR API</a></li>
             </ol>
           </li>
         </ol>
@@ -838,7 +836,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
         en SubOINs uit en slaat de informatie hiervan op in het OIN register en ontsluit die met de <em>COR</em>, de
         Centrale OIN Raadpleegvoorziening. Dit geheel van regels en uitvoering noemen we het <em>OIN stelsel</em>.</p>
       <blockquote>
-        <p>voor een overview met navigatie in html: <a
+        <p>Voor een overview van dit document met navigatie in html: <a
             href="https://centrumvoorstandaarden.github.io/OIN-Stelsel2.0/snapshot.html">https://centrumvoorstandaarden.github.io/OIN-Stelsel2.0/snapshot.html</a>
         </p>
       </blockquote>
@@ -921,7 +919,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
           Het OIN stond toen nog voor <em>Overheids</em>identificatienummer en liet niet toe dat ook deze partijen zich
           inschreven in het OIN register. Logius heeft daarom met de certificaatuitgevers aparte afspraken gemaakt om in
           het verplicht te gebruiken PKIoverheidcertificaat een nummer te laten opnemen volgens de structuur van het
-          OIN. Voor een private organisatie werd niet het RSIN gebruikt. maar haar KvKnummer.&nbsp; Dit nummer kreeg de
+          OIN. Voor een private organisatie werd niet het RSIN gebruikt. maar haar KvKnummer.&nbsp;Dit nummer kreeg de
           naam Handelsregisternummer (HRN).</p>
       </section>
       <section id="nieuw-handelsregister">
@@ -1019,8 +1017,12 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
             <td>geeft een technische beschrijving van de COR en de hieraan gekoppelde systemen en bronnen</td>
           </tr>
           <tr>
-            <td>bijlage A</td>
+            <td>Bijlage A</td>
             <td>Begrippenlijst</td>
+          </tr>
+          <tr>
+            <td>Bijlage B</td>
+            <td>Nuttige links</td>
           </tr>
         </tbody>
       </table>
@@ -1119,8 +1121,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
       <h3 id="x2-4-context-centrale-oin-raadpleegvoorziening-cor"><span class="secno">2.4 </span>Context Centrale OIN
         Raadpleegvoorziening (COR)</h3>
       <p>In onderstaand diagram wordt de relatie tussen COR met de omgeving weergegeven.</p>
-      <p><img src="media/contextdiagram.jpg" alt="Context diagram OIN-raadpleegvoorziening en OIN spelregels"
-          width="850" height="710">
+      <p><img src="media/contextdiagram.jpg" alt="Context diagram OIN-raadpleegvoorziening en OIN spelregels">
         <em>Figuur 1 Context diagram OIN-raadpleegvoorziening en OIN spelregels</em></p>
     </section>
     <section id="kaders-en-bronnen">
@@ -1170,17 +1171,17 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
         organisaties met een publieke taak, colleges van advies en internationale organisaties met een
         rechtspersoonlijkheid.</p>
       <p>Het OIN maakt een onderscheid in gebruikers en afnemers. Beiden kunnen het OIN aanvragen. Deze begrippen komen
-        uit de <em>Algemene Voorwaarden Logius voor afnemers</em> en zijn als volgt gedefenieerd</p>
+        uit de <em>Algemene Voorwaarden Logius voor afnemers</em> en zijn als volgt gedefenieerd:</p>
       <ul>
         <li>
-          <p>Afnemer: een publiekrechtelijke of privaatrechtelijke organisatie, ofcollege of een persoon met een
+          <p>Afnemer: een publiekrechtelijke of privaatrechtelijke organisatie, of college of een persoon met een
             publieke taak of bevoegdheid, die voor de uitoefening van die publieke taak elektronisch verkeer met andere
             overheden en burgers en/of bedrijven wenselijk acht en daarbij gebruik kan en mag maken van één of meer
             Diensten van Logius.</p>
         </li>
         <li>
-          <p>Gebruiker: een overheidsorganisatie of; onderneming of een rechtspersoon, die is ingeschreven in het
-            Handelsregister of; natuurlijk persoon die is ingeschreven in de Gemeentelijke Basisadministratie
+          <p>Gebruiker: een overheidsorganisatie of onderneming of een rechtspersoon, die is ingeschreven in het
+            Handelsregister of een natuurlijk persoon die is ingeschreven in de Gemeentelijke Basisadministratie
             persoonsgegevens (GBA), en in deze hoedanigheid gebruik maakt van de Diensten van Logius ten behoeve van het
             elektronisch verkeer met één of meerdere Afnemers.</p>
         </li>
@@ -1196,16 +1197,16 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
           <p>Bij Logius: Door een OIN (Organisatie Identificatie Nummer) aan te vragen bij Logius via een
             aanvraagformulier op Logius.nl. Het OIN wordt afgeleid van het KvK-nummer uit het Handelsregister. Het OIN
             wordt vastgelegd in een register dat publiek raadpleegbaar is via de centrale OIN Raadpleegvoorziening (<a
-              href="https://portaal.digikoppeling.nl/registers/">https://portaal.digikoppeling.nl/registers/</a>]) via
+              href="https://portaal.digikoppeling.nl/registers/">https://portaal.digikoppeling.nl/registers/</a>) via
             een website en een API. De regels uit de Voorwaarden Digikoppeling en de Gebruiksvoorwaarden Digikoppeling
             zijn van toepassing. Er zijn geen kosten verbonden aan deze registratie.</p>
         </li>
         <li>
           <p>Bij de TSP: Bij de aanvraag van een PKIoverheid-certificaat zal de Trust Service Provider (TSP), bij
             ontbreken van een OIN, het identificerend nummer bij de creatie van het certificaat zelf afleiden op basis
-            van het KvK-nummer uit het Handelsregister op gelijke wijze als bij de afleiding van het OIN. Er vindt
-            echter geen publiek raadpleegbare registratie plaats. Voor de werking van het dataverkeer met de overheid is
-            er verder geen verschil.</p>
+            van het KvK-nummer uit het Handelsregister op gelijke wijze als bij de afleiding van het OIN. Dit nummer
+            wordt een HRN genoemd. Er vindt echter geen publiek raadpleegbare registratie plaats. Voor de werking van
+            het dataverkeer met de overheid is er verder geen verschil.</p>
         </li>
       </ol>
     </section>
@@ -1257,7 +1258,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
       <ul>
         <li>
           <p>De relatie tussen SubOINs en de verantwoordelijke rechtspersoon kan in de COR worden vastgelegd en wordt
-            publiekelijk getoond bij raadpleging van de voorziening.</p>
+            publiekelijk getoond bij raadpleging van de voorziening (alleen in de COR API)</p>
         </li>
         <li>
           <p>De mogelijkheid tot aan laten maken, wijziging en intrekking van OIN’s door beheerders van de COR is
@@ -1281,7 +1282,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
           <p>Het al dan niet kunnen gebruiken van OINs of SubOINs voor e-facturatie wordt publiekelijk getoond.</p>
         </li>
         <li>
-          <p>Niet alleen actieve Oins en SubOINss maar ook ingetrokken OINs en SubOINs worden publiekelijk getoond.</p>
+          <p>Niet alleen actieve Oins en SubOINs maar ook ingetrokken OINs en SubOINs worden publiekelijk getoond.</p>
         </li>
         <li>
           <p>Er is een voorziening aangebracht waarmee het aantal bevragingen van de COR kan worden gerapporteerd.</p>
@@ -1313,7 +1314,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
           <p>Private partijen met een publieke taak kunnen SubOINs aanvragen;</p>
         </li>
         <li>
-          <p>Private partijen kunnen ten behoeve van (SAAS-)dienstverlening aan hun publieke klanten SubOINs aanvragen
+          <p>Private partijen kunnen ten behoeve van (SAAS-)dienstverlening voor hun publieke klanten SubOINs aanvragen
           </p>
         </li>
       </ul>
@@ -1388,7 +1389,9 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
         <h4 id="x3-7-8-oin-houder"><span class="secno">3.7.8 </span>OIN-houder</h4>
         <p>De OIN-houder is een rechtspersoon met een publieke taak, die gebruik maakt van het OIN. Slechts een
           OIN–houder kan een OIN aanvragen voor een organisatie, organisatie-onderdeel of voorziening die onder zijn
-          juridische verantwoordelijkheid valt.</p>
+          juridische verantwoordelijkheid valt. De Voorwaarden Digikoppeling en Digikoppeling Gebruiksvoorwaarden heeft
+          het niet over OIN-houders maar gebruiken de begrippen <em>afnemer</em> en <em>gebruiker</em>.
+        </p>
       </section>
       <section id="beheerder-pve-pkioverheid">
         <h4 id="x3-7-9-beheerder-pve-pkioverheid"><span class="secno">3.7.9 </span>Beheerder PvE PKIoverheid</h4>
@@ -1407,8 +1410,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
         <h4 id="x3-8-1-oin-voorwaarden-en-oin-formulieren"><span class="secno">3.8.1 </span>OIN-voorwaarden en
           OIN–formulieren</h4>
         <p>Onderstaand schema beschrijft op welke manier organisaties een OIN of SubOINs bij Logius kunnen aanvragen</p>
-        <p><img src="media/juridische_instrumenten.png" alt="Juridische instrumenten (onderdeel van Digikoppeling)"
-            width="1209" height="720"></p>
+        <p><img src="media/juridische_instrumenten.png" alt="Juridische instrumenten (onderdeel van Digikoppeling)"></p>
         <p>Figuur 2: Juridische instrumenten (onderdeel van Digikoppeling)</p>
       </section>
       <section id="identificatie">
@@ -1451,11 +1453,12 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
         <h4 id="x3-8-7-oin-houder"><span class="secno">3.8.7 </span>OIN-houder</h4>
         <p>De OIN-houder is een rechtspersoon met een publieke taak die gebruik maakt van het OIN. Slechts de OIN–houder
           kan een OIN aanvragen voor een organisatie, een organisatieonderdeel of een voorziening die onder zijn
-          juridische verantwoordelijkheid valt. De OIN-houder zal zich ervan moeten vergewissen dat hij middels
-          juridische afspraken – zoals bijvoorbeeld statuten, een overeenkomst, een inschrijving in een register en/of
-          een mandaatbesluit – juridische verantwoordelijkheid kan dragen voor het handelen van de organisatie of
-          organisatieonderdeel, die gaat beschikken over een OIN Een eis is dat de functionaris, die de aanvraag voor
-          een OIN doet, tekenbevoegd is.</p>
+          juridische verantwoordelijkheid valt. De Voorwaarden Digikoppeling en Digikoppeling Gebruiksvoorwaarden heeft
+          het niet over OIN-houders maar gebruiken de begripen afnemer en gebruiker. De OIN-houder zal zich ervan moeten
+          vergewissen dat hij middels juridische afspraken – zoals bijvoorbeeld statuten, een overeenkomst, een
+          inschrijving in een register en/of een mandaatbesluit – juridische verantwoordelijkheid kan dragen voor het
+          handelen van de organisatie of organisatieonderdeel, die gaat beschikken over een OIN. Een eis is dat de
+          functionaris, die de aanvraag voor een OIN doet, tekenbevoegd is.</p>
         <p>De OIN–houder heeft een zorgplicht met betrekking tot het handelen door de houder van het OIN, voor zover dit
           handelen betrekking heeft op de elektronische berichtenuitwisseling waarbij gebruik wordt gemaakt van het OIN
           en bijbehorende SubOINs.</p>
@@ -1631,9 +1634,6 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
         <li>
           <p>Volgt de principes en kaders van NORA.</p>
         </li>
-        <li>
-          <p>Voldoet aan de eisen die gesteld worden door de beheerders van overheidsregisters.</p>
-        </li>
       </ul>
     </section>
     <section id="centrale-oin-raadpleegvoorziening-cor-0">
@@ -1699,14 +1699,16 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
       </section>
       <section id="kwaliteitsborging">
         <h4 id="x4-5-8-kwaliteitsborging"><span class="secno">4.5.8 </span>Kwaliteitsborging</h4>
-        <p>De beheerder van de COR is verantwoordelijk voor het technisch functioneren van de COR en voor het bieden van
-          ondersteuning bij het gebruik van de COR. De beheerder van de COR zorgt voor de beschikbaarheid van het
-          systeem. Deze afspraken worden vastgelegd in een Service Level Agreement. De beheerder van de COR is niet
-          verantwoordelijk voor de kwaliteit van de OIN. De rechtspersonen aan wie SubOINs zijn uitgegeven hebben een
-          zorgplicht met betrekking tot de inhoud van de geregistreerde gegevens in de COR. Bij twijfel over de
-          juistheid van geregistreerde gegevens kan de beheerder van de COR maatregelen nemen om de kwaliteit van
-          subnummer registraties te toetsen en desgewenst te herstellen. De beheerder van de COR is niet
-          verantwoordelijk voor de kwaliteit van de gegevens uit de aangesloten overheidsregisters.</p>
+        <p>De beheerder van de COR is verantwoordelijk voor de goede werking van de COR, het bieden van ondersteuning
+          bij het gebruik van de CORen de beschikbaarheid van het systeem. De beheerder van de COR is verantwoordelijk
+          voor het correct vastleggen van (Sub)OINs en bijbehorende gegevens in de COR, zoals die worden aangeleverd
+          door de aanvrager.</p>
+        <p>De beheerder van de COR is niet verantwoordelijk voor de kwaliteit van de geregisteerde OIN gegevens. De
+          rechtspersonen aan wie SubOINs zijn uitgegeven hebben een zorgplicht met betrekking tot de inhoud van de
+          geregistreerde gegevens in de COR. Bij twijfel over de juistheid van geregistreerde gegevens kan de beheerder
+          van de COR maatregelen nemen om de kwaliteit van subnummer registraties te toetsen en desgewenst te
+          herstellen. De beheerder van de COR is niet verantwoordelijk voor de kwaliteit van de gegevens uit de
+          aangesloten overheidsregisters.</p>
       </section>
     </section>
   </section>
@@ -1723,7 +1725,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
           verantwoordelijkheid neemt voor het gebruik van SubOINs. De SubOINs worden beheerd in het
           <em>SubOIN-register</em>, onderdeel van de COR. Onder de definitie van een entiteit vallen ook diensten zoals
           (landelijke) voorzieningen, mits deze als een onderdeel van een organisatie beschouwd kunnen worden en
-          geïdentificeerd moeten worden voor informatie-uitwisseling. Logius maakt op verzoek van een OIN-houders
+          geïdentificeerd moeten worden voor informatie-uitwisseling. Logius maakt op verzoek van een SubOIN-beheerders
           SubOINs aan in de COR.</p>
         <p><strong>Organisaties in andere registers dan het Handelsregister</strong></p>
         <p>Organisaties die geregistreerd staan in andere aangesloten registers dan het Handelsregister worden beschouwd
@@ -1741,8 +1743,10 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
       <section id="samenwerkingsverbanden">
         <h4 id="x5-1-3-samenwerkingsverbanden"><span class="secno">5.1.3 </span>Samenwerkingsverbanden</h4>
         <p>Een deelnemer binnen een (publiek) samenwerkingsverband zonder rechtspersoonlijkheid mag een OIN uitgeven aan
-          het samenwerkingsverband, mits de betreffende deelnemer OIN-houder is. De deelnemers dienen onderling te
-          borgen dat de aanvrager is gemandateerd om een aanvraag te doen namens de overige deelnemers.</p>
+          het samenwerkingsverband, mits de betreffende deelnemer een rechtpersoon is en zelf een OIN heeft. De
+          deelnemer wordt dan SubOIN-beheerder. Het samenwerkingverband mag zelf geen rechtspersoon zijn en nog geen OIN
+          of SubOIN hebben. De deelnemers dienen onderling te borgen dat de aanvrager is gemandateerd om een aanvraag te
+          doen namens de overige deelnemers.</p>
       </section>
     </section>
     <section id="suboins-beheer">
@@ -1774,8 +1778,8 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
         en bewaartermijnen</h3>
       <section id="geldigheidsduur">
         <h4 id="x5-3-1-geldigheidsduur"><span class="secno">5.3.1 </span>Geldigheidsduur</h4>
-        <p>De door de OIN-houder uitgegeven SubOINs hebben een geldigheidsduur van drie jaar. SubOINs kunnen worden
-          verlengd door de OIN-houder via een verzoek aan Logius.</p>
+        <p>De door de SubOIN-beheerder uitgegeven SubOINs hebben een geldigheidsduur van drie jaar. SubOINs kunnen
+          worden verlengd door de SubOIN-beheerder via een verzoek aan Logius.</p>
       </section>
       <section id="beeindigen">
         <h4 id="x5-3-2-beeindigen"><span class="secno">5.3.2 </span>Beëindigen</h4>
@@ -1791,16 +1795,8 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
         verklaart zich op het formulier juridisch verantwoordelijk voor het gebruik van het OIN door de houder van het
         OIN.
       </p>
-    </section>
-    <section id="suboins-samenstelling-en-raadpleging">
-      <h3 id="x5-5-suboins-samenstelling-en-raadpleging"><span class="secno">5.5 </span>SubOINs: samenstelling en
-        raadpleging</h3>
-      <p>Het OIN wordt samengesteld op basis van een inschrijving in het Handelsregister of ander (op de COR)
-        aangesloten overheidsregister. Organisaties die geregistreerd staan in een ander aangesloten register beschikken
-        daarmee over een OIN. Het OIN kan publiekelijk worden geraadpleegd via de COR. De COR raadpleegt de aangesloten
-        overheidsregisters en stelt het OIN samen op basis van de OIN-systematiek zoals beschreven in bijlage A.</p>
       <section id="registerhouders-van-overheidsregisters">
-        <h4 id="x5-5-1-registerhouders-van-overheidsregisters"><span class="secno">5.5.1 </span>Registerhouders van
+        <h4 id="x5-4-1-registerhouders-van-overheidsregisters"><span class="secno">5.4.1 </span>Registerhouders van
           overheidsregisters</h4>
         <p>Logius maakt afspraken met registerhouders over het gebruik van overheidsregisters ten behoeve van het kunnen
           raadplegen van deze registers via de COR.Registers kunnen worden aangesloten op het OIN-stelsel indien ze
@@ -1943,17 +1939,16 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
       <h3 id="x6-3-voorbeeld-oin-structuur"><span class="secno">6.3 </span>Voorbeeld OIN structuur</h3>
       <p>Hieronder wordt de structuur van een aantal OIN registraties weergeven.
       </p>
-      <p><img src="media/OIN-structuur.png" alt="Resultaat van het zoeken in de COR naar een organisatie " width="756"
-          height="116">
+      <p><img src="media/OIN-structuur.png" alt="Resultaat van het zoeken in de COR naar een organisatie ">
         Schematische weergave OIN structuur</p>
     </section>
     <section id="suboin-een-betekenisloos-nummer">
       <h3 id="x6-4-suboin-een-betekenisloos-nummer"><span class="secno">6.4 </span>SubOIN: een betekenisloos nummer</h3>
-      <p>Een OIN is een <em>betekenisloos</em> nummer dat wordt gegeneerd tijdens de registratie. Betekenisloos houdt in
-        dat het OIN zelf geen aanwijsbare relatie heeft met het OIN van de OIN-houder. De relatie is alleen te
-        raadplegen via de COR. Een SubOIN is een OIN voor entiteiten zonder rechtspersoonlijkheid, zoals een organisatie
-        die niet is ingeschreven in het Handelsregister, een organisatie-onderdeel of een voorziening. Het nummer van
-        een organisatie die voorkomt in een aangesloten register wordt ook beschouwd als een OIN.</p>
+      <p>Een SubOIN is een <em>betekenisloos</em> nummer dat wordt gegeneerd tijdens de registratie. Betekenisloos houdt
+        in dat het nummer zelf geen aanwijsbare relatie heeft met het OIN van de SubOIN-beheerder. De relatie is alleen
+        te raadplegen via de COR API. Een SubOIN is een OIN voor entiteiten zonder rechtspersoonlijkheid, zoals een
+        organisatie die niet is ingeschreven in het Handelsregister, een organisatie-onderdeel of een voorziening. Het
+        nummer van een organisatie dat voorkomt in een aangesloten register wordt ook beschouwd als een OIN.</p>
       <p>Het prefix verwijst naar het OIN-register.</p>
       <table class="simple">
         <thead>
@@ -1998,7 +1993,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
           limiet niet ondenkbaar</p>
         <p>Het is niet onmogelijk dat organisatieonderdelen wijzigen van een juridische verantwoordelijke, of dat een
           samenwerkingsverband van samenstelling wijzigt. Met een volgnummerconstructie wordt de ontkoppeling van
-          rechtspersoon en OIN-houder onmogelijk.</p>
+          rechtspersoon en SubOIN-beheerder onmogelijk.</p>
       </blockquote>
     </section>
     <section id="voorbeelden-van-oin-weergave-in-cor-web-en-cor-api">
@@ -2008,17 +2003,15 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
     <section id="cor-web">
       <h3 id="x6-6-cor-web"><span class="secno">6.6 </span>COR WEB</h3>
       <p>De COR Website retourneert een relevante attributen van een OIN-registratie. Hieronder twee schermvoorbeelden:
-        <img src="media/CORWEB-OIN.png" alt="Resultaat van het zoeken in de COR naar een organisatie " width="1512"
-          height="415">
+        <img src="media/CORWEB-OIN.png" alt="Resultaat van het zoeken in de COR naar een organisatie ">
         voorbeeld van een zoekactie op een organisatie met een OIN</p>
-      <p><img src="media/CORWEB-SUBOIN.png" alt="Resultaat van het zoeken in de COR naar een voorziening" width="1686"
-          height="449">
+      <p><img src="media/CORWEB-SUBOIN.png" alt="Resultaat van het zoeken in de COR naar een voorziening">
         voorbeeld van een zoekactie op een organisatie met een SubOIN</p>
-      <section id="corapi">
-        <h4 id="x6-6-1-corapi"><span class="secno">6.6.1 </span>CORAPI</h4>
+      <section id="cor-api">
+        <h4 id="x6-6-1-cor-api"><span class="secno">6.6.1 </span>COR API</h4>
         <p>Hieronder een voorbeeld van een REST-API call naar de COR API. In het voorbeeld wordt het OIN van de
           <code>Digilevering Integrator</code> opgevraagd, dit is een voorziening van Logius. Naast het OIN van de
-          Digilevering Integrator, wordt ook een HAL referentie naar de SUBOIN-Houder (in dit geval Logius)
+          Digilevering Integrator, wordt ook een HAL referentie naar de SubOIN-Houder (in dit geval Logius)
           geretourneerd. Het valt op dat de COR API meer attributen vermeldt dan de COR website.
         </p>
         <p>Voorbeeldaanroep van de CORAPI </p>
@@ -2068,8 +2061,8 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
     <section id="schets-van-de-cor">
       <h3 id="x7-1-schets-van-de-cor"><span class="secno">7.1 </span>Schets van de COR</h3>
       <p>Onderstaande plaat beschrijft de functionaliteiten van de COR op hoofdlijnen</p>
-      <p><img src="media/architectuur_van_cor.png" alt="Architectuurschets van de COR en de door haar gebruikte bronnen"
-          width="1448" height="812"></p>
+      <p><img src="media/architectuur_van_cor.png"
+          alt="Architectuurschets van de COR en de door haar gebruikte bronnen"></p>
       <p>Beschrijving van de onderdelen van COR</p>
       <table class="simple">
         <thead>
@@ -2081,7 +2074,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
         <tbody>
           <tr>
             <td>1</td>
-            <td><strong>Iedereen</strong> Iedereen kan het publieke deel van de COR via een website benaderen.</td>
+            <td><strong>Iedereen</strong> kan het publieke deel van de COR via een website benaderen.</td>
           </tr>
           <tr>
             <td>2</td>
@@ -2090,22 +2083,29 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
           </tr>
           <tr>
             <td>3</td>
-            <td><strong>Logius Beheerder</strong> De Logius beheerder kan na authenticatie conform de Logius richtlijnen
-              in het besloten gedeelte van de COR OINs en SubOIN-registraties aanmaken, wijzigen of intrekken.</td>
+            <td><strong>Logius Beheerder</strong> De Logius beheerder kan, na authenticatie conform de Logius
+              richtlijnen, in het besloten gedeelte van de COR, OINs en SubOIN-registraties aanmaken, wijzigen of
+              intrekken.</td>
           </tr>
           <tr>
             <td></td>
             <td><strong>Centrale OIN Raadpleegvoorziening</strong></td>
           </tr>
           <tr>
-            <td>6</td>
+            <td>4</td>
             <td><strong>OIN Raadpleegportaal</strong> Webportaal. Op basis van een in te geven zoekitem (zoals deel van
               een naam van een organisatie of een OIN kan de OIN van een organisatie, de naam en de status (actief of
               ingetrokken) worden opgevraagd. Als er sprake is van een HoofdOIN – SubOIN relatie wordt deze getoond. De
               COR biedt ook de mogelijkheid om een CSV export te maken van de gehele registratie.</td>
           </tr>
           <tr>
-            <td>8</td>
+            <td>5</td>
+            <td><strong>COR API</strong> REST API op het OIN register. De API is publiek toegankelijk. Via de API kan
+              het publieke deel van het OIN en SUbOIN register bevraagd worden. De COR API biedt uitgebreidere
+              zoekmogelijkheden en resultaten dan het OIN Raadpleegportaal, voor verder informatie zie Bijlage B</td>
+          </tr>
+          <tr>
+            <td>6</td>
             <td><strong>OIN/SubOIN Beheerportaal</strong> Beheerders van de COR maken gebruik van het portaal om
               registraties aan te maken, te wijzigen of in te trekken.</td>
           </tr>
@@ -2126,11 +2126,11 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
           </tr>
           <tr>
             <td>8</td>
-            <td><strong>Controleren of rechtspersoon bestaat</strong> Bij het aanmaken van een registratie in het OIN
-              register worden de gegevens van een geregistreerde Rechtspersoon online gecontroleerd in het
-              Handelsregister. Daarnaast worden periodiek alle organisaties met een KvK nummer of RSIN gevalideerd.
-              Indien een Rechtspersoon is opgeheven in het Handelsregister wordt de OIN registratie (en eventueel
-              hieraan gekoppelde SubOINs) ingetrokken,</td>
+            <td><strong>Controle op rechtspersoon</strong> Bij het aanmaken van een registratie in het OIN register
+              worden de gegevens van een geregistreerde Rechtspersoon online gecontroleerd in het Handelsregister.
+              Daarnaast worden periodiek alle organisaties met een KvK nummer of RSIN gevalideerd. Indien een
+              Rechtspersoon is opgeheven in het Handelsregister wordt de OIN registratie (en eventueel hieraan
+              gekoppelde SubOINs) ingetrokken,</td>
           </tr>
           <tr>
             <td></td>
@@ -2146,14 +2146,10 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
           </tr>
           <tr>
             <td></td>
-            <td><strong>Identificerende bronnen</strong> Sommige overheidsorganisaties kennen naast registratie in het
-              Handelsregisters en het OIN register ook andere identificerende nummers. Deze nummers worden aan een OIN
-              registratie in het OIN register toegevoegd, en zijn via de COR API op te vragen.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>De identificerende nummers uit deze bronnen op dit moment handmatig bijgewerkt in het OIN register
-              bijgewerkt.</td>
+            <td><strong>Identificerende bronnen</strong> <br>Sommige overheidsorganisaties kennen naast registratie in
+              het Handelsregisters en het OIN register ook andere identificerende nummers. Deze nummers worden aan een
+              OIN registratie in het OIN register toegevoegd, en zijn via de COR API op te vragen (De identificerende
+              nummers uit deze bronnen op dit moment handmatig in het OIN register bijgewerkt.)</td>
           </tr>
           <tr>
             <td>11</td>
@@ -2234,7 +2230,8 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
           <td>De OIN-houder is een rechtspersoon met een publieke taak, die gebruik maakt van het OIN. Alleen
             OIN-houders met rechtspersoonlijkheid kunnen een OIN aanvragen voor een organisatie of organisatieonderdeel
             die onder zijn juridische verantwoordelijkheid valt. Zij zijn verantwoordelijk voor de door hun aangevraagde
-            SubOINs(s).</td>
+            SubOINs(s). De Voorwaarden Digikoppeling en Digikoppeling Gebruiksvoorwaarden heeft het niet over
+            OIN-houders maar gebruiken de begrippen <em>Afnemer</em> en <em>Gebruiker</em></td>
         </tr>
         <tr>
           <td><strong>SubOIN</strong></td>
@@ -2328,7 +2325,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
         </tr>
         <tr>
           <td>Informatie over OIN op Logius</td>
-          <td><a href="https://www.logius.nl/diensten/oin">https://www.logius.nl/diensten/oin</a>]</td>
+          <td><a href="https://www.logius.nl/diensten/oin">https://www.logius.nl/diensten/oin</a></td>
         </tr>
         <tr>
           <td></td>
@@ -2336,19 +2333,18 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
         </tr>
         <tr>
           <td>COR Web</td>
-          <td><a href="https://portaal.digikoppeling.nl/registers/">https://portaal.digikoppeling.nl/registers/</a>]
-          </td>
+          <td><a href="https://portaal.digikoppeling.nl/registers/">https://portaal.digikoppeling.nl/registers/</a></td>
         </tr>
         <tr>
           <td>COR API - handleiding</td>
           <td><a
-              href="https://portaal.digikoppeling.nl/registers/corApi/index">https://portaal.digikoppeling.nl/registers/corApi/index</a>]
+              href="https://portaal.digikoppeling.nl/registers/corApi/index">https://portaal.digikoppeling.nl/registers/corApi/index</a>
           </td>
         </tr>
         <tr>
           <td>COR API - OAS</td>
           <td><a
-              href="https://portaal.digikoppeling.nl/registers/api/">https://portaal.digikoppeling.nl/registers/api/</a>]
+              href="https://portaal.digikoppeling.nl/registers/api/">https://portaal.digikoppeling.nl/registers/api/</a>
           </td>
         </tr>
       </tbody>
