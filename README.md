@@ -88,6 +88,8 @@ Logius heeft sinds 2017 een aantal wijzigingen doorgevoerd in de ontsluiting van
 
 De structuur van dit document is gebaseerd op de TOGAF standaard - TOGAF staat voor The Open Group Architecture Framework- .
 
+<span class="simple">
+
 |Hoofdstuk|Inhoud|
 |---|---|
 |Architectuurvisie| beschrjft op hoofdlijnen het doel en de kaders van het OIN|
@@ -98,6 +100,8 @@ De structuur van dit document is gebaseerd op de TOGAF standaard - TOGAF staat v
 |Technologie-Architectuur| geeft een technische beschrijving van de COR en de hieraan gekoppelde systemen en bronnen|
 |Bijlage A|Begrippenlijst|
 |Bijlage B|Nuttige links|
+
+</span>
 
 # Architectuurvisie
 
@@ -125,6 +129,8 @@ Het OIN-nummer wordt als identificerend nummer gebruikt in PKIoverheidcertificat
 
 - Routering
 
+<span class="simple">
+
 | **Functie**| **Definitie**| **Toelichting functie OIN** |
 |---|---|---|
 | [Identificatie (Identificeren)](http://www.noraonline.nl/wiki/Identificatie) | Het bekend maken van de identiteit van personen, organisaties of IT-voorzieningen. (Bron: *NORA 3.0 Principes voor samenwerking en dienstverlening)* | Het OIN of SubOIN is het identificerende nummer voor organisaties t.b.v. digitaal verkeer met de overheid.|
@@ -132,6 +138,8 @@ Het OIN-nummer wordt als identificerend nummer gebruikt in PKIoverheidcertificat
 | [Autorisatie (Autoriseren)](http://www.noraonline.nl/wiki/Authenticatie) | Het proces van het toekennen van rechten voor de toegang tot geautomatiseerde functies en/of gegevens in ICT voorzieningen.| Het feit dat een organisatie over een OIN of SubOINs beschikt zegt niets over enige autorisatie op gegevens of informatie. Dit is voorbehouden aan de verstrekkende partij die dit zelf beoordeelt. Partijen die voorzieningen aanbieden kunnen zelf autorisatielijsten bijhouden waarin het OIN van geautoriseerde organisaties kan worden opgenomen. |
 | **Adresseren** | Het aangeven van de ontvangende partij (en de verzendende partij) in het bericht.| Digikoppeling schrijft b.v. voor dat het OIN of SubOIN wordt gebruikt in de header voor adressering.|
 | **Routeren** | Het doorsturen van een bericht aan de geadresseerde partij bijvoorbeeld via een routeringsregel of tabel.| Routering vertaalt het logische adres – het OIN of SubOIN – naar een fysiek endpoint (url). |
+
+</span>
 
 Context Centrale OIN Raadpleegvoorziening (COR)
 -----------------------------------------------
@@ -169,7 +177,7 @@ Voor wie is het OIN
 
 Het OIN is voor organisaties die berichten uitwisselen met de overheid. Dit kunnen publieke en private organisaties zijn. Voorwaarde is dat zij staan ingeschreven in het handelsregister. Daarnaast kunnen ook een aantal organisaties die niet in het handelsregister zijn opgenomen een OIN aanvragen. Dit zijn bijzondere organisaties met een publieke taak, colleges van advies en internationale organisaties met een rechtspersoonlijkheid.
 
-Het OIN maakt een onderscheid in gebruikers en afnemers. Beiden kunnen het OIN aanvragen. Deze begrippen komen uit de *Algemene Voorwaarden Logius voor afnemers* en zijn als volgt gedefenieerd:
+Het OIN maakt een onderscheid in gebruikers en afnemers. Beiden kunnen het OIN aanvragen. Deze begrippen komen uit de *Algemene Voorwaarden Logius voor afnemers* en zijn als volgt gedefinieerd:
 
 - Afnemer: een publiekrechtelijke of privaatrechtelijke organisatie, of college of een persoon met een publieke taak of bevoegdheid, die voor de uitoefening van die publieke taak elektronisch verkeer met andere overheden en burgers en/of bedrijven wenselijk acht en daarbij gebruik kan en mag maken van één of meer Diensten van Logius.
 
@@ -353,7 +361,7 @@ Als een organisatie geregistreerd is in een aangesloten register (niet het Hande
 
 De TSP neemt een OIN of SubOIN op in een PKIoverheidscertificaat. Hiervoor wordt het *Subject.serialNumber* veld van het certificaat gebruikt.
 
- Centrale OIN Raadpleegvoorziening (COR)
+Centrale OIN Raadpleegvoorziening (COR)
 ----------------------------------------
 
 Logius is beheerder van de Centrale OIN Raadpleegvoorziening (inclusief het OIN-register) in opdracht van BZK. De COR heeft niet het karakter van een basisregistratie of een sectorale registratie. De COR is een landelijke voorziening.
@@ -592,16 +600,22 @@ Samenstelling OIN
 
 De lengte van het OIN is 20 posities, omdat dit wordt opgenomen in het *subject serial number* veld van het PKIoverheid certificaat. Het OIN is opgebouwd uit de volgende elementen:
 
+<span class="simple">
+
 | **Element** | **Lengte**| **Waarde**|
 |---|---|---|
 | **Prefix**| 8 posities| Zie Prefix tabel|
 | **Hoofdnummer** | 8 of 9 posities | Identificerend nummer *Dit kan ook alfanumeriek zijn, afhankelijk van het geraadpleegde register.* uit een register. Als het hoofdnummer een KvK nummer is, is het hoofdnummer 8 posities lang. |
 | **Suffix**| 3 of 4 posities | Als het hoofdnummer 9 posities heeft dan is het suffix 000. Als het hoofdnummer 8 posities heeft dan is het suffix 0000.|
 
+</span>
+
 Prefix tabel
 ------------
 
 Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het register wordt toegevoegd aan het OIN-stelsel. Dit wordt ook een OIN register genoemd. De prefix tabel wordt als aparte lijst beheerd door de beheerder van het OIN-stelsel en wordt gepubliceerd op de website.
+
+<span class="simple">
 
 | **Prefix** | **Identificerend nummer** | **Bron**|
 |------------|-----------------------------------------|---|
@@ -615,6 +629,8 @@ Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het r
 | **00000008** | Buitenlandse nummers| Op verzoek van een SubOIN-beheerder door Logius uitgegeven nummers voor buitenlandse organisaties die niet in het Handelsregister zijn ingeschreven|
 | **00000009** | UZI-nummer| Het Unieke Zorgverlener Identificatie Register (UZI-register) is de organisatie die de unieke identificatie van zorgaanbieders en indicatieorganen in het elektronisch verkeer mogelijk maakt.|
 | **00000099** | Test OIN's| Elke organisatie mag een test OIN gebruiken mits voorzien van deze prefix.|
+
+</span>
 
 ## Voorbeeld OIN structuur
 
@@ -630,11 +646,15 @@ Een SubOIN is een *betekenisloos* nummer dat wordt gegeneerd tijdens de registra
 
 Het prefix verwijst naar het OIN-register.
 
+<span class="simple">
+
 | **Element** | **Lengte** | **Waarde** |
 |-----------------|------------|--------------------|
 | **Prefix**| 8 posities | 00000004 |
 | **Hoofdnummer** | 9 posities | Gegenereerd nummer |
 | **Suffix**| 3 posities | 000|
+
+</span>
 
 > **Waarom hebben wij gekozen voor betekenisloze SubOINs?**
 >
@@ -653,10 +673,13 @@ Het prefix verwijst naar het OIN-register.
 ## COR WEB
 
 De COR Website retourneert een relevante attributen van een OIN-registratie. Hieronder twee schermvoorbeelden:
+
 ![Resultaat van het zoeken in de COR naar een organisatie ](media/CORWEB-OIN.png)
+
 voorbeeld van een zoekactie op een organisatie met een OIN
 
 ![Resultaat van het zoeken in de COR naar een voorziening](media/CORWEB-SUBOIN.png)
+
 voorbeeld van een zoekactie op een organisatie met een SubOIN
 
 ### COR API
@@ -664,12 +687,14 @@ voorbeeld van een zoekactie op een organisatie met een SubOIN
 Hieronder een voorbeeld van een REST-API call naar de COR API. In het voorbeeld wordt het OIN van de `Digilevering Integrator` opgevraagd, dit is een voorziening van Logius. Naast het OIN van de Digilevering Integrator, wordt ook een HAL referentie naar de SubOIN-Houder (in dit geval Logius) geretourneerd. Het valt op dat de COR API meer attributen vermeldt dan de COR website.
 
 Voorbeeldaanroep van de CORAPI
-```http
+
+```HTTP
 https://portaal.digikoppeling.nl/registers/api/v1/organisaties?naam=Digilevering Integrator
 ```
 
 Voorbeeldresultaat van de CORAPI
-```json
+
+```JSON
 {
     "_links": {
         "self": {
@@ -717,6 +742,8 @@ Onderstaande plaat beschrijft de functionaliteiten van de COR op hoofdlijnen
 
 Beschrijving van de onderdelen van COR
 
+<span class="simple">
+
 | **#** |**beschrijving rol of taak**|
 |---|--------|
 | 1| **Iedereen** kan het publieke deel van de COR via een website benaderen.|
@@ -738,7 +765,11 @@ Beschrijving van de onderdelen van COR
 | 12 | **CBS** Provinciecodes en Waterschapcodes|
 | 13 | **KOOP** Ministeriecodes |
 
+</span>
+
 # Bijlage A Begrippen
+
+<span class="simple">
 
 |begrip|omschrijving|
 |---|---|
@@ -762,14 +793,20 @@ Beschrijving van de onderdelen van COR
 |**RSIN**|Alle rechtspersonen en samenwerkingsverbanden, zoals bv's, verenigingen, stichtingen, vof's en maatschappen (eenmanszaken niet) krijgen bij inschrijving bij de KvK naast een KvK-nummer ook een Rechtspersonen en Samenwerkingsverbanden Informatienummer (RSIN). Dit nummer wordt gebruikt om gegevens uit te wisselen met andere (overheids)organisaties, zoals de Belastingdienst (bron KvK). Het RSIN is identiek aan het fiscale nummer.|
 |**Voorziening**|De implementatie / fysieke realisatie van een systeem waarmee informatie of diensten daadwerkelijk geleverd worden, voorbeelden van voorzieningen zijn de Basisregistraties, MijnOverheid en Digilevering.|
 
+</span>
+
 # Bijlage B - Nuttige links
+
+<span class="simple">
 
 |documentatie of voorziening|url|
 |---|---|
-|Digikoppeling Voorwaarden (oud)|[https://www.logius.nl/diensten/digikoppeling/documentatie/voorwaarden-digikoppeling](https://www.logius.nl/diensten/digikoppeling/documentatie/voorwaarden-digikoppeling)]|
-|Digikoppeling Gebruiksvoorwaarden (oud)|[https://www.logius.nl/sites/default/files/public/bestanden/diensten/DigiKoppeling/Gebruiksvoorwaarden-Digikoppeling.pdf](https://www.logius.nl/sites/default/files/public/bestanden/diensten/DigiKoppeling/Gebruiksvoorwaarden-Digikoppeling.pdf)|
+|Digikoppeling Voorwaarden |[https://www.logius.nl/diensten/digikoppeling/documentatie/voorwaarden-digikoppeling](https://www.logius.nl/diensten/digikoppeling/documentatie/voorwaarden-digikoppeling)]|
+|Digikoppeling Gebruiksvoorwaarden |[https://www.logius.nl/sites/default/files/public/bestanden/diensten/DigiKoppeling/Gebruiksvoorwaarden-Digikoppeling.pdf](https://www.logius.nl/sites/default/files/public/bestanden/diensten/DigiKoppeling/Gebruiksvoorwaarden-Digikoppeling.pdf)|
 |Informatie over OIN op Logius|[https://www.logius.nl/diensten/oin](https://www.logius.nl/diensten/oin)|
 |||
 |COR Web| [https://portaal.digikoppeling.nl/registers/](https://portaal.digikoppeling.nl/registers/)|
 |COR API - handleiding| [https://portaal.digikoppeling.nl/registers/corApi/index](https://portaal.digikoppeling.nl/registers/corApi/index)|
 |COR API - OAS| [https://portaal.digikoppeling.nl/registers/api/](https://portaal.digikoppeling.nl/registers/api/)|
+
+</span>

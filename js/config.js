@@ -9,7 +9,7 @@ var respecConfig = {
   // TODO: Voor pubDomain mogelijkheden zie https://github.com/Geonovum/respec/wiki/pubDomain
   // TODO: pubDomain: "...",
   splitMDsections: true,
-  publishDate: "2020-12-07",
+  publishDate: "2020-12-08",
  
   // Vul in om een korte extra uitleg te weergeven op de docs.centrumvoorstandaarden.nl website.
   subExplanation: "", 
