@@ -325,7 +325,7 @@ Er van uitgaande dat het OIN voorlopig geen wettelijke grondslag krijgt zijn de 
 
 Onderstaand schema beschrijft op welke manier organisaties een OIN of SubOINs bij Logius kunnen aanvragen
 
-![Juridische instrumenten (onderdeel van Digikoppeling)](media/juridische_instrumenten.png)
+![Juridische instrumenten (onderdeel van Digikoppeling)](media/juridische_instrumenten-80p.png)
 
 Figuur 2: Juridische instrumenten (onderdeel van Digikoppeling)
 
@@ -740,7 +740,7 @@ Schets van de COR
 
 Onderstaande plaat beschrijft de functionaliteiten van de COR op hoofdlijnen
 
-![Architectuurschets van de COR en de door haar gebruikte bronnen](media/architectuur_van_cor.png)
+![Architectuurschets van de COR en de door haar gebruikte bronnen](media/architectuur_van_cor-75p.png)
 
 Beschrijving van de onderdelen van COR
 
