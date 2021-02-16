@@ -1,24 +1,21 @@
 var respecConfig = {
   //voor specStatus mogelijkheden zie https://github.com/centrumvoorstandaarden/respec/wiki/specStatus
-  specStatus: "DK-WV",
+  specStatus: "CV",
   //voor specType mogelijkheden zie https://github.com/centrumvoorstandaarden/respec/wiki/specType
   specType: "HR",
-  // TODO: Standaard emailadres bij een consultatieversie: geo-standaarden@geonovum.nl
-  // TODO: Geef bij emailComments een ander emailadres op als dat gewenst is.
-  // TODO: emailComments: '...',
-  // TODO: Voor pubDomain mogelijkheden zie https://github.com/Geonovum/respec/wiki/pubDomain
-  // TODO: pubDomain: "...",
-  splitMDsections: true,
-  publishDate: "2020-12-08",
- 
-  // Vul in om een korte extra uitleg te weergeven op de docs.centrumvoorstandaarden.nl website.
-  subExplanation: "", 
- 
+  shortName: "oin",
+
   // Voor publishDate zie https://github.com/w3c/respec/wiki/publishDate
-  // Als er geen publishDate is opgegeven, genereert ReSpec de dataum o.b.v. de laatste wijzigingen
+  // Als er geen publishDate is opgegeven, genereert ReSpec de datum o.b.v. de laatste wijzigingen
   // Belangrijk: als publishDate niet opgegeven is, wordt bij de link "Laatst gepubliceerde versie" "geen" gezet. Anders wordt een link opgebouwd voor de laatste versie, met het formaat:
-  // https://docs.centrumvoorstandaarden.nl/{pubDomain}/{shortName}
-  //publishDate: "2020-09-18",
+  // https://publicatie.centrumvoorstandaarden.nl/{pubDomain}/{shortName}
+  //publishDate: "2020-02-16",
+
+  // Vul in om een korte extra uitleg te weergeven op de docs.centrumvoorstandaarden.nl website.
+  subExplanation: "",
+  addSectionLinks: true,
+
+
   // Als er een eerder gepubliceerde versie is, geef dan de datum daarvan op
   //previousPublishDate: "2017-05-31",
   // Zie https://github.com/w3c/respec/wiki/previousMaturity. Dit moet een
@@ -34,11 +31,6 @@ var respecConfig = {
       company: "Logius",
       companyURL: "http://www.logius.nl/",
     },
-    {
-      name: "Maarten van der Veen",
-      company: "Logius",
-      companyURL: "http://www.logius.nl/",
-    },
   ],
   authors: [
     {
@@ -48,11 +40,85 @@ var respecConfig = {
     },
   ],
   // shortName = korte naam voor in de url van het document, gebruik alleen letters, cijfers en eventueel '-'
-  shortName: "OIN",
   // url van de github repository waar je in werkt
   github: "https://github.com/centrumvoorstandaarden/OIN-Stelsel2.0",
-  // url van de issue lijst in de github repository waar je in werkt
-  issueBase: "https://github.com/centrumvoorstandaarden/OIN-Stelsel2.0/issues/",
+
+
+  alternateFormats: [
+    {
+      label: "(static) html",
+      uri: "https://centrumvoorstandaarden.github.io/OIN-Stelsel2.0/snapshot.html",
+    },
+    {
+      label: "pdf",
+      uri: "https://github.com/centrumvoorstandaarden/OIN-Stelsel2.0/blob/master/OIN-Stelsel2.0.pdf",
+    },
+  ],
+
+  // The specification's publish domain, which is used to publish the specification
+  // the url in the header thisVersion is generated like `<conf.nl_organisationPublishURL>/<conf.pubDomain>/<specStatus>-<specType.toLowerCase()>-<conf.shortName>}-conf.publishDate>/`
+  pubDomain: "dk",
+  pubSubDomain: "oin",
+
+  // For Consultatieversies (specStatus="GN-CV") there is a default text in the section "Status of this document" that contains an emailaddress for feedback and comments on the document.
+  nl_emailComments: "digikoppeling@logius.nl",
+
+  // this parameter will add the tag_name of the latest release to the document Title
+  // only set this parameter when a release has been set
+  nl_addReleaseTagTitle: true,
+
+  // if you use a single document for your spec, which uses more than one markdown H1 header, e.g. '# inleiding'
+  // this configuration can be set to make sure that the alle H1 headers and navigation bars are preserved
+  nl_markdownSplitH1sections: true,
+
+  // in some cases the Repository of a Specification document and the Issue- and PR bases are split
+  // thi scan be configured below
+  // if not set, the url's will be generated on the respecConfig.github automatically  
+  nl_github: {
+    //    issueBase: "https://github.com/Logius-standaarden/Digikoppeling-Wat-is-Digikoppeling/issues",
+    revision: "https://github.com/centrumvoorstandaarden/Architectuur2.0-metRestfulAPI",
+    //  pullrequests: "https://github.com/Logius-standaarden/Digikoppeling-Wat-is-Digikoppeling/pulls"
+  },
+
+  // nl_organisationName is used for some company specific values in the header (and Sotd)
+  // currently supported: Logius and Geonovum (default)  
+  nl_organisationName: "Logius",
+
+  // prefix for the names of company specific css, svg and ico prefixes
+  // defaults to "GN-"  
+  nl_organisationPrefix: "LS-",
+
+  // class style can be automatically insertd in generated markdown tables
+  // currently defaults to simple, but this may change
+  // options simple, data, <your css>    
+  nl_markdownTableClass: "dkkvs",
+
+  // if nl_markdownEmbedImageInFigure is set to true images in markdown generated content will be surrounded with <figures> element
+  // so that figures can be linked are be a part of table of figures
+  nl_markdownEmbedImageInFigure: true,
+
+  // this url points to the folder where organsation specific css files are stored
+  // defaults to https://tools.geostandaarden.nl/respec/style/ if not set
+  nl_organisationStylesURL: "https://publicatie.centrumvoorstandaarden.nl/respec/style/",
+  // nl_organisationStylesURL: "http://localhost:8081/respec/style/",
+
+  // nl_organisationPublishURL points to organisation specifica publication page, used in header
+  // defaults to  https://docs.geostandaarden.nl/"
+  nl_organisationPublishURL: "https://publicatie.centrumvoorstandaarden.nl/",
+
+  // nl_logo refers to company logo
+  // defaults to https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg
+  nl_logo: {
+    src: "https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/figure-logius.svg",
+    alt: "Logius",
+    id: "Logius",
+    height: 77,
+    width: 44,
+    url: "https://www.logius.nl/standaarden",
+  },
+
+
+
   // in localBiblio kun je bibliografische items opnemen. In de tekst kun je dan tussen blokhaken verwijzen naar de korte naam bv [NEN3610].
   localBiblio: {
     NEN3610: {
@@ -63,6 +129,27 @@ var respecConfig = {
       date: "Maart 2011",
       publisher: "Nederlands Normalisatie-instituut",
     },
-  },
-  format: "markdown",
+    "Voorwaarden Digikoppeling": {
+      href: "https://www.logius.nl/diensten/digikoppeling/documentatie/voorwaarden-digikoppeling",
+      title:
+        "Voorwaarden Digikoppeling",
+      date: "1 januari 2021",
+      publisher: "Logius",
+    },
+    "Gebruiksvoorwaarden Digikoppeling": {
+      href: "https://www.logius.nl/diensten/digikoppeling/documentatie/gebruiksvoorwaarden-digikoppeling",
+      title:
+        "Gebruiksvoorwaarden Digikoppeling",
+      date: "1 januari 2021",
+      publisher: "Logius",
+    },
+    "Algemene Voorwaarden Logius": {
+      href: "https://www.logius.nl/onze-organisatie/zakendoen-met-logius/voorwaarden/algemene-voorwaarden-logius",
+      title:
+        "Algemene voorwaarden Logius",
+      date: "12 juni 2018",
+      publisher: "Logius",
+    }
+  }
+  //format: "markdown",
 };

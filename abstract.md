@@ -1,4 +1,4 @@
-OIN Stelsel 2.0 is een concept voor een nieuwe document die het OIN beleid en de werking van het OIN beschrijft. In de nieuwe versie worden de volgende wijzigingen opgenomen
+OIN Stelsel 2.0 beschrijft het OIN beleid en de werking van het OIN. In de nieuwe versie zijn de volgende wijzigingen opgenomen
 
 - Aanpassingen in de regels voor uitgifte van SubOIN's
 - In lijn brengen van het document met de huidige en nieuwe *Voorwaarden Digikoppeling* en *Gebruiksvoorwaarden Digikoppeling*
