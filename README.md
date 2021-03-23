@@ -8,10 +8,10 @@ In dit document beschrijven we het doel en de werking van het OIN Stelsel. Het O
 
 Dit document is te raadplgen via:
 
-- html: [https://centrumvoorstandaarden.github.io/OIN-Stelsel2.0](https://centrumvoorstandaarden.github.io/OIN-Stelsel2.0)
-- html (static): [https://centrumvoorstandaarden.github.io/OIN-Stelsel2.0/snapshot.html](https://centrumvoorstandaarden.github.io/OIN-Stelsel2.0/snapshot.html)
-- pdf: [https://github.com/centrumvoorstandaarden/OIN-Stelsel2.0/blob/master/OIN-Stelsel2.0.pdf](https://github.com/centrumvoorstandaarden/OIN-Stelsel2.0/blob/master/OIN-Stelsel2.0.pdf)
-- markdown (github): [https://github.com/centrumvoorstandaarden/OIN-Stelsel2.0](https://github.com/centrumvoorstandaarden/OIN-Stelsel2.0)
+- html: [https://Logius-standaarden.github.io/OIN-Stelsel](https://Logius-standaarden.github.io/OIN-Stelsel)
+- html (static): [https://Logius-standaarden.github.io/OIN-Stelsel/snapshot.html](https://Logius-standaarden.github.io/OIN-Stelsel/snapshot.html)
+- pdf: [https://github.com/Logius-standaarden/OIN-Stelsel/blob/master/OIN-Stelsel.pdf](https://github.com/Logius-standaarden/OIN-Stelsel/blob/master/OIN-Stelsel.pdf)
+- markdown (github): [https://github.com/Logius-standaarden/OIN-Stelsel](https://github.com/Logius-standaarden/OIN-Stelsel)
 
 Waarom dit document
 ---------------------

@@ -3,18 +3,24 @@ var respecConfig = {
   specStatus: "CV",
   //voor specType mogelijkheden zie https://github.com/centrumvoorstandaarden/respec/wiki/specType
   specType: "HR",
+
+  // The specification's publish domain, which is used to publish the specification
+  // the url in the header thisVersion is generated like `<conf.nl_organisationPublishURL>/<conf.pubDomain>/<specStatus>-<specType.toLowerCase()>-<conf.shortName>}-conf.publishDate>/`
+  pubDomain: "dk",
   shortName: "oin",
 
   // Voor publishDate zie https://github.com/w3c/respec/wiki/publishDate
   // Als er geen publishDate is opgegeven, genereert ReSpec de datum o.b.v. de laatste wijzigingen
   // Belangrijk: als publishDate niet opgegeven is, wordt bij de link "Laatst gepubliceerde versie" "geen" gezet. Anders wordt een link opgebouwd voor de laatste versie, met het formaat:
   // https://publicatie.centrumvoorstandaarden.nl/{pubDomain}/{shortName}
-  //publishDate: "2020-02-16",
+  publishDate: "2020-03-31",
 
   // Vul in om een korte extra uitleg te weergeven op de docs.centrumvoorstandaarden.nl website.
-  subExplanation: "",
+  // subExplanation: "",
   addSectionLinks: true,
 
+  publishVersion: "2.0",
+  // previousPublishVersion: "",
 
   // Als er een eerder gepubliceerde versie is, geef dan de datum daarvan op
   //previousPublishDate: "2017-05-31",
@@ -41,24 +47,17 @@ var respecConfig = {
   ],
   // shortName = korte naam voor in de url van het document, gebruik alleen letters, cijfers en eventueel '-'
   // url van de github repository waar je in werkt
-  github: "https://github.com/centrumvoorstandaarden/OIN-Stelsel2.0",
+  github: "https://github.com/Logius-standaarden/OIN-Stelsel",
 
 
   alternateFormats: [
-    {
-      label: "(static) html",
-      uri: "https://centrumvoorstandaarden.github.io/OIN-Stelsel2.0/snapshot.html",
-    },
-    {
+      {
       label: "pdf",
-      uri: "https://github.com/centrumvoorstandaarden/OIN-Stelsel2.0/blob/master/OIN-Stelsel2.0.pdf",
+      uri: "https://github.com/Logius-standaarden/OIN-Stelsel/blob/master/OIN-Stelsel.pdf",
     },
   ],
 
-  // The specification's publish domain, which is used to publish the specification
-  // the url in the header thisVersion is generated like `<conf.nl_organisationPublishURL>/<conf.pubDomain>/<specStatus>-<specType.toLowerCase()>-<conf.shortName>}-conf.publishDate>/`
-  pubDomain: "dk",
-  pubSubDomain: "oin",
+
 
   // For Consultatieversies (specStatus="GN-CV") there is a default text in the section "Status of this document" that contains an emailaddress for feedback and comments on the document.
   nl_emailComments: "digikoppeling@logius.nl",
@@ -76,7 +75,7 @@ var respecConfig = {
   // if not set, the url's will be generated on the respecConfig.github automatically  
   nl_github: {
     //    issueBase: "https://github.com/Logius-standaarden/Digikoppeling-Wat-is-Digikoppeling/issues",
-    revision: "https://github.com/centrumvoorstandaarden/Architectuur2.0-metRestfulAPI",
+    revision: "https://github.com/Logius-standaarden/OIN-Stelsel",
     //  pullrequests: "https://github.com/Logius-standaarden/Digikoppeling-Wat-is-Digikoppeling/pulls"
   },
 
