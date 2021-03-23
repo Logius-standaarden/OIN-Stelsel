@@ -6,17 +6,17 @@ Het OIN stelsel
 In dit document beschrijven we het doel en de werking van het OIN Stelsel. Het OIN is gestart als een noodzakelijk onderdeel van de Digikoppeling Standaard en is inmiddels een veel gebruikt identificatienummer binnen en maar ook buíten Digikoppeling. De regels van uitgifte en gebruik van het OIN staan beschreven in de *Voorwaarden Digikoppeling* en de *Gebruiksvoorwaarden Digikoppeling*. Daarnaast geeft Logius OINs en SubOINs uit en slaat de informatie hiervan op in het OIN register en ontsluit die met de *[=COR=]*, de Centrale OIN Raadpleegvoorziening. Dit geheel van regels en uitvoering noemen we het *OIN stelsel*.
 
 
-Dit document is te raadplgen via:
-
-- html: [https://Logius-standaarden.github.io/OIN-Stelsel](https://Logius-standaarden.github.io/OIN-Stelsel)
-- html (static): [https://Logius-standaarden.github.io/OIN-Stelsel/snapshot.html](https://Logius-standaarden.github.io/OIN-Stelsel/snapshot.html)
+Dit document is te raadplegen via:
+- html (gepubliceerd): [https://publicatie.centrumvoorstandaarden.nl/dk/oin/](https://publicatie.centrumvoorstandaarden.nl/dk/oin/)
+- html (werkversie): [https://Logius-standaarden.github.io/OIN-Stelsel](https://Logius-standaarden.github.io/OIN-Stelsel)
+- html (snapshot): [https://Logius-standaarden.github.io/OIN-Stelsel/snapshot.html](https://Logius-standaarden.github.io/OIN-Stelsel/snapshot.html)
 - pdf: [https://github.com/Logius-standaarden/OIN-Stelsel/blob/master/OIN-Stelsel.pdf](https://github.com/Logius-standaarden/OIN-Stelsel/blob/master/OIN-Stelsel.pdf)
 - markdown (github): [https://github.com/Logius-standaarden/OIN-Stelsel](https://github.com/Logius-standaarden/OIN-Stelsel)
 
 Waarom dit document
 ---------------------
 
-De Voorwaarden Digikoppeling en de Digikoppeling Gebruiksvoorwaarden hebben een juridisch karakter en beantwoorden waarschijnlijk niet elke vraag van gebruikers van een OIN. In dit document proberen we daarom de werking van het OIN stelsel met al haar facetten nader te beschrijven in de hoop die vragen te beantwoorden.
+De `Voorwaarden Digikoppeling` en de `Digikoppeling Gebruiksvoorwaarden` hebben een juridisch karakter en beantwoorden waarschijnlijk niet elke vraag van gebruikers van een OIN. In dit document proberen we daarom de werking van het OIN stelsel met al haar facetten nader te beschrijven in de hoop die vragen te beantwoorden.
 
 Aanleiding voor een nieuwe versie van dit document
 --------------------------------------------------
@@ -761,7 +761,7 @@ Onderstaande plaat beschrijft de functionaliteiten van de [=COR=] op hoofdlijnen
 
 
 
-# Bijlage A Begrippen
+# Bijlage A - Begrippen
 
 
 
@@ -774,7 +774,7 @@ Onderstaande plaat beschrijft de functionaliteiten van de [=COR=] op hoofdlijnen
 |**<dfn>TSP</dfn>**|Certificatiedienstverlener (*Trust Service Provider*), marktpartijen die PKIoverheid certificaten verstrekken conform het Programma van Eisen van PKIoverheid. Voorheen CSP - Certificate Service provider-  genoemd.|
 |**Digitaal berichtenverkeer**|Het uitwisselen van gegevens via digitale berichten|
 |**Erkend authenticatiemiddel**|Een authenticatiestelsel voor organisaties waarbij natuurlijke personen namens de organisatie worden gemachtigd om specifieke activiteiten te verrichten. Bijvoorbeeld eHerkenning, Idensys.|
-|**Handelsregister (HR)**|Het Handelsregister is een bij wet ingestelde basisregistratie voor rechtspersonen en ondernemingen in Nederland. Het maakt deel uit van het stelsel van basisregistraties. Daarmee draagt het Handelsregister bij aan een efficiëntere overheid en aan een betere dienstverlening voor ondernemers. Zie <http://www.digitaleoverheid.nl>
+|**<dfn data-lt="HR">Handelsregister</dfn>(HR)**|Het Handelsregister is een bij wet ingestelde basisregistratie voor rechtspersonen en ondernemingen in Nederland. Het maakt deel uit van het stelsel van basisregistraties. Daarmee draagt het Handelsregister bij aan een efficiëntere overheid en aan een betere dienstverlening voor ondernemers. Zie <http://www.digitaleoverheid.nl>
 |**<dfn>KvKnummer</dfn>**|Het KvKnummer is het inschrijvingsnummer van de onderneming in het Handelsregister. Elke onderneming of maatschappelijke activiteit krijgt in het handelsregister één KvK-nummer, dit KvK-nummer bestaat altijd uit 8 cijfers. Bij bedrijfsoverdracht houden ondernemingen wijzigt hun KvK-nummer.|
 |**Niet-natuurlijk persoon**|Een niet-natuurlijk persoon is een organisatie of samenwerkingsverband dat rechten en plichten heeft en wordt gedefinieerd aan de hand van het [=RSIN=] (bron KvK).|
 |**<dfn data-lt="SubOIN-beheerders">SubOIN-beheerder</dfn>**| Een overheidsorganisatie die door Logius de status is verleend om unieke identificerende nummers aan organisaties toe te kennen. Op basis van dat identificerende nummer wordt een SubOIN aangemaakt, vaak met een hiervoor specifiek gecreëerde prefix. De SubOIN-beheerder draagt zorg voor de registratie van SubOINs voor organisaties die niet in een aangesloten register voorkomen maar die wel bij een broninstantie of op basis van brondocumenten kunnen worden geïdentificeerd en geverifieerd. De SubOIN-beheerder stelt de identificatie van een partij vast aan de hand van bewijsstukken of zelfstandig onderzoek.|

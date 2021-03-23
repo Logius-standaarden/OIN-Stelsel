@@ -57,3 +57,15 @@ table.dkkvsincell {
     border-bottom: 0px solid #005a9c;
 
 }
+
+.code {
+    box-sizing: border-box;
+    border-collapse: collapse;
+    color: black;
+    padding: .2em .4em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgb(238, 230, 230);
+    border-radius: 6px;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+}

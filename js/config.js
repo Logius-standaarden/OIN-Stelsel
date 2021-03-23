@@ -92,6 +92,8 @@ var respecConfig = {
   // options simple, data, <your css>    
   nl_markdownTableClass: "dkkvs",
 
+  nl_markdownCodeClass: "code",
+
   // if nl_markdownEmbedImageInFigure is set to true images in markdown generated content will be surrounded with <figures> element
   // so that figures can be linked are be a part of table of figures
   nl_markdownEmbedImageInFigure: true,
@@ -147,6 +149,16 @@ var respecConfig = {
       title:
         "Algemene voorwaarden Logius",
       date: "12 juni 2018",
+      publisher: "Logius",
+    },
+    "Eisen Pkioverheid": {
+      href: "https://www.logius.nl/diensten/pkioverheid/aansluiten-als-tsp/pogramma-van-eisen",
+      title: "Programma van Eisen (PKIoverheid)",
+      publisher: "Logius",
+    },
+    "PKI PvE 3b": {
+      href: "https://www.logius.nl/sites/default/files/public/bestanden/diensten/PKIoverheid/PvE%20EN%20part3e%20v4.8%20DEF.pdf",
+      title: "Programma van Eisen Pkioverheid, deel 3e",
       publisher: "Logius",
     }
   }
