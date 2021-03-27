@@ -1,7 +1,9 @@
 # Bijlage C - Invulling OIN en Naam in het  PKIoverheidcertificaat
 
 <aside class="note">
-Onderstaande beschrijving moet nog geverifieerd worden door de TSP's. 
+
+Onderstaande beschrijving is voorgelegd aan de TSP's voor verificatie.
+
 </aside>
 
 ## Inleiding

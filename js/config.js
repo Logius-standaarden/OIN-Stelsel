@@ -1,6 +1,6 @@
 var respecConfig = {
   //voor specStatus mogelijkheden zie https://github.com/centrumvoorstandaarden/respec/wiki/specStatus
-  specStatus: "CV",
+  specStatus: "DEF",
   //voor specType mogelijkheden zie https://github.com/centrumvoorstandaarden/respec/wiki/specType
   specType: "HR",
 
@@ -53,7 +53,7 @@ var respecConfig = {
   alternateFormats: [
       {
       label: "pdf",
-      uri: "https://github.com/Logius-standaarden/OIN-Stelsel/blob/master/OIN-Stelsel.pdf",
+      uri: "OIN-Stelsel.pdf",
     },
   ],
 
