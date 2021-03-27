@@ -1,4 +1,4 @@
-# Bijlage C - Invulling (Sub)OIN en naam in PKIoverheidcertifcaat
+# Bijlage C - Invulling OIN en Naam in het  PKIoverheidcertificaat
 
 <aside class="note">
 Onderstaande beschrijving moet nog geverifieerd worden door de TSP's. 
