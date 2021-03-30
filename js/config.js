@@ -19,8 +19,8 @@ var respecConfig = {
   // subExplanation: "",
   addSectionLinks: true,
 
-  publishVersion: "2.0",
-  // previousPublishVersion: "",
+  publishVersion: "2.0.1",
+  previousPublishVersion: "2.0",
 
   // Als er een eerder gepubliceerde versie is, geef dan de datum daarvan op
   //previousPublishDate: "2017-05-31",
@@ -156,9 +156,9 @@ var respecConfig = {
       title: "Programma van Eisen (PKIoverheid)",
       publisher: "Logius",
     },
-    "PKI PvE 3b": {
-      href: "https://www.logius.nl/sites/default/files/public/bestanden/diensten/PKIoverheid/PvE%20EN%20part3e%20v4.8%20DEF.pdf",
-      title: "Programma van Eisen Pkioverheid, deel 3e",
+    "PKI PvE": {
+      href: "https://www.logius.nl/sites/default/files/public/bestanden/diensten/PKIoverheid/PvE%20EN%20part3j%20v4.8%20DEF.pdf",
+      title: "Programma van Eisen Pkioverheid, deel 3j",
       publisher: "Logius",
     }
   }
