@@ -19,8 +19,8 @@ var respecConfig = {
   // subExplanation: "",
   addSectionLinks: true,
 
-  publishVersion: "2.0.1",
-  previousPublishVersion: "2.0",
+  publishVersion: "2.0.2",
+  previousPublishVersion: "2.0.1",
 
   // Als er een eerder gepubliceerde versie is, geef dan de datum daarvan op
   //previousPublishDate: "2017-05-31",
