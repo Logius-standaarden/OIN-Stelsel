@@ -55,13 +55,13 @@ Het nummer wordt opgenomen in het PKIoverheidcertificaat - als inhoud van het at
 
 ### *Overheids* Identificatienummer
 
-Het unieke nummer werd het OIN, het *Overheidsorganisatie Identificatie Nummer*. De KvK - beheerder van het Handelsregister (HR) - adviseerde om het nummer op het FI-nummer te baseren. In het Handelsregister waren echter in die tijd niet alle overheidsorganisaties opgenomen die in het kader van de elektronische overheid van belang waren. Zo hadden allerlei zelfstandige onderdelen van een ministerie, zoals de Belastingdienst en Douane, geen eigen FI-nummer. 
+Het unieke nummer werd het OIN, het *Overheidsorganisatie Identificatie Nummer*. De KvK - beheerder van het Handelsregister (HR) - adviseerde om het nummer op het FI-nummer te baseren. In het Handelsregister waren echter in die tijd niet alle overheidsorganisaties opgenomen die in het kader van de elektronische overheid van belang waren. Zo hadden allerlei zelfstandige onderdelen van een ministerie, zoals de Belastingdienst en Douane, geen eigen FI-nummer.
 
 Voor het gebruik van Digikoppeling was echter afgesproken dat organisaties én onderdelen van organisaties die berichten willen uitwisselen met een andere overheid, en daartoe zelfstandig contracten afsluiten, een identificerend nummer moeten krijgen, ook als dat onderdeel niet beschikt over een eigen FI-nummer. Besloten werd dat Logius het OIN ging uitdelen. Op termijn zou dan mogelijk altijd met een FI-nummer gewerkt kunnen worden, wanneer al die zelfstandige onderdelen ook in het Handelsregister zouden worden opgenomen. [bron document "Evaluatie OIN uitgiftev2", 2010]
 
 ### OIN en HRN
 
-Ook voor private organisatie was een nummer noodzakelijk voor digitale gegevensuitwisseling met de overheid. Het OIN stond toen nog voor *Overheids*identificatienummer en liet niet toe dat ook deze partijen zich inschreven in het OIN register. Logius heeft daarom met de certificaatuitgevers aparte afspraken gemaakt om in het verplicht te gebruiken PKIoverheidcertificaat een nummer te laten opnemen volgens de structuur van het OIN. 
+Ook voor private organisatie was een nummer noodzakelijk voor digitale gegevensuitwisseling met de overheid. Het OIN stond toen nog voor *Overheids*identificatienummer en liet niet toe dat ook deze partijen zich inschreven in het OIN register. Logius heeft daarom met de certificaatuitgevers aparte afspraken gemaakt om in het verplicht te gebruiken PKIoverheidcertificaat een nummer te laten opnemen volgens de structuur van het OIN.
 
 Voor een private organisatie werd niet het [=RSIN=] gebruikt, maar haar KvKnummer. Dit nummer kreeg de naam *Handelsregisternummer* (HRN). Het HRN is een virtueel nummer. Bij de aanvraag van een PKIoverheid-certificaat zal de Trust Service Provider ([=TSP=]), bij ontbreken van een OIN, het identificerend nummer bij de creatie van het certificaat zelf afleiden op basis van het KvK-nummer uit het Handelsregister op gelijke wijze als bij de afleiding van het OIN. Het [=HRN=]  wordt echter niet vastgelegd in een publiek raadpleegbare registratie.
 
@@ -171,7 +171,7 @@ De volgende kaders en bronnen zijn gehanteerd bij de uitwerking van het OIN-stel
 
 - [[Voorwaarden Digikoppeling]]: De Voorwaarden Digikoppeling bevatten de specifieke voorwaarden die gelden tussen Logius en [=Afnemers=] in het kader van Digikoppeling in aanvulling op de [[Algemene Voorwaarden Logius]], van toepassing op alle diensten van Logius.  
 
-- [[Gebruiksvoorwaarden Digikoppeling]]: De Gebruiksvoorwaarden Digikoppeling bevatten de specifieke voorwaarden die gelden tussen Logius en [=Gebruikers=] in het kader van Digikoppeling in aanvulling op de [[Algemene Voorwaarden Logius]], van toepassing op alle diensten van Logius. 
+- [[Gebruiksvoorwaarden Digikoppeling]]: De Gebruiksvoorwaarden Digikoppeling bevatten de specifieke voorwaarden die gelden tussen Logius en [=Gebruikers=] in het kader van Digikoppeling in aanvulling op de [[Algemene Voorwaarden Logius]], van toepassing op alle diensten van Logius.
 
 # Businessarchitectuur
 
@@ -203,7 +203,7 @@ Bedrijven en privaatrechtelijke instellingen die digitaal communiceren met de ov
 Wat is een SubOIN
 ------------------
 
-Het [=SubOIN=] is een afgeleide van het [=OIN=] en is opgesteld volgens de OIN-nummersystematiek en wordt gebruikt voor een organisatieonderdeel, samenwerkingsverband of voorziening dat niet zélf in het Handelsregister voorkomt. Een [=SubOiN] valt altijd onder een [=OIN-houder=]. 
+Het [=SubOIN=] is een afgeleide van het [=OIN=] en is opgesteld volgens de OIN-nummersystematiek en wordt gebruikt voor een organisatieonderdeel, samenwerkingsverband of voorziening dat niet zélf in het Handelsregister voorkomt. Een [=SubOiN] valt altijd onder een [=OIN-houder=].
 
 Ook kan Logius op verzoek van een verantwoordelijke [=SubOIN-beheerder=] een SubOIN toekennen aan een organisatie, instelling of buitenlandse rechtspersoon in zijn sectorregistratie. Het SubOIN fungeert, net als een OIN, als numeriek alternatief voor de naam daarvan, ten behoeve van de identificatie, authenticatie, autorisatie, adressering en routering van digitaal berichtenverkeer met en binnen de overheid.
 
@@ -390,9 +390,9 @@ De opdrachtgever BZK beoordeelt binnen het regulier toezicht op de beheerder van
 
 Internationale uitwisselingen
 -----------------------------
-## OIN ICD Code 
+## OIN ICD Code
 
-Volgens de ISO 6523 part 1 standaard is een ICD code (International Code Designator) nodig. Het OIN is sinds 2018 opgenomen in de ICD lijst 
+Volgens de ISO 6523 part 1 standaard is een ICD code (International Code Designator) nodig. Het OIN is sinds 2018 opgenomen in de ICD lijst
 
 De volgende alinea's geven achtergrondinformatie over de ISO 6523 standaard.
 
@@ -530,11 +530,11 @@ SubOINs: uitgifte
 
 ### Regels voor uitgifte SubOINs
 
-**Aanmaken SubOINs**
+#### Aanmaken SubOINs
 
 Een rechtspersoon, die [=OIN-houder=] is, kan een [=OIN=] aanvragen voor een entiteit zonder rechtspersoonlijkheid - te weten een organisatie, organisatieonderdeel of voorziening - waarvoor hij de juridische verantwoordelijkheid neemt voor het gebruik van [=SubOIN=]s. De [=SubOIN=]s worden beheerd in het *SubOIN-register*, onderdeel van de [=COR=]. Onder de definitie van een entiteit vallen ook diensten zoals (landelijke) voorzieningen, mits deze als een onderdeel van een organisatie beschouwd kunnen worden en geïdentificeerd moeten worden voor informatie-uitwisseling. Logius maakt op verzoek van een [=SubOIN-beheerders=] [=SubOIN=]s aan in de [=COR=].
 
-**Organisaties in andere registers dan het Handelsregister**
+#### Organisaties in andere registers dan het Handelsregister
 
 Organisaties die geregistreerd staan in andere aangesloten registers dan het Handelsregister worden beschouwd als houders van een [=OIN=]. Voor deze organisaties gelden dezelfde regels als houders van [=SubOIN=]s die door rechtspersonen zijn aangemaakt.
 
@@ -640,14 +640,11 @@ Hieronder wordt de structuur van een aantal OIN registraties weergeven.
 
 ![Schematische weergave OIN structuur](media/OIN-structuur.png "Schematische weergave OIN structuur")
 
-SubOIN: een betekenisloos nummer
----------------------------------
+## SubOIN: een betekenisloos nummer
 
 Een [=SubOIN=] is een *betekenisloos* nummer dat wordt gegeneerd tijdens de registratie. Betekenisloos houdt in dat het nummer zelf geen aanwijsbare relatie heeft met het OIN van de [=SubOIN-beheerder=]. De relatie is alleen te raadplegen via de [=COR=] API. Een [=SubOIN=] is een [=OIN=] voor entiteiten zonder rechtspersoonlijkheid, zoals een organisatie die niet is ingeschreven in het Handelsregister, een organisatie-onderdeel of een voorziening. Het nummer van een organisatie dat voorkomt in een aangesloten register wordt ook beschouwd als een [=OIN=].
 
 Het prefix verwijst naar het OIN-register.
-
-
 
 | **Element** | **Lengte** | **Waarde** |
 |-----------------|------------|--------------------|
@@ -658,7 +655,7 @@ Het prefix verwijst naar het OIN-register.
 
 <div class="note">
 
-**Waarom hebben wij gekozen voor betekenisloze SubOINs?**
+### Waarom hebben wij gekozen voor betekenisloze SubOINs?
 
 In de discussie met betrokkenen is besproken op welke manier SubOINs worden vastgelegd. Er zijn twee alternatieven besproken:
 
@@ -674,7 +671,7 @@ In de discussie met betrokkenen is besproken op welke manier SubOINs worden vast
 
 ## Voorbeelden van OIN weergave in [=COR=] Web en [=COR=] API
 
-## [=COR=] WEB
+### [=COR=] WEB
 
 De [=COR=] Website retourneert een relevante attributen van een OIN-registratie. Hieronder twee schermvoorbeelden:
 
@@ -809,4 +806,3 @@ Onderstaande plaat beschrijft de functionaliteiten van de [=COR=] op hoofdlijnen
 | [=COR=] Web| [https://portaal.digikoppeling.nl/registers/](https://portaal.digikoppeling.nl/registers/)|
 | [=COR=] API - handleiding| [https://portaal.digikoppeling.nl/registers/corApi/index](https://portaal.digikoppeling.nl/registers/corApi/index)|
 | [=COR=] API - OpenAPI Specificatie| [https://portaal.digikoppeling.nl/registers/api/](https://portaal.digikoppeling.nl/registers/api/)|
-
