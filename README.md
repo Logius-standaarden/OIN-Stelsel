@@ -1,7 +1,6 @@
 # Inleiding
 
-Het OIN stelsel
----------------
+## Het OIN stelsel
 
 In dit document beschrijven we het doel en de werking van het OIN Stelsel. Het OIN is gestart als een noodzakelijk onderdeel van de Digikoppeling Standaard en is inmiddels een veel gebruikt identificatienummer binnen en maar ook buíten Digikoppeling. De regels van uitgifte en gebruik van het OIN staan beschreven in de *Voorwaarden Digikoppeling* en de *Gebruiksvoorwaarden Digikoppeling*. Daarnaast geeft Logius OINs en SubOINs uit en slaat de informatie hiervan op in het OIN register en ontsluit die met de *[=COR=]*, de Centrale OIN Raadpleegvoorziening. Dit geheel van regels en uitvoering noemen we het *OIN stelsel*.
 
@@ -13,20 +12,17 @@ Dit document is te raadplegen via:
 - pdf: [https://github.com/Logius-standaarden/OIN-Stelsel/blob/master/OIN-Stelsel.pdf](https://github.com/Logius-standaarden/OIN-Stelsel/blob/master/OIN-Stelsel.pdf)
 - markdown (github): [https://github.com/Logius-standaarden/OIN-Stelsel](https://github.com/Logius-standaarden/OIN-Stelsel)
 
-Waarom dit document
----------------------
+## Waarom dit document
 
 De `Voorwaarden Digikoppeling` en de `Digikoppeling Gebruiksvoorwaarden` hebben een juridisch karakter en beantwoorden waarschijnlijk niet elke vraag van gebruikers van een OIN. In dit document proberen we daarom de werking van het OIN stelsel met al haar facetten nader te beschrijven in de hoop die vragen te beantwoorden.
 
-Aanleiding voor een nieuwe versie van dit document
---------------------------------------------------
+## Aanleiding voor een nieuwe versie van dit document
 
 Dit document is een update op een versie die Logius in 2016 heeft uitgebracht. De aanleiding was toen een inventarisatie van een aantal inmiddels ontstane knelpunten met voorstellen voor de wijzigingen van de regels voor gebruik en uitgifte van OIN’s en SubOINs. Het document stond aan de basis voor de wijzigingen die in 2017 zijn doorgevoerd.
 
 In 2020 heeft Logius de OIN regels opnieuw op punten aangepast. Dit gaf meteen de gelegenheid om het document bij te werken en in lijn te brengen met zowel de wijzigingen uit 2017 en de inmiddels vastgestelde wijzigingen van 2020.
 
-Doel en scope van document
---------------------------
+## Doel en scope van document
 
 Dit document beschrijft het OIN-stelsel. Het OIN-stelsel bestaat uit de volgende bouwstenen:
 
@@ -36,8 +32,7 @@ Dit document beschrijft het OIN-stelsel. Het OIN-stelsel bestaat uit de volgende
 
 - Toelichting op de juridische voorwaarden en overeenkomsten
 
-Historie van het OIN (en vooruitblik)
--------------------------------------
+## Historie van het OIN (en vooruitblik)
 
 Bij de ontwikkeling van de Digikoppeling standaard in 2006 is besloten om de identificatie in de standaard te baseren op een uniek identificerend nummer van een overheidsorganisatie. [bron document "Evaluatie OIN uitgiftev2", 2010]
 
@@ -117,8 +112,7 @@ De structuur van dit document is gebaseerd op de TOGAF standaard - TOGAF staat v
 
 # Architectuurvisie
 
-Doel OIN
---------
+## Doel OIN
 
 Het organisatie-identificatienummer ([=OIN=]) is het identificatienummer voor niet-natuurlijke personen ten behoeve van het digitale berichtenverkeer met de overheid. De toekenning van het [=OIN=] is gebaseerd op identificatie van de aanvrager van het [=OIN=] middels het Handelsregister dan wel een ander aangesloten overheidsregister.
 
@@ -128,8 +122,7 @@ Het Organisatie-identificatienummer [=OIN=], voorheen Overheidsidentificatienumm
 
 Een groot aantal voorzieningen van de digitale overheid maakt gebruik van het [=OIN=]. Dat gebeurt op verschillende manieren en met verschillende doeleinden: de identificatie, authenticatie en autorisatie van organisaties of organisatieonderdelen, en de routering van berichten naar organisaties,organisatieonderdelen of voorzieningen.
 
-Gebruik van het OIN
--------------------
+## Gebruik van het OIN
 
 Het [=OIN=]-nummer wordt als identificerend nummer gebruikt in PKIoverheidcertificaten (authenticatie), in de adressering en routering van berichten, en in autorisatietabellen. Organisaties mogen het [=OIN=] of [=SubOIN=] gebruiken voor identificatie van organisaties en organisatieonderdelen in het digitaal verkeer. Het overig gebruik van het [=OIN=] of [=SubOINs=] betreft:
 
@@ -153,15 +146,13 @@ Het [=OIN=]-nummer wordt als identificerend nummer gebruikt in PKIoverheidcertif
 
 
 
-Context Centrale OIN Raadpleegvoorziening ([=COR=])
------------------------------------------------
+## Context Centrale OIN Raadpleegvoorziening ([=COR=])
 
 In onderstaand diagram wordt de relatie tussen [=COR=] met de omgeving weergegeven.
 
 ![Context diagram OIN-raadpleegvoorziening en OIN spelregels](media/contextdiagram.jpg "Context diagram OIN-raadpleegvoorziening en OIN spelregels")
 
-Kaders en bronnen
------------------
+## Kaders en bronnen
 
 De volgende kaders en bronnen zijn gehanteerd bij de uitwerking van het OIN-stelselv1 en v2:
 
@@ -175,13 +166,11 @@ De volgende kaders en bronnen zijn gehanteerd bij de uitwerking van het OIN-stel
 
 # Businessarchitectuur
 
-Wat is het OIN
----------------
+## Wat is het OIN
 
 Het Organisatie-identificatienummer ([=OIN=]) is een uniek nummer dat Logius kan toekennen aan organisaties om zich te kunnen identificeren, authentiseren en of autoriseren bij digitaal berichtenverkeer binnen en met de overheid.
 
-Voor wie is het OIN
---------------------
+## Voor wie is het OIN
 
 Het [=OIN=] is voor organisaties die berichten uitwisselen met de overheid. Dit kunnen publieke en private organisaties zijn. Voorwaarde is dat zij staan ingeschreven in het handelsregister. Daarnaast kunnen ook een aantal organisaties die niet in het handelsregister zijn opgenomen een [=OIN=] aanvragen. Dit zijn bijzondere organisaties met een publieke taak, colleges van advies en internationale organisaties met een rechtspersoonlijkheid.
 
@@ -191,8 +180,7 @@ Het [=OIN=] maakt een onderscheid in [=gebruikers=] en [=afnemers=]. Beiden kunn
 
 - <dfn data-lt="Gebruikers">Gebruiker</dfn>: een overheidsorganisatie of onderneming of een rechtspersoon, die is ingeschreven in het Handelsregister of een natuurlijk persoon die is ingeschreven in de Gemeentelijke Basisadministratie persoonsgegevens (GBA), en in deze hoedanigheid gebruik maakt van de Diensten van Logius ten behoeve van het elektronisch verkeer met één of meerdere [=Afnemers=].
 
-Op welke manier kan een organisatie een OIN verkrijgen
--------------------------------------------------------
+## Op welke manier kan een organisatie een OIN verkrijgen
 
 Bedrijven en privaatrechtelijke instellingen die digitaal communiceren met de overheid hebben daarvoor in veel gevallen een identificerend nummer nodig. Dit identificerende nummer kan op twee manieren verkregen worden:
 
@@ -200,22 +188,19 @@ Bedrijven en privaatrechtelijke instellingen die digitaal communiceren met de ov
 
 2. Bij de [=TSP=]: Bij de aanvraag van een PKIoverheid-certificaat zal de Trust Service Provider ([=TSP=]), bij ontbreken van een [=OIN=], het identificerend nummer bij de creatie van het certificaat zelf afleiden op basis van het KvK-nummer uit het Handelsregister op gelijke wijze als bij de afleiding van het [=OIN=]. Dit nummer wordt een [=HRN=] genoemd.  Er vindt echter geen publiek raadpleegbare registratie plaats. Voor de werking van het dataverkeer met de overheid is er verder geen verschil.
 
-Wat is een SubOIN
-------------------
+## Wat is een SubOIN
 
 Het [=SubOIN=] is een afgeleide van het [=OIN=] en is opgesteld volgens de OIN-nummersystematiek en wordt gebruikt voor een organisatieonderdeel, samenwerkingsverband of voorziening dat niet zélf in het Handelsregister voorkomt. Een [=SubOiN] valt altijd onder een [=OIN-houder=].
 
 Ook kan Logius op verzoek van een verantwoordelijke [=SubOIN-beheerder=] een SubOIN toekennen aan een organisatie, instelling of buitenlandse rechtspersoon in zijn sectorregistratie. Het SubOIN fungeert, net als een OIN, als numeriek alternatief voor de naam daarvan, ten behoeve van de identificatie, authenticatie, autorisatie, adressering en routering van digitaal berichtenverkeer met en binnen de overheid.
 
-Voor wie is het SubOIN
------------------------
+## Voor wie is het SubOIN
 
 Het [=SubOIN=] is aan te vragen door organisaties die voor het uitvoeren van een publieke taak behoefte hebben aan een identificerend nummer voor een samenwerking (waar het zelf deel van uit maakt), organisatieonderdeel of voorziening.
 
 Daarnaast kan Logius [=SubOIN-beheerders=] aanwijzen die een [=SubOIN=] aanvragen voor partijen die als onderdeel van hun dienstverlening aan de overheid een uniek identificerend nummer nodig hebben en het OIN nummer hiervoor niet kunnen aanvragen.
 
-Wijzigingen in het OIN Stelsel sinds 2006
-------------------------------------------
+## Wijzigingen in het OIN Stelsel sinds 2006
 
 Sinds het onstaan van het OIN is een aantal wijzigingen doorgevoerd in de toekenning en het gebruik van het OIN. De belangrijkste wijzingen geven we hieronder weer:
 
@@ -271,8 +256,7 @@ Daarnaast zijn de beide Voorwaarden documenten verduidelijkt en up-to-date gebra
 
 - Vermelding van het gebruik van organisatiecodes in de [=COR=]
 
-Rollen in het OIN stelsel
--------------------------
+## Rollen in het OIN stelsel
 
 ### Afnemer
 Logius definieert dit bergip in de [[Algemene Voorwaarden Logius]] als volgt:
@@ -320,8 +304,7 @@ In dit document gebruiken we de term [=OIN-houder=] voor een organisatie die is 
 
 Logius PKIoverheid is beheerder van het Programma van Eisen van PKIoverheid en *Policy Authority* (toezichthouder) op de [=TSP=]'s.
 
-Juridische structuur
---------------------
+## Juridische structuur
 
 Aansluitend op de beschrijving en uitleg van de rollen van betrokken partijen in het vorige hoofdstuk worden de kernbegrippen in de juridische context toegelicht.
 
@@ -366,13 +349,11 @@ Als een organisatie geregistreerd is in een aangesloten register (niet het Hande
 
 De [=TSP=] neemt een [=OIN=] of [=SubOIN=] op in een PKIoverheidscertificaat. Hiervoor wordt het *Subject.serialNumber* veld van het certificaat gebruikt.
 
-Centrale OIN Raadpleegvoorziening (COR)
-----------------------------------------
+## Centrale OIN Raadpleegvoorziening (COR)
 
 Logius is beheerder van de Centrale OIN Raadpleegvoorziening (inclusief het OIN-register) in opdracht van BZK. De [=COR=] heeft niet het karakter van een basisregistratie of een sectorale registratie. De [=COR=] is een landelijke voorziening.
 
-Toezicht uitoefenen
--------------------
+## Toezicht uitoefenen
 
 Logius moet toezien op de naleving van de voorwaarden en de afspraken die partijen met Logius maken.Logius moet voldoen aan de kwaliteitseisen vanuit haar opdrachtgever BZK. Daarbij is de mogelijkheid aanwezig dat BZK onafhankelijke derden, zoals de ADR *Auditdienst Rijk*, inschakelt om controles uit te voeren. Daarmee is de functiescheiding gewaarborgd.
 
@@ -388,8 +369,8 @@ De beheerder van het OIN-stelsel controleert de naleving van de overeenkomsten, 
 
 De opdrachtgever BZK beoordeelt binnen het regulier toezicht op de beheerder van het OIN-stelsel in hoeverre de OIN-voorwaarden en overeenkomsten nageleefd worden door de betrokken contractspartijen.
 
-Internationale uitwisselingen
------------------------------
+## Internationale uitwisselingen
+
 ## OIN ICD Code
 
 Volgens de ISO 6523 part 1 standaard is een ICD code (International Code Designator) nodig. Het OIN is sinds 2018 opgenomen in de ICD lijst
@@ -406,8 +387,7 @@ Het OIN is aangemeld en opgenomen in in ICD Codelist: (zie [https://docs.peppol.
 
 # Applicatie-architectuur
 
-Gebruik van de Centrale OIN Raadpleegvoorziening
-------------------------------------------------
+## Gebruik van de Centrale OIN Raadpleegvoorziening
 
 Het OIN van een rechtspersoon is publiek raadpleegbaar via de Centrale OIN Raadpleegvoorziening ([=COR=]). De [=COR=] registreert organisaties en stelt het OIN samen op basis van de OIN-systematiek (zie bijlage A). Voor de registratie baseert de [=COR=] gebruikt zich waar mogelijk op registers met een wettelijke of formele taak, zoals het Handelsregister en het FI register. De gebruiker kan in de [=COR=] zoeken op nummer of naam. De zoekresultaten worden aan de gebruiker getoond.
 
@@ -421,8 +401,7 @@ De [=COR=] bestaat uit de volgende kern-onderdelen:
 
 - Een beheermodule waarmee Logius beheerders de registraties in de [=COR=] bijhouden.
 
-Publieke raadpleegvoorziening
------------------------------
+## Publieke raadpleegvoorziening
 
 De [=COR=] biedt de volgende services voor gebruikers:
 
@@ -432,8 +411,7 @@ De [=COR=] biedt de volgende services voor gebruikers:
 
 - Export van alle geregistreerde organisaties in CSV formaat
 
-Beheerfuncties
---------------
+## Beheerfuncties
 
 De [=COR=] biedt, naast bovenstaande, de volgende services voor beheerders:
 
@@ -451,8 +429,7 @@ De [=COR=] biedt, naast bovenstaande, de volgende services voor beheerders:
 
 - Gebruikersbeheer
 
-Algemene eisen aan de Centrale OIN Raadpleegvoorziening
--------------------------------------------------------
+## Algemene eisen aan de Centrale OIN Raadpleegvoorziening
 
 De Centrale OIN Raadpleegvoorziening voldoet aan de volgende eisen:
 
@@ -474,8 +451,7 @@ De Centrale OIN Raadpleegvoorziening voldoet aan de volgende eisen:
 
 - Volgt de principes en kaders van NORA.
 
-Centrale OIN Raadpleegvoorziening ([=COR=])
----------------------------------------
+## Centrale OIN Raadpleegvoorziening ([=COR=])
 
 ### Onderdelen van de [=COR=]
 
@@ -525,8 +501,7 @@ De beheerder van de [=COR=] is niet verantwoordelijk voor de kwaliteit van de ge
 
 # Het beheer van SubOINs in de [=COR=]
 
-SubOINs: uitgifte
-------------------
+## SubOINs: uitgifte
 
 ### Regels voor uitgifte SubOINs
 
@@ -546,8 +521,7 @@ De [=OIN-houder=] vraagt een PKIoverheidscertificaat aan ten behoeve van identif
 
 Een deelnemer binnen een (publiek) samenwerkingsverband zonder rechtspersoonlijkheid mag een [=OIN=] uitgeven aan het samenwerkingsverband, mits de betreffende deelnemer een rechtpersoon is en zelf een [=OIN=] heeft. De deelnemer wordt dan [=SubOIN-beheerder=]. Het samenwerkingverband mag zelf geen rechtspersoon zijn en nog geen [=OIN=] of [=SubOIN=] hebben. De deelnemers dienen onderling te borgen dat de aanvrager is gemandateerd om een aanvraag te doen namens de overige deelnemers.
 
-SubOINs: beheer
-----------------
+## SubOINs: beheer
 
 ### Mutaties doorgeven aan de [=COR=]
 
@@ -562,8 +536,7 @@ De [=OIN-houder=] is verplicht een [=OIN=] in te trekken in de [=COR=], indien h
 De beheerder van een overheidsregister borgt dat wijzigingen worden gecontroleerd en worden doorgevoerd zodat een [=OIN=] alleen kan worden gebruikt zolang de registratie in het overheidsregister geldig is en de rechtspersoon bestaat. het [=OIN=] van de entiteit is altijd herleidbaar tot de juridisch verantwoordelijke rechtspersoon.
 
 
-SubOINs: geldigheidsduur en bewaartermijnen
---------------------------------------------
+## SubOINs: geldigheidsduur en bewaartermijnen
 
 ### Geldigheidsduur
 
@@ -573,8 +546,7 @@ De door de [=SubOIN-beheerder=] uitgegeven SubOINs hebben een geldigheidsduur va
 
 Als het KvK-nummer of [=RSIN=] vervalt, vervalt het [=OIN=]. Als het [=OIN=] vervalt, mogen de daaraan gerelateerde SubOINs niet meer worden gebruikt, en moeten deze worden ingetrokken.
 
-SubOINs: Aanvraagformulieren
-----------------------------
+## SubOINs: Aanvraagformulieren
 
 De [=OIN-houder=] die SubOINs aanvraagt voor organisatie(s) of organisatieonderdelen, zal het aanvraagformulier moeten invullen en ondertekenen. Daarop zijn ook de [[Voorwaarden Digikoppeling]] en/of de [[Gebruiksvoorwaarden Digikoppeling]] van toepassing. De spelregels uit dit document worden opgenomen binnen de aan te passen voorwaarden.De [=OIN-houder=] verklaart zich op het formulier juridisch verantwoordelijk voor het gebruik van het [=OIN=] door de houder van het [=OIN=].
 
@@ -596,8 +568,7 @@ Logius maakt afspraken met registerhouders over het gebruik van overheidsregiste
 
 # Data Architectuur
 
-Samenstelling OIN
------------------
+## Samenstelling OIN
 
 De lengte van het [=OIN=] is 20 posities, omdat dit wordt opgenomen in het *subject serial number* veld van het PKIoverheid certificaat. Het [=OIN=] is opgebouwd uit de volgende elementen:
 
@@ -611,8 +582,7 @@ De lengte van het [=OIN=] is 20 posities, omdat dit wordt opgenomen in het *subj
 
 
 
-Prefix tabel
-------------
+## Prefix tabel
 
 Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het register wordt toegevoegd aan het OIN-stelsel. Dit wordt ook een OIN register genoemd. De prefix tabel wordt als aparte lijst beheerd door de beheerder van het OIN-stelsel en wordt gepubliceerd op de website.
 
@@ -729,8 +699,7 @@ Voorbeeldresultaat van de CORAPI
 
 # Technologie-architectuur
 
-Schets van de [=COR=]
------------------
+## Schets van de [=COR=]
 
 Onderstaande plaat beschrijft de functionaliteiten van de [=COR=] op hoofdlijnen
 
