@@ -157,7 +157,7 @@ var respecConfig = {
       publisher: "Logius",
     },
     "PKI PvE": {
-      href: "https://www.logius.nl/sites/default/files/public/bestanden/diensten/PKIoverheid/PvE%20EN%20part3j%20v4.8%20DEF.pdf",
+      href: "https://logius.nl/sites/default/files/public/bestanden/diensten/PKIoverheid/Programme%20of%20Requirements%20part%203j_%20Certificate%20Policy%20for%20Server%20certificates%20in%20Server%202020%20%28EV%20G1%29%20Domain-4.9.pdf",
       title: "Programma van Eisen Pkioverheid, deel 3j",
       publisher: "Logius",
     }
