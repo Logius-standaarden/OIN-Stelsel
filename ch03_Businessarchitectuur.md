@@ -155,8 +155,7 @@ Het gebruik van een Organisatie Identificatienummer (OIN) beoogt rechtspersonen 
 
 ### Handelsregister
 
-Een OIN is -waar mogelijk- afgeleid van bestaande identificerende nummers uit het Handelsregister.
-Indien een organisatie een FI nummer én een nummer in het handelsregister heeft (een KvK nummer) dan is het nummer uit het handelsregister leidend.
+Een OIN is -waar mogelijk- afgeleid van bestaande identificerende nummers uit het Handelsregister. Het RSIN heeft hierbij de voorkeur als basis voor een OIN nummer voor _overheden_. Voor bedrijven of instellingen is het KvK nummer wel geschikt. Zie [de sectie over _identiteit en nummer_ in _Digikoppeling Identificatie en Authenticatie_](https://publicatie.centrumvoorstandaarden.nl/dk/idauth/#identiteit-en-nummer).
 
 ### Rechtspersonen en samenwerkingsverbanden
 
