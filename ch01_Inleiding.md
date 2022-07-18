@@ -58,7 +58,7 @@ Voor het gebruik van Digikoppeling was echter afgesproken dat organisaties én o
 
 Ook voor private organisatie was een nummer noodzakelijk voor digitale gegevensuitwisseling met de overheid. Het OIN stond toen nog voor *Overheids*identificatienummer en liet niet toe dat ook deze partijen zich inschreven in het OIN register. Logius heeft daarom met de certificaatuitgevers aparte afspraken gemaakt om in het verplicht te gebruiken PKIoverheidcertificaat een nummer te laten opnemen volgens de structuur van het OIN.
 
-Voor een private organisatie werd niet het [=RSIN=] gebruikt, maar haar KvKnummer. Dit nummer kreeg de naam *Handelsregisternummer* (HRN). Het HRN is een virtueel nummer. Bij de aanvraag van een PKIoverheid-certificaat zal de Trust Service Provider ([=TSP=]), bij ontbreken van een OIN, het identificerend nummer bij de creatie van het certificaat zelf afleiden op basis van het KvK-nummer uit het Handelsregister op gelijke wijze als bij de afleiding van het OIN. Het [=HRN=]  wordt echter niet vastgelegd in een publiek raadpleegbare registratie.
+Alle overheden in Nederland hebben een [=RSIN=] wat gebruikt kan worden om een OIN op te baseren. Voor een private organisatie werd niet het RSIN gebruikt, maar haar KvK nummer. Dit nummer kreeg de naam *Handelsregisternummer* (HRN). Het HRN is een virtueel nummer. Bij de aanvraag van een PKIoverheid-certificaat zal de Trust Service Provider ([=TSP=]), bij ontbreken van een OIN, het identificerend nummer bij de creatie van het certificaat zelf afleiden op basis van het KvK-nummer uit het Handelsregister op gelijke wijze als bij de afleiding van het OIN. Het [=HRN=]  wordt echter niet vastgelegd in een publiek raadpleegbare registratie.
 
 ### Nieuw Handelsregister
 
@@ -109,4 +109,3 @@ De structuur van dit document is gebaseerd op de TOGAF standaard - TOGAF staat v
 |Technologie-Architectuur| geeft een technische beschrijving van de [=COR=] en de hieraan gekoppelde systemen en bronnen|
 |Bijlage A|Begrippenlijst|
 |Bijlage B|Nuttige links|
-
