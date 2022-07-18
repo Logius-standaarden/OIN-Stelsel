@@ -18,9 +18,9 @@ Het [=OIN=] maakt een onderscheid in [=gebruikers=] en [=afnemers=]. Beiden kunn
 
 Bedrijven en privaatrechtelijke instellingen die digitaal communiceren met de overheid hebben daarvoor in veel gevallen een identificerend nummer nodig. Dit identificerende nummer kan op twee manieren verkregen worden:
 
-1. Bij Logius: Door een [=OIN=] (Organisatie Identificatie Nummer) aan te vragen bij Logius via een aanvraagformulier op Logius.nl. Het [=OIN=] wordt afgeleid van het KvK-nummer uit het Handelsregister. Het [=OIN=] wordt vastgelegd in een register dat publiek raadpleegbaar is via de centrale [=OIN=] Raadpleegvoorziening ([https://portaal.digikoppeling.nl/registers/](https://portaal.digikoppeling.nl/registers/)) via een website en een API. De regels uit de [[Voorwaarden Digikoppeling]] en de [[Gebruiksvoorwaarden Digikoppeling]] zijn van toepassing. Er zijn geen kosten verbonden aan deze registratie.
+1. Bij Logius: Door een [=OIN=] (Organisatie Identificatie Nummer) aan te vragen bij Logius via een aanvraagformulier op Logius.nl. Het [=OIN=] wordt afgeleid van het RSIN uit het Handelsregister. Alleen wanneer een organisatie geen RSIN wordt het OIN gebaseerd op het KvK nummer. Het [=OIN=] wordt vastgelegd in een register dat publiek raadpleegbaar is via de centrale [=OIN=] Raadpleegvoorziening ([https://portaal.digikoppeling.nl/registers/](https://portaal.digikoppeling.nl/registers/)) via een website en een API. De regels uit de [[Voorwaarden Digikoppeling]] en de [[Gebruiksvoorwaarden Digikoppeling]] zijn van toepassing. Er zijn geen kosten verbonden aan deze registratie.
 
-2. Bij de [=TSP=]: Bij de aanvraag van een PKIoverheid-certificaat zal de Trust Service Provider ([=TSP=]), bij ontbreken van een [=OIN=], het identificerend nummer bij de creatie van het certificaat zelf afleiden op basis van het KvK-nummer uit het Handelsregister op gelijke wijze als bij de afleiding van het [=OIN=]. Dit nummer wordt een [=HRN=] genoemd.  Er vindt echter geen publiek raadpleegbare registratie plaats. Voor de werking van het dataverkeer met de overheid is er verder geen verschil.
+2. Bij de [=TSP=]: Bij de aanvraag van een PKIoverheid-certificaat zal de Trust Service Provider ([=TSP=]), bij ontbreken van een [=OIN=], het identificerend nummer bij de creatie van het certificaat zelf afleiden op basis van het RSIN of KvK-nummer uit het Handelsregister op gelijke wijze als bij de afleiding van het [=OIN=]. Dit nummer wordt een [=HRN=] genoemd.  Er vindt echter geen publiek raadpleegbare registratie plaats. Voor de werking van het dataverkeer met de overheid is er verder geen verschil.
 
 ## Wat is een SubOIN
 
@@ -218,4 +218,3 @@ Het OIN is aangemeld en opgenomen in in ICD Codelist: (zie [https://docs.peppol.
 >Organisatie Indentificatie Nummer (OIN)
 >
 > The OIN is part of the Dutch standard ‘Digikoppeling’ and is used for identifying the organisations that take part in electronic message exchange with the Dutch Government. The OIN must also be included in the PKIo certificate.
-
