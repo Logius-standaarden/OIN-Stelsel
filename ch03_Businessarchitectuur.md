@@ -130,7 +130,7 @@ Een [=TSP=] geeft certificaten uit conform de eisen uit het PvE van PKIoverheid.
 
 ### OIN-houder
 
-De [=OIN-houder=] is een rechtspersoon met een publieke taak, die gebruik maakt van het OIN. Slechts een [=OIN-houder=] kan een [=SubOIN=] aanvragen voor een organisatie, organisatie-onderdeel of voorziening. De OIN houder is er verantwoordelijk voor dat de gegevens die gekoppeld aan zijn [=OIN=] en [=SubOIN=](s) juist zijn, en blijven.
+De [=OIN-houder=] is een rechtspersoon met een publieke taak, die gebruik maakt van het OIN. Slechts een [=OIN-houder=] kan een [=SubOIN=] aanvragen voor een organisatie, organisatie-onderdeel of voorziening. De OIN houder is er verantwoordelijk voor dat de gegevens die gekoppeld aan zijn [=OIN=] en [=SubOIN=] juist zijn, en blijven.
 
 In dit document gebruiken we de term [=OIN-houder=] voor een organisatie die is ingeschreven in het handelregister en OINs of SubOINs aanvraagt en beheert. De [[Voorwaarden Digikoppeling]] en [[Gebruiksvoorwaarden Digikoppeling]] heeft het niet over OIN-houders maar gebruiken de begrippen *[=afnemer=]* en [=gebruiker=].
 

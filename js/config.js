@@ -19,8 +19,8 @@ var respecConfig = {
   // subExplanation: "",
   addSectionLinks: true,
 
-  publishVersion: "2.0.2",
-  previousPublishVersion: "2.0.1",
+  publishVersion: "2.0.3",
+  previousPublishVersion: "2.0.2",
 
   // Als er een eerder gepubliceerde versie is, geef dan de datum daarvan op
   //previousPublishDate: "2017-05-31",
@@ -157,7 +157,7 @@ var respecConfig = {
       publisher: "Logius",
     },
     "PKI PvE": {
-      href: "https://www.logius.nl/sites/default/files/public/bestanden/diensten/PKIoverheid/PvE%20EN%20part3j%20v4.8%20DEF.pdf",
+      href: "https://www.logius.nl/sites/default/files/public/bestanden/diensten/PKIoverheid/PoR-2022/PKIoverheid%20Programme%20of%20Requirements%20v4.10%20-%20Part%203j%20Certificate%20Policy%20for%20Server%20certificates%20in%20Server%202020%20%28EV%20G1%29%20Domain.pdf",
       title: "Programma van Eisen Pkioverheid, deel 3j",
       publisher: "Logius",
     }
