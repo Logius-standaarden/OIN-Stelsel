@@ -1,48 +1,74 @@
 <!DOCTYPE html>
 <html lang="nl">
-
-<head>
-  <meta content="text/html; charset=utf-8" http-equiv="content-type">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="shortcut icon" type="image/x-icon"
-    href="https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/logius.ico" />
-  <title>OIN Stelsel</title>
-  <script src="js/config.js" class="remove"></script>
-  <!-- <script src="https://publicatie.centrumvoorstandaarden.nl/respec-tools/builds/respec-build.js" class="remove" async></script> -->
-  <script src="https://publicatie.centrumvoorstandaarden.nl/respec/builds/respec-logius.js" class="remove" async>
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+  <link href="https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/logius.ico" rel="shortcut icon" type="image/x-icon"/>
+  <title>
+   OIN Stelsel
+  </title>
+  <script class="remove" src="https://gitdocumentatie.logius.nl/publicatie/respec/organisation-config.js">
   </script>
-  <link rel="stylesheet" type="text/css" href="./media/style.css">
-</head>
-
-<body>
-  <section id='abstract' data-include-format="markdown" data-include="abstract.md"></section>
-  <section id='eerst' class="informative">
-    <aside class="note">
-      Voor dit gehele document geldt:<br><br>
-      De regels voor het gebruik van het OIN en SubOIN zijn beschreven in de volgende documenten:
-      <ul>
-        <li>[[Voorwaarden Digikoppeling]]</li>
-        <li>[[Gebruiksvoorwaarden Digikoppeling]]</li>
-        </ul>
-      Dit document is een <i>handreiking</i> en geeft een niet-normatieve beschrijving van de werking van het OIN stelsel.
-    </aside>
+  <script class="remove" src="js/config.js">
+  </script>
+  <script>
+   respecConfig = {...organisationConfig, ...respecConfig}; if (respecConfig.specStatus.toUpperCase() == "WV") {respecConfig.thisVersion = respecConfig.edDraftURI;}
+  </script>
+  <script async="" class="remove" src="https://gitdocumentatie.logius.nl/publicatie/respec/builds/respec-nlgov.js">
+  </script>
+  <link href="./media/style.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <section data-include="abstract.md" data-include-format="markdown" id="abstract">
   </section>
-  <section id='sotd'></section>
-
-  
-<section data-include-format="markdown" data-include="ch01_Inleiding.md"></section>
-<section data-include-format="markdown" data-include="ch02_Architectuurvisie.md"></section>
-<section data-include-format="markdown" data-include="ch03_Businessarchitectuur.md"></section>
-<section data-include-format="markdown" data-include="ch04_Applicatie-architectuur.md"></section>
-<section data-include-format="markdown" data-include="ch05_Het beheer van SubOINs in de [=COR=].md"></section>
-<section data-include-format="markdown" data-include="ch06_Data Architectuur.md"></section>
-<section data-include-format="markdown" data-include="ch07_Technologie-architectuur.md"></section>
-<section data-include-format="markdown" data-include="ch08_Bijlage A - Begrippen.md"></section>
-<section data-include-format="markdown" data-include="ch09_Bijlage B - Nuttige links.md"></section>
-  <section class="informative" data-include-format="markdown" data-include="OIN-SubOIN_in_PkioCert.md"></section>
-  <section id='conformance'></section>
-  <section id='tof'></section>
-  <section id="index"></section>
-</body>
-
+  <section class="informative" id="eerst">
+   <aside class="note">
+    Voor dit gehele document geldt:
+    <br/>
+    <br/>
+    De regels voor het gebruik van het OIN en SubOIN zijn beschreven in de volgende documenten:
+    <ul>
+     <li>
+      [[Voorwaarden Digikoppeling]]
+     </li>
+     <li>
+      [[Gebruiksvoorwaarden Digikoppeling]]
+     </li>
+    </ul>
+    Dit document is een
+    <i>
+     handreiking
+    </i>
+    en geeft een niet-normatieve beschrijving van de werking van het OIN stelsel.
+   </aside>
+  </section>
+  <section id="sotd">
+  </section>
+  <section data-include="ch01_Inleiding.md" data-include-format="markdown">
+  </section>
+  <section data-include="ch02_Architectuurvisie.md" data-include-format="markdown">
+  </section>
+  <section data-include="ch03_Businessarchitectuur.md" data-include-format="markdown">
+  </section>
+  <section data-include="ch04_Applicatie-architectuur.md" data-include-format="markdown">
+  </section>
+  <section data-include="ch05_Het beheer van SubOINs in de [=COR=].md" data-include-format="markdown">
+  </section>
+  <section data-include="ch06_Data Architectuur.md" data-include-format="markdown">
+  </section>
+  <section data-include="ch07_Technologie-architectuur.md" data-include-format="markdown">
+  </section>
+  <section data-include="ch08_Bijlage A - Begrippen.md" data-include-format="markdown">
+  </section>
+  <section data-include="ch09_Bijlage B - Nuttige links.md" data-include-format="markdown">
+  </section>
+  <section class="informative" data-include="OIN-SubOIN_in_PkioCert.md" data-include-format="markdown">
+  </section>
+  <section id="conformance">
+  </section>
+  <section id="tof">
+  </section>
+  <section id="index">
+  </section>
+ </body>
 </html>
