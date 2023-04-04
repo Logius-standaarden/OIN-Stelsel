@@ -12,6 +12,6 @@
 
 | Voorziening | url |
 | ---- | --- |
-| [=COR=] Web| [https://portaal.digikoppeling.nl/registers/](https://portaal.digikoppeling.nl/registers/)|
-| [=COR=] API - handleiding| [https://portaal.digikoppeling.nl/registers/corApi/index](https://portaal.digikoppeling.nl/registers/corApi/index)|
-| [=COR=] API - OpenAPI Specificatie| [https://portaal.digikoppeling.nl/registers/api/](https://portaal.digikoppeling.nl/registers/api/)|
+| [=COR=] Web| https://oinregister.logius.nl/oin-register |
+| [=COR=] API - handleiding| https://oinregister.logius.nl/documenten/api-documentatie |
+| [=COR=] API - OpenAPI Specificatie| https://portaal.digikoppeling.nl/registers/api/ |
