@@ -43,7 +43,7 @@ De door de [=SubOIN-beheerder=] uitgegeven SubOINs hebben een geldigheidsduur va
 
 ### Beëindigen
 
-Als het KvK-nummer of [=RSIN=] vervalt, vervalt het [=OIN=]. Als het [=OIN=] vervalt, mogen de daaraan gerelateerde SubOINs niet meer worden gebruikt, en moeten deze worden ingetrokken.
+Als het KVK-nummer of [=RSIN=] vervalt, vervalt het [=OIN=]. Als het [=OIN=] vervalt, mogen de daaraan gerelateerde SubOINs niet meer worden gebruikt, en moeten deze worden ingetrokken.
 
 ## SubOINs: Aanvraagformulieren
 

@@ -9,7 +9,7 @@ De lengte van het [=OIN=] is 20 posities, omdat dit wordt opgenomen in het *subj
 | **Element** | **Lengte**| **Waarde**|
 |---|---|---|
 | **Prefix**| 8 posities| Zie Prefix tabel|
-| **Hoofdnummer** | 8 of 9 posities | Identificerend nummer *Dit kan ook alfanumeriek zijn, afhankelijk van het geraadpleegde register.* uit een register. Als het hoofdnummer een [=KvKnummer=] is, is het hoofdnummer 8 posities lang. |
+| **Hoofdnummer** | 8 of 9 posities | Identificerend nummer *Dit kan ook alfanumeriek zijn, afhankelijk van het geraadpleegde register.* uit een register. Als het hoofdnummer een [=KVK-nummer=] is, is het hoofdnummer 8 posities lang. |
 | **Suffix**| 3 of 4 posities | Als het hoofdnummer 9 posities heeft dan is het suffix 000. Als het hoofdnummer 8 posities heeft dan is het suffix 0000.|
 
 
@@ -24,7 +24,7 @@ Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het r
 |------------|-----------------------------------------|---|
 | **00000001** | [=RSIN=]| Handelsregister |
 | **00000002** | Fi-nummer | Het fiscaal nummer wordt verstrekt door de Belastingdienst aan de organisatie zelf Het Fi-nummer kan worden gebruikt in het het geval voor onderdelen van de Staat der Nederlanden die niet ingeschreven in het Handelsregister zoals de Tweede Kamer der Staten-Generaal of de Algemene Rekenkamer. Het FI-nummer wordt verstrekt door de organisatie zelf |
-| **00000003** | [=KvK=] nummer| Handelsregister Het [=KvK=] nummer wordt gebruikt door private partijen in de communicatie met de overheid. Een nieuw [=OIN=] wordt altijd gebaseerd op het KvK nummer indien aanwwezig |
+| **00000003** | [=KVK-nummer=]| Handelsregister – Het [=KVK-nummer=] wordt gebruikt door private partijen in de communicatie met de overheid. Een nieuw [=OIN=] wordt altijd gebaseerd op het KVK-nummer indien aanwwezig |
 | **00000004** | subnummer | SubOIN register |
 | **00000005** | vrij | nog aan te wijzen |
 | **00000006** | Logius [=OIN=] Hoofdnummer | Door Logius uitgegeven [=OIN=] Hoofdnummers aan organisaties die in aanmerking komen voor een [=OIN=] maar waarvoor geen geschikt nummer uit de overige prefix categorieën beschikbaar is. (*) |
@@ -110,7 +110,7 @@ Voorbeeldresultaat van de CORAPI
         "oin": "00000004194049711000",
         "naam": "Logius (Digilevering Integrator)",
         "status": "Actief",
-        "kvkNummer": null,
+        "KVKNummer": null,
         "organisatieCode": null,
         "organisatieType": null,
         "afgifteDatum": "2017-08-23T22:00:00Z",
