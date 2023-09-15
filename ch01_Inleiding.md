@@ -4,14 +4,6 @@
 
 In dit document beschrijven we het doel en de werking van het OIN Stelsel. Het OIN is gestart als een noodzakelijk onderdeel van de Digikoppeling Standaard en is inmiddels een veel gebruikt identificatienummer binnen en maar ook buíten Digikoppeling. De regels van uitgifte en gebruik van het OIN staan beschreven in de *Voorwaarden Digikoppeling* en de *Gebruiksvoorwaarden Digikoppeling*. Daarnaast geeft Logius OINs en SubOINs uit en slaat de informatie hiervan op in het OIN register en ontsluit die met de *[=COR=]*, de Centrale OIN Raadpleegvoorziening. Dit geheel van regels en uitvoering noemen we het *OIN stelsel*.
 
-
-Dit document is te raadplegen via:
-- html (gepubliceerd): [https://publicatie.centrumvoorstandaarden.nl/dk/oin/](https://publicatie.centrumvoorstandaarden.nl/dk/oin/)
-- html (werkversie): [https://Logius-standaarden.github.io/OIN-Stelsel](https://Logius-standaarden.github.io/OIN-Stelsel)
-- html (snapshot): [https://Logius-standaarden.github.io/OIN-Stelsel/snapshot.html](https://Logius-standaarden.github.io/OIN-Stelsel/snapshot.html)
-- pdf: [https://github.com/Logius-standaarden/OIN-Stelsel/blob/master/OIN-Stelsel.pdf](https://github.com/Logius-standaarden/OIN-Stelsel/blob/master/OIN-Stelsel.pdf)
-- markdown (github): [https://github.com/Logius-standaarden/OIN-Stelsel](https://github.com/Logius-standaarden/OIN-Stelsel)
-
 ## Waarom dit document
 
 De `Voorwaarden Digikoppeling` en de `Digikoppeling Gebruiksvoorwaarden` hebben een juridisch karakter en beantwoorden waarschijnlijk niet elke vraag van gebruikers van een OIN. In dit document proberen we daarom de werking van het OIN stelsel met al haar facetten nader te beschrijven in de hoop die vragen te beantwoorden.

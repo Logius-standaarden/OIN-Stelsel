@@ -82,15 +82,18 @@ De [=COR=] Website retourneert een relevante attributen van een OIN-registratie.
 
 ### [=COR=] API
 
-Hieronder een voorbeeld van een REST-API call naar de [=COR=] API. In het voorbeeld wordt het OIN van de `Digilevering Integrator` opgevraagd, dit is een voorziening van Logius. Naast het OIN van de Digilevering Integrator, wordt ook een HAL referentie naar de SubOIN-Houder (in dit geval Logius) geretourneerd. Het valt op dat de [=COR=] API meer attributen vermeldt dan de [=COR=] website.
+Hieronder een voorbeeld van een REST-API call naar de [=COR=] API. In het voorbeeld wordt het OIN van de `Digilevering Integrator` opgevraagd, dit is een voorziening van Logius. Naast het OIN van de Digilevering Integrator, wordt ook een HAL referentie naar de SubOIN-Houder (in dit geval Logius) geretourneerd. Het gebruik van de API staat verder beschreven op de [COR API website](https://portaal.digikoppeling.nl/registers/corApi/index).
 
-Voorbeeldaanroep van de CORAPI
+<aside class="example">
+Voorbeeldaanroep van de COR API:
 
-```HTTP
+```
 https://portaal.digikoppeling.nl/registers/api/v1/organisaties?naam=Digilevering Integrator
 ```
-
-Voorbeeldresultaat van de CORAPI
+</aside>
+ 
+<aside class="example">
+Voorbeeldresultaat van de COR API:
 
 ```JSON
 {
@@ -128,4 +131,4 @@ Voorbeeldresultaat van de CORAPI
     }]
 }
 ```
-
+</aside>
