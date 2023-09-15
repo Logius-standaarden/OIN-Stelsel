@@ -84,15 +84,13 @@ Logius heeft sinds 2017 een aantal wijzigingen doorgevoerd in de ontsluiting van
 
 - in 2019 is aan het OIN register een aantal identificerende nummers toegevoegd, de BG codes voor gemeente en de CBS codes voor Waterschappen en Provincies. Deze gegevens zijn enkel via de [=COR=] API opvraagbaar.
 
-### Nieuwe voorstellen in 2020
-
 - in 2020 dient Logius een voorstel in dat mogelijk maakt dat *privaatrechtelijke partijen met een publieke taak* en *privaatrechtelijke partijen ten behoeve van (SAAS-)dienstverlening* aan hun publieke klanten SubOINs’s kunnen aanvragen.
 
 - in 2020 wordt voor het UZI register prefix '00000009' gereserveerd
 
-### nieuwe vastgestelde versie in 2021
+- De nieuwe voorstellen zijn na openbare consultatie vastgesteld door het Technisch Overleg Digikoppeling.  Op 1 januari 2021 zijn de [[Voorwaarden Digikoppeling]] en de [[Gebruiksvoorwaarden Digikoppeling]] gepubliceerd.
 
-De nieuwe voorstellen zijn na openbare consultatie vastgesteld door het Technisch Overleg Digikoppeling.  Op 1 januari 2021 zijn de [[Voorwaarden Digikoppeling]] en de [[Gebruiksvoorwaarden Digikoppeling]] gepubliceerd.
+- in 2023 is besloten het OIN te baseren op het KvK nummer. Alleen als een organisatie _geen_ KvK nummer heeft wordt het [=OIN=] gebaseerd op het [=RSIN=]. Hiermee komt het [=OIN=] overeen met het [=HRN=] wat een gebruiker zelf kan afleiden. Veel uitgegeven [=OIN=] nummers waren al gebaseerd op het KvK nummer omdat dat in de [=COR=] software al was ingebouwd. Bestaande nummers worden niet aangepast. 
 
 ## Leeswijzer
 

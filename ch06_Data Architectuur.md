@@ -24,10 +24,10 @@ Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het r
 |------------|-----------------------------------------|---|
 | **00000001** | [=RSIN=]| Handelsregister |
 | **00000002** | Fi-nummer | Het fiscaal nummer wordt verstrekt door de Belastingdienst aan de organisatie zelf Het Fi-nummer kan worden gebruikt in het het geval voor onderdelen van de Staat der Nederlanden die niet ingeschreven in het Handelsregister zoals de Tweede Kamer der Staten-Generaal of de Algemene Rekenkamer. Het FI-nummer wordt verstrekt door de organisatie zelf |
-| **00000003** | [=KvKnummer=]| Handelsregister Het [=KvKnummer=] wordt gebruikt door private partijen in de communicatie met de overheid. |
+| **00000003** | [=KvK=] nummer| Handelsregister Het [=KvK=] nummer wordt gebruikt door private partijen in de communicatie met de overheid. Een nieuw [=OIN=] wordt altijd gebaseerd op het KvK nummer indien aanwwezig |
 | **00000004** | subnummer | SubOIN register |
 | **00000005** | vrij | nog aan te wijzen |
-| **00000006** | Logius OIN Hoofdnummer | Door Logius uitgegeven OIN Hoofdnummers aan organisaties die in aanmerking komen voor een OIN maar waarvoor geen geschikt nummer uit de overige prefix categorieën beschikbaar is. (*) |
+| **00000006** | Logius [=OIN=] Hoofdnummer | Door Logius uitgegeven [=OIN=] Hoofdnummers aan organisaties die in aanmerking komen voor een [=OIN=] maar waarvoor geen geschikt nummer uit de overige prefix categorieën beschikbaar is. (*) |
 | **00000007** | BRIN nummer | De Basisregistratie Instellingen (BRIN) is een register van onderwijsinstellingen dat door DUO wordt beheerd in opdracht van het Ministerie van OCW.|
 | **00000008** | Buitenlandse nummers| Op verzoek van een [=SubOIN-beheerder=] door Logius uitgegeven nummers voor buitenlandse organisaties die niet in het Handelsregister zijn ingeschreven|
 | **00000009** | UZI-nummer| Het Unieke Zorgverlener Identificatie Register (UZI-register) is de organisatie die de unieke identificatie van zorgaanbieders en indicatieorganen in het elektronisch verkeer mogelijk maakt.|
