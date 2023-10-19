@@ -18,7 +18,7 @@ Onderstaande plaat beschrijft de functionaliteiten van de [=COR=] op hoofdlijnen
 | 7| **Centrale OIN Raadpleegvoorziening Module** |
 | 7A | **OIN Raadpleegapplicatie** De applicatie handelt de verzoeken van het OIN Raadpleegvoorziening portaal en de SubOINs Raadpleegservice af. De applicatie bevraagt het OIN register en retourneert zoekresultaten.|
 | 7B | **OIN-Beheerapplicatie** De applicatie handelt de acties van het OIN-registratieportaal af. De applicatie registreert organisaties en organisatieonderdelen in het OIN-register . |
-| 8| **Controle op rechtspersoon** Bij het aanmaken van een registratie in het OIN register worden de gegevens van een geregistreerde Rechtspersoon online gecontroleerd in het Handelsregister. Daarnaast worden periodiek alle organisaties met een [=KvKnummer=] of [=RSIN=] gevalideerd. Indien een Rechtspersoon is opgeheven in het Handelsregister wordt de OIN registratie (en eventueel hieraan gekoppelde SubOINs) ingetrokken, |
+| 8| **Controle op rechtspersoon** Bij het aanmaken van een registratie in het OIN register worden de gegevens van een geregistreerde Rechtspersoon online gecontroleerd in het Handelsregister. Daarnaast worden periodiek alle organisaties met een [=KVK-nummer=] of [=RSIN=] gevalideerd. Indien een Rechtspersoon is opgeheven in het Handelsregister wordt de OIN registratie (en eventueel hieraan gekoppelde SubOINs) ingetrokken, |
 ||**Primaire Registers**|
 | 9| **OIN en SubOIN-register** het OIN en SubOIN worden in één register vastgelegd |
 | 10 | **Handelsregister** Het Handelsregister is de primaire bron voor de [=COR=]. |

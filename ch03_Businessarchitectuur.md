@@ -18,9 +18,9 @@ Het [=OIN=] maakt een onderscheid in [=gebruikers=] en [=afnemers=]. Beiden kunn
 
 Bedrijven en privaatrechtelijke instellingen die digitaal communiceren met de overheid hebben daarvoor in veel gevallen een identificerend nummer nodig. Dit identificerende nummer kan op twee manieren verkregen worden:
 
-1. Bij Logius: Door een [=OIN=] (Organisatie Identificatie Nummer) aan te vragen bij Logius via een aanvraagformulier op Logius.nl. Het [=OIN=] wordt afgeleid van het KvK-nummer uit het Handelsregister. Het [=OIN=] wordt vastgelegd in een register dat publiek raadpleegbaar is via de centrale [=OIN=] Raadpleegvoorziening ([https://portaal.digikoppeling.nl/registers/](https://portaal.digikoppeling.nl/registers/)) via een website en een API. De regels uit de [[Voorwaarden Digikoppeling]] en de [[Gebruiksvoorwaarden Digikoppeling]] zijn van toepassing. Er zijn geen kosten verbonden aan deze registratie.
+1. Bij Logius: Door een [=OIN=] (Organisatie Identificatie Nummer) aan te vragen bij Logius via een aanvraagformulier op Logius.nl. Het [=OIN=] wordt afgeleid van het KVK-nummer uit het Handelsregister. Alleen wanneer een organisatie geen KVK-nummer heeft wordt het OIN gebaseerd op het [=RSIN=]. Het [=OIN=] wordt vastgelegd in een register dat publiek raadpleegbaar is via de centrale [=OIN=] Raadpleegvoorziening ([https://portaal.digikoppeling.nl/registers/](https://portaal.digikoppeling.nl/registers/)) via een website en een API. De regels uit de [[Voorwaarden Digikoppeling]] en de [[Gebruiksvoorwaarden Digikoppeling]] zijn van toepassing. Er zijn geen kosten verbonden aan deze registratie.
 
-2. Bij de [=TSP=]: Bij de aanvraag van een PKIoverheid-certificaat zal de Trust Service Provider ([=TSP=]), bij ontbreken van een [=OIN=], het identificerend nummer bij de creatie van het certificaat zelf afleiden op basis van het KvK-nummer uit het Handelsregister op gelijke wijze als bij de afleiding van het [=OIN=]. Dit nummer wordt een [=HRN=] genoemd.  Er vindt echter geen publiek raadpleegbare registratie plaats. Voor de werking van het dataverkeer met de overheid is er verder geen verschil.
+2. Bij de [=TSP=]: Bij de aanvraag van een PKIoverheid-certificaat zal de Trust Service Provider ([=TSP=]), bij ontbreken van een [=OIN=], het identificerend nummer bij de creatie van het certificaat zelf afleiden op basis van het KVK-nummer of eventueel op basis van het [=RSIN=] op gelijke wijze als bij de afleiding van het [=OIN=]. Dit nummer wordt een [=HRN=] genoemd.  Er vindt echter geen publiek raadpleegbare registratie plaats. Voor de werking van het dataverkeer met de overheid is er verder geen verschil.
 
 ## Wat is een SubOIN
 
@@ -44,7 +44,7 @@ In 2017 zijn - naast duidelijker uitgeschreven juridische kaders- de volgende aa
 
 - de mogelijkheid voor houders van sectorregistraties om op te gaan treden als [=SubOIN-beheerder=] en op die manier door hen geregistreerde organisaties die geen eigen (Nederlandse) rechtspersoonlijkheid bezitten ook van SubOINs’s te voorzien.
 
-- private partijen, die staan geregistreerd bij de KvK, krijgen de mogelijkheid om zich ook te laten registreren in de [=COR=] waarbij er een OIN afgeleid wordt van het KvK-nummer toegekend en de organisatiegegevens vanuit het Handelsregister worden overgenomen.
+- private partijen, die staan geregistreerd bij de KVK, krijgen de mogelijkheid om zich ook te laten registreren in de [=COR=] waarbij er een OIN afgeleid wordt van het KVK-nummer toegekend en de organisatiegegevens vanuit het Handelsregister worden overgenomen.
 
 - Met het doorvoeren van het nieuwe beleid is het begrip OIN van *Overheids* IdentificatieNummer gewijzigd naar *Organisatie* IdentificatieNummer.
 
@@ -116,7 +116,7 @@ Logius beheert de Centrale OIN Raadpleegvoorziening ([=COR=]). Logius Team Inter
 
 ### Registerhouder overheidsregister
 
-De registerhouder beheert een overheidsregister en waarborgt de kwaliteit van de te raadplegen nummers en bijbehorende gegevens. Voor elke entiteit die is opgenomen in het overheidsregister is duidelijk wie de verantwoordelijke rechtspersoon is. De verantwoordelijke rechtspersoon is herkenbaar aan de hand van het identificerende nummer ([=RSIN=], [=KvKnummer=] of [=OIN=]). Het register heeft geborgd dat als de rechtspersoon ophoudt te bestaan, de registratie van de entiteit vervalt.
+De registerhouder beheert een overheidsregister en waarborgt de kwaliteit van de te raadplegen nummers en bijbehorende gegevens. Voor elke entiteit die is opgenomen in het overheidsregister is duidelijk wie de verantwoordelijke rechtspersoon is. De verantwoordelijke rechtspersoon is herkenbaar aan de hand van het identificerende nummer ([=RSIN=], [=KVK-nummer=] of [=OIN=]). Het register heeft geborgd dat als de rechtspersoon ophoudt te bestaan, de registratie van de entiteit vervalt.
 
 ### SubOIN-beheerder
 
@@ -218,4 +218,3 @@ Het OIN is aangemeld en opgenomen in in ICD Codelist: (zie [https://docs.peppol.
 >Organisatie Indentificatie Nummer (OIN)
 >
 > The OIN is part of the Dutch standard ‘Digikoppeling’ and is used for identifying the organisations that take part in electronic message exchange with the Dutch Government. The OIN must also be included in the PKIo certificate.
-
