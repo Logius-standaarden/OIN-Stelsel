@@ -1,7 +1,5 @@
 # Het OIN stelsel
 
-Dit document is te raadplegen via:
-- html (gepubliceerd): [https://publicatie.centrumvoorstandaarden.nl/dk/oin/](https://publicatie.centrumvoorstandaarden.nl/dk/oin/)
-- html (werkversie): [https://Logius-standaarden.github.io/OIN-Stelsel](https://Logius-standaarden.github.io/OIN-Stelsel)
-- html (snapshot): [https://Logius-standaarden.github.io/OIN-Stelsel/snapshot.html](https://Logius-standaarden.github.io/OIN-Stelsel/snapshot.html)
-- pdf: [https://github.com/Logius-standaarden/OIN-Stelsel/blob/master/OIN-Stelsel.pdf](https://github.com/Logius-standaarden/OIN-Stelsel/blob/master/OIN-Stelsel.pdf)
+- Gepubliceerde versie: https://gitdocumentatie.logius.nl/publicatie/dk/oin/
+- Werkversie: https://logius-standaarden.github.io/OIN-Stelsel/
+- PDF: https://gitdocumentatie.logius.nl/publicatie/dk/oin/OIN-Stelsel.pdf
