@@ -17,9 +17,10 @@ var respecConfig = {
   nl_markdownCodeClass: "code",
   nl_markdownTableClass: "dkkvs",
   previousPublishVersion: "2.0.3",
+  previousPublishDate: "2020-03-31",
   pubDomain: "dk",
-  publishDate: "2020-03-31",
-  publishVersion: "2.0.4",
+  publishDate: "2023-11-30",
+  publishVersion: "2.1.0",
   shortName: "oin",
   specStatus: "WV",
   specType: "HR"
