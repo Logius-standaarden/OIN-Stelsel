@@ -7,7 +7,7 @@ Onderstaande beschrijving is voorgelegd aan de TSP's voor verificatie.
 </aside>
 
 ## Inleiding
-Dit hoofdstuk beschrijft Invulling (Sub)OIN en Organisatienaam, en –onderdeel/voorziening/samenwerking in velden van het PKIO certificaat [[Eisen Pkioverheid]] [[PKI PvE]] )
+Dit hoofdstuk beschrijft Invulling (Sub)OIN en Organisatienaam, en –onderdeel/voorziening/samenwerking in velden van het PKIO certificaat [[Eisen Pkioverheid]] (deel 3g).
 
 | Field/Attribute  | C\*  |  |  |
 | --- | --- | --- | --- |
