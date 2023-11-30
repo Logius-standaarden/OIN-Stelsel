@@ -22,6 +22,6 @@ var respecConfig = {
   publishDate: "2023-11-30",
   publishVersion: "2.1.0",
   shortName: "oin",
-  specStatus: "WV",
+  specStatus: "DEF",
   specType: "HR"
 };
