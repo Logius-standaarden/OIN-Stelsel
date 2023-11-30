@@ -16,10 +16,10 @@ var respecConfig = {
   github: "https://github.com/Logius-standaarden/OIN-Stelsel",
   nl_markdownCodeClass: "code",
   nl_markdownTableClass: "dkkvs",
-  previousPublishVersion: "2.0.2",
+  previousPublishVersion: "2.0.3",
   pubDomain: "dk",
   publishDate: "2020-03-31",
-  publishVersion: "2.0.3",
+  publishVersion: "2.0.4",
   shortName: "oin",
   specStatus: "WV",
   specType: "HR"
