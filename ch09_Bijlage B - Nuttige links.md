@@ -1,11 +1,11 @@
-# Bijlage B - Nuttige links
+# Nuttige links
 
 
 
 | Documentatie | url |
 | --- | --- |
-| Voorwaarden Digikoppeling  | [[[Voorwaarden Digikoppeling]]]|
-| Digikoppeling Gebruiksvoorwaarden |[[[Gebruiksvoorwaarden Digikoppeling]]]|
+| Voorwaarden Digikoppeling  | [[[[DK-Voorwaarden]]]]|
+| Digikoppeling Gebruiksvoorwaarden |[[[[DK-Gebruiksvoorwaarden]]]]|
 | Informatie over OIN op Logius |[https://www.logius.nl/diensten/oin](https://www.logius.nl/diensten/oin)|
 
 <br>

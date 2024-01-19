@@ -47,7 +47,7 @@ Als het KVK-nummer of [=RSIN=] vervalt, vervalt het [=OIN=]. Als het [=OIN=] ver
 
 ## SubOINs: Aanvraagformulieren
 
-De [=OIN-houder=] die SubOINs aanvraagt voor organisatie(s) of organisatieonderdelen, zal het aanvraagformulier moeten invullen en ondertekenen. Daarop zijn ook de [[Voorwaarden Digikoppeling]] en/of de [[Gebruiksvoorwaarden Digikoppeling]] van toepassing. De spelregels uit dit document worden opgenomen binnen de aan te passen voorwaarden.De [=OIN-houder=] verklaart zich op het formulier juridisch verantwoordelijk voor het gebruik van het [=OIN=] door de houder van het [=OIN=].
+De [=OIN-houder=] die SubOINs aanvraagt voor organisatie(s) of organisatieonderdelen, zal het aanvraagformulier moeten invullen en ondertekenen. Daarop zijn ook de [[[DK-Voorwaarden]]] en/of de [[[DK-Gebruiksvoorwaarden]]] van toepassing. De spelregels uit dit document worden opgenomen binnen de aan te passen voorwaarden.De [=OIN-houder=] verklaart zich op het formulier juridisch verantwoordelijk voor het gebruik van het [=OIN=] door de houder van het [=OIN=].
 
 ### Registerhouders van overheidsregisters
 

@@ -16,9 +16,9 @@ Het [=OIN=] maakt een onderscheid in [=gebruikers=] en [=afnemers=]. Beiden kunn
 
 ## Op welke manier kan een organisatie een OIN verkrijgen
 
-Bedrijven en privaatrechtelijke instellingen die digitaal communiceren met de overheid hebben daarvoor in veel gevallen een identificerend nummer nodig. Dit identificerende nummer kan op twee manieren verkregen worden:
+Organisaties die digitaal communiceren met of binnen de overheid hebben daarvoor in veel gevallen een identificerend nummer nodig. Dit identificerende nummer kan op twee manieren verkregen worden:
 
-1. Bij Logius: Door een [=OIN=] (Organisatie Identificatie Nummer) aan te vragen bij Logius via een aanvraagformulier op Logius.nl. Het [=OIN=] wordt afgeleid van het KVK-nummer uit het Handelsregister. Alleen wanneer een organisatie geen KVK-nummer heeft wordt het OIN gebaseerd op het [=RSIN=]. Het [=OIN=] wordt vastgelegd in een register dat publiek raadpleegbaar is via de centrale [=OIN=] Raadpleegvoorziening https://oinregister.logius.nl/ via een website en een API. De regels uit de [[Voorwaarden Digikoppeling]] en de [[Gebruiksvoorwaarden Digikoppeling]] zijn van toepassing. Er zijn geen kosten verbonden aan deze registratie.
+1. Bij Logius: Door een [=OIN=] (Organisatie Identificatie Nummer) aan te vragen bij Logius via een aanvraagformulier op Logius.nl. Het [=OIN=] wordt afgeleid van het KVK-nummer uit het Handelsregister. Alleen wanneer een organisatie geen KVK-nummer heeft wordt het OIN gebaseerd op het [=RSIN=]. Het [=OIN=] wordt vastgelegd in een register dat publiek raadpleegbaar is via de centrale [=OIN=] Raadpleegvoorziening https://oinregister.logius.nl/ via een website en een API. De regels uit de [[[DK-Voorwaarden]]] en de [[[DK-Gebruiksvoorwaarden]]] zijn van toepassing. Er zijn geen kosten verbonden aan deze registratie.
 
 2. Bij de [=TSP=]: Bij de aanvraag van een PKIoverheid-certificaat zal de Trust Service Provider ([=TSP=]), bij ontbreken van een [=OIN=], het identificerend nummer bij de creatie van het certificaat zelf afleiden op basis van het KVK-nummer of eventueel op basis van het [=RSIN=] op gelijke wijze als bij de afleiding van het [=OIN=]. Dit nummer wordt een [=HRN=] genoemd.  Er vindt echter geen publiek raadpleegbare registratie plaats. Voor de werking van het dataverkeer met de overheid is er verder geen verschil.
 
@@ -132,7 +132,7 @@ Een [=TSP=] geeft certificaten uit conform de eisen uit het PvE van PKIoverheid.
 
 De [=OIN-houder=] is een rechtspersoon met een publieke taak, die gebruik maakt van het OIN. Slechts een [=OIN-houder=] kan een [=SubOIN=] aanvragen voor een organisatie, organisatie-onderdeel of voorziening. De OIN houder is er verantwoordelijk voor dat de gegevens die gekoppeld aan zijn [=OIN=] en [=SubOIN=] juist zijn, en blijven.
 
-In dit document gebruiken we de term [=OIN-houder=] voor een organisatie die is ingeschreven in het handelregister en OINs of SubOINs aanvraagt en beheert. De [[Voorwaarden Digikoppeling]] en [[Gebruiksvoorwaarden Digikoppeling]] heeft het niet over OIN-houders maar gebruiken de begrippen *[=afnemer=]* en [=gebruiker=].
+In dit document gebruiken we de term [=OIN-houder=] voor een organisatie die is ingeschreven in het handelregister en OINs of SubOINs aanvraagt en beheert. De [[[DK-Voorwaarden]]] en [[[DK-Gebruiksvoorwaarden]]] heeft het niet over OIN-houders maar gebruiken de begrippen *[=afnemer=]* en [=gebruiker=].
 
 ### Beheerder PvE PKIoverheid
 
@@ -142,7 +142,7 @@ Logius PKIoverheid is beheerder van het Programma van Eisen van PKIoverheid en *
 
 Aansluitend op de beschrijving en uitleg van de rollen van betrokken partijen in het vorige hoofdstuk worden de kernbegrippen in de juridische context toegelicht.
 
-Er van uitgaande dat het OIN voorlopig geen wettelijke grondslag krijgt zijn de [[Voorwaarden Digikoppeling]] en de OIN-formulieren de aangewezen plaats om de spelregels voor de betrokken partijen te definiëren.
+Er van uitgaande dat het OIN voorlopig geen wettelijke grondslag krijgt zijn de [[[DK-Voorwaarden]]] en de OIN-formulieren de aangewezen plaats om de spelregels voor de betrokken partijen te definiëren.
 
 ### OIN-voorwaarden en OIN–formulieren
 
@@ -171,7 +171,7 @@ Organisaties, organisatieonderdelen en/of voorzieningen die niet in een aangeslo
 
 ### OIN-houder
 
-De [=OIN-houder=] is een rechtspersoon met een publieke taak die gebruik maakt van het OIN. Slechts de [=OIN-houder=] kan een OIN aanvragen voor een organisatie, een organisatieonderdeel of een voorziening die onder zijn juridische verantwoordelijkheid valt. De [[Voorwaarden Digikoppeling]] en [[Gebruiksvoorwaarden Digikoppeling]] heeft het niet over OIN-houders maar gebruiken de begrippen [=afnemer=] en gebruiker. De [=OIN-houder=] zal zich ervan moeten vergewissen dat hij middels juridische afspraken – zoals bijvoorbeeld statuten, een overeenkomst, een inschrijving in een register en/of een mandaatbesluit – juridische verantwoordelijkheid kan dragen voor het handelen van de organisatie of organisatieonderdeel, die gaat beschikken over een OIN. Een eis is dat de functionaris, die de aanvraag voor een OIN doet, tekenbevoegd is.
+De [=OIN-houder=] is een rechtspersoon met een publieke taak die gebruik maakt van het OIN. Slechts de [=OIN-houder=] kan een OIN aanvragen voor een organisatie, een organisatieonderdeel of een voorziening die onder zijn juridische verantwoordelijkheid valt. De [[[DK-Voorwaarden]]] en [[[DK-Gebruiksvoorwaarden]]] heeft het niet over OIN-houders maar gebruiken de begrippen [=afnemer=] en gebruiker. De [=OIN-houder=] zal zich ervan moeten vergewissen dat hij middels juridische afspraken – zoals bijvoorbeeld statuten, een overeenkomst, een inschrijving in een register en/of een mandaatbesluit – juridische verantwoordelijkheid kan dragen voor het handelen van de organisatie of organisatieonderdeel, die gaat beschikken over een OIN. Een eis is dat de functionaris, die de aanvraag voor een OIN doet, tekenbevoegd is.
 
 De [=OIN-houder=] heeft een zorgplicht met betrekking tot het handelen door de houder van het [=OIN=], voor zover dit handelen betrekking heeft op de elektronische berichtenuitwisseling waarbij gebruik wordt gemaakt van het [=OIN=] en bijbehorende [=SubOIN=]s.
 
