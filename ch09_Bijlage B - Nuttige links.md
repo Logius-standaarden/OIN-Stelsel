@@ -1,11 +1,11 @@
-# Bijlage B - Nuttige links
+# Nuttige links
 
 
 
 | Documentatie | url |
 | --- | --- |
-| Voorwaarden Digikoppeling  | [[[Voorwaarden Digikoppeling]]]|
-| Digikoppeling Gebruiksvoorwaarden |[[[Gebruiksvoorwaarden Digikoppeling]]]|
+| Voorwaarden Digikoppeling  | [[[[DK-Voorwaarden]]]]|
+| Digikoppeling Gebruiksvoorwaarden |[[[[DK-Gebruiksvoorwaarden]]]]|
 | Informatie over OIN op Logius |[https://www.logius.nl/diensten/oin](https://www.logius.nl/diensten/oin)|
 
 <br>
@@ -14,4 +14,4 @@
 | ---- | --- |
 | [=COR=] Web| https://oinregister.logius.nl/oin-register |
 | [=COR=] API - handleiding| https://oinregister.logius.nl/documenten/api-documentatie |
-| [=COR=] API - OpenAPI Specificatie| https://portaal.digikoppeling.nl/registers/api/ |
+| [=COR=] API - OpenAPI Specificatie| https://oinregister.logius.nl/api/v1/openapi.json |

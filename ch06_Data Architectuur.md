@@ -82,7 +82,7 @@ De [=COR=] Website retourneert een relevante attributen van een OIN-registratie.
 
 ### [=COR=] API
 
-Hieronder een voorbeeld van een REST-API call naar de [=COR=] API. In het voorbeeld wordt het OIN van de `Digilevering Integrator` opgevraagd, dit is een voorziening van Logius. Naast het OIN van de Digilevering Integrator, wordt ook een HAL referentie naar de SubOIN-Houder (in dit geval Logius) geretourneerd. Het gebruik van de API staat verder beschreven op de [COR API website](https://portaal.digikoppeling.nl/registers/corApi/index).
+Hieronder een voorbeeld van een REST-API call naar de [=COR=] API. In het voorbeeld wordt het OIN van de `Digilevering Integrator` opgevraagd, dit is een voorziening van Logius. Naast het OIN van de Digilevering Integrator, wordt ook een HAL referentie naar de SubOIN-Houder (in dit geval Logius) geretourneerd. Het gebruik van de API staat verder beschreven op de [COR API website](https://oinregister.logius.nl/documenten/api-documentatie).
 
 <aside class="example">
 Voorbeeldaanroep van de COR API:
