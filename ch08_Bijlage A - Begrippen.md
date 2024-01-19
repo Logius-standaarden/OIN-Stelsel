@@ -1,4 +1,4 @@
-# Bijlage A - Begrippen
+# Begrippen
 
 
 

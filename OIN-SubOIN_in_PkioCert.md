@@ -1,4 +1,4 @@
-# Bijlage C - Invulling OIN en Naam in het  PKIoverheidcertificaat
+# Invulling OIN en Naam in het  PKIoverheidcertificaat
 
 <aside class="note">
 
@@ -7,7 +7,7 @@ Onderstaande beschrijving is voorgelegd aan de TSP's voor verificatie.
 </aside>
 
 ## Inleiding
-Dit hoofdstuk beschrijft Invulling (Sub)OIN en Organisatienaam, en –onderdeel/voorziening/samenwerking in velden van het PKIO certificaat [[Eisen Pkioverheid]] (deel 3g).
+Dit hoofdstuk beschrijft Invulling (Sub)OIN en Organisatienaam, en –onderdeel/voorziening/samenwerking in velden van het PKIO certificaat, zie [[[PKIO-PvE]]] deel 3g.
 
 | Field/Attribute  | C\*  |  |  |
 | --- | --- | --- | --- |

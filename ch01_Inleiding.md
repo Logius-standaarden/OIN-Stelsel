@@ -58,7 +58,7 @@ In 2010 werd door de KVK door een wetswijziging het nieuwe Handelsregister in ge
 
 ### OIN 2016: *Organisatie* Identificatienummer
 
-In 2016 zijn na brede afstemming met gebruikers de regels verduidelijkt van wie in aanmerking kwam voor een OIN en SubOINs.  De onderbouwing van de regels werden vastgelegd in het document [OIN stelsel v1](#inleiding). De spelregels van het OIN zijn vastgelegd in de [[Voorwaarden Digikoppeling]] en de [[Gebruiksvoorwaarden Digikoppeling]].
+In 2016 zijn na brede afstemming met gebruikers de regels verduidelijkt van wie in aanmerking kwam voor een OIN en SubOINs.  De onderbouwing van de regels werden vastgelegd in het document [OIN stelsel v1](#inleiding). De spelregels van het OIN zijn vastgelegd in de [[[DK-Voorwaarden]]] en de [[[DK-Gebruiksvoorwaarden]]].
 
 <aside class="note">
 Sinds de wijziging van 2016 staat de afkorting voor OIN voor <strong>Organisatie</strong> Identificatienummer.
@@ -80,7 +80,7 @@ Logius heeft sinds 2017 een aantal wijzigingen doorgevoerd in de ontsluiting van
 
 - in 2020 wordt voor het UZI register prefix '00000009' gereserveerd
 
-- De nieuwe voorstellen zijn na openbare consultatie vastgesteld door het Technisch Overleg Digikoppeling.  Op 1 januari 2021 zijn de [[Voorwaarden Digikoppeling]] en de [[Gebruiksvoorwaarden Digikoppeling]] gepubliceerd.
+- De nieuwe voorstellen zijn na openbare consultatie vastgesteld door het Technisch Overleg Digikoppeling.  Op 1 januari 2021 zijn de [[[DK-Voorwaarden]]] en de [[[DK-Gebruiksvoorwaarden]]] gepubliceerd.
 
 - in 2023 is besloten het OIN te baseren op het KVK-nummer. Alleen als een organisatie _geen_ KVK-nummer heeft wordt het [=OIN=] gebaseerd op het [=RSIN=]. Hiermee komt het [=OIN=] overeen met het [=HRN=] wat een gebruiker zelf kan afleiden. Veel uitgegeven [=OIN=] nummers waren al gebaseerd op het KVK-nummer omdat dat in de [=COR=] software al was ingebouwd. Bestaande nummers worden niet aangepast. 
 
