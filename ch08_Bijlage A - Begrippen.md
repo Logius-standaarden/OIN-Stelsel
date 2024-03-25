@@ -24,7 +24,6 @@
 |**Prefix**|de eerste 8 posities van het OIN komen overeen met een unieke code voor een uniek identificerend nummer uit een bronregister.|
 |**Prefix tabel**|mapping tussen een unieke code en het identificerende nummer uit een bronregister (b.v. het [=RSIN=] nummer).|
 |**<dfn>RSIN</dfn>**|Alle rechtspersonen en samenwerkingsverbanden, zoals bv's, verenigingen, stichtingen, vof's en maatschappen (eenmanszaken niet) krijgen bij inschrijving bij de KVK naast een KVK-nummer ook een Rechtspersonen en Samenwerkingsverbanden Informatienummer (RSIN). Dit nummer wordt gebruikt om gegevens uit te wisselen met andere (overheids)organisaties, zoals de Belastingdienst (bron KVK). Het [=RSIN=] is identiek aan het fiscale nummer.|
-|**Voorziening**|De implementatie / fysieke realisatie van een systeem waarmee informatie of diensten daadwerkelijk geleverd worden, voorbeelden van voorzieningen zijn de Basisregistraties, MijnOverheid en Digilevering.|
-
+|**Voorziening**| Groepering van services die aan afnemers worden aangeboden, met als doel het bevorderen van uniformiteit en efficiëntie binnen de overheid. Overgenomen van NORA begrip [Voorziening](https://www.noraonline.nl/wiki/Voorziening_(begrip)) |
 
 
