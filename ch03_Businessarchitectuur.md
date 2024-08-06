@@ -132,7 +132,7 @@ De [=SubOIN-beheerder=] draagt zorg voor de registratie van SubOINs voor organis
 
 ### Certificatiedienstverlener (TSP)
 
-Een [=TSP=] geeft certificaten uit conform de eisen uit het PvE van PKIoverheid. Daarmee zijn zij verantwoordelijk voor de betrouwbaarheid van de genoemde certificaten. De [=TSP=]'s doen met het oog op het uitgeven van een certificaat onderzoek naar de identiteit van de organisatie en de tekenbevoegdheid van de aanvragers van een certificaat. De voorwaarden hiervoor zijn beschreven in het PvE PKIo PvE. Tevens controleren zij de identiteit van de aanvrager op grond van een face to face controle. De [=TSP=] raadpleegt het OIN van de aanvrager via de [=COR=] en neemt dit nummer en naam op in het PKIoverheid certificaat.
+Een [=TSP=] geeft certificaten uit conform de eisen uit het PvE van PKIoverheid. Daarmee zijn zij verantwoordelijk voor de betrouwbaarheid van de genoemde certificaten. De [=TSP=]'s doen met het oog op het uitgeven van een certificaat onderzoek naar de identiteit van de organisatie en de tekenbevoegdheid van de aanvragers van een certificaat. De voorwaarden hiervoor zijn beschreven in het PvE PKIo. Tevens controleren zij de identiteit van de aanvrager op grond van een face to face controle. De [=TSP=] raadpleegt het OIN van de aanvrager via de [=COR=] en neemt dit nummer en naam op in het PKIoverheid certificaat.
 
 ### OIN-houder
 
