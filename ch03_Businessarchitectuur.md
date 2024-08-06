@@ -34,62 +34,6 @@ Het [=SubOIN=] is aan te vragen door organisaties die voor het uitvoeren van een
 
 Daarnaast kan Logius [=SubOIN-beheerders=] aanwijzen die een [=SubOIN=] aanvragen voor partijen die als onderdeel van hun dienstverlening aan de overheid een uniek identificerend nummer nodig hebben en het OIN nummer hiervoor niet kunnen aanvragen.
 
-## Wijzigingen in het OIN Stelsel sinds 2006
-
-Sinds het onstaan van het OIN is een aantal wijzigingen doorgevoerd in de toekenning en het gebruik van het OIN. De belangrijkste wijzingen geven we hieronder weer:
-
-In 2017 zijn - naast duidelijker uitgeschreven juridische kaders- de volgende aanpassingen in de OIN regels uitgevoerd:
-
-- de mogelijkheid voor organisaties met publieke rechtspersoonlijkheid om SubOINs aan te vragen voor aan hen gerelateerde organisatieonderdelen, voorzieningen en samenwerkingsverbanden
-
-- de mogelijkheid voor houders van sectorregistraties om op te gaan treden als [=SubOIN-beheerder=] en op die manier door hen geregistreerde organisaties die geen eigen (Nederlandse) rechtspersoonlijkheid bezitten ook van SubOINs’s te voorzien.
-
-- private partijen, die staan geregistreerd bij de KVK, krijgen de mogelijkheid om zich ook te laten registreren in de [=COR=] waarbij er een OIN afgeleid wordt van het KVK-nummer toegekend en de organisatiegegevens vanuit het Handelsregister worden overgenomen.
-
-- Met het doorvoeren van het nieuwe beleid is het begrip OIN van *Overheids* IdentificatieNummer gewijzigd naar *Organisatie* IdentificatieNummer.
-
-In 2017 verving de [=COR=] het toenmalige OIN register. Aan de [=COR=] werden de volgende nieuwe functionaliteiten toegevoegd:
-
-- De relatie tussen SubOINs en de verantwoordelijke rechtspersoon kan in de [=COR=] worden vastgelegd en wordt publiekelijk getoond bij raadpleging van de voorziening (alleen in de [=COR=] API)
-
-- De mogelijkheid tot aan laten maken, wijziging en intrekking van OIN’s door beheerders van de [=COR=] is toegevoegd.
-
-- Beheerders van de [=COR=] hebben de mogelijk gekregen om de organisatiegegevens behorend bij een OIN rechtstreeks vanuit het Handelsregister via de KVK-API op te vragen en in de [=COR=] over te nemen waarmee de kwaliteit van geregistreerde gegevens kan worden verhoogd zonder extra handmatige handelingen.
-
-- De exportfunctionaliteit waarmee de inhoud van de [=COR=]-database in CSV-formaat kan worden gedownload is publiek beschikbaar gemaakt.
-
-- Beheerders van de [=COR=] hebben de mogelijkheid gekregen om de relatie met een OIN van de ene rechtspersoon naar een andere rechtspersoon over te dragen. Dit komt van pas als er een organisatieonderdeel of voorziening overgaat van de ene instantie naar een andere.
-
-- Het al dan niet kunnen gebruiken van OINs of SubOINs voor e-facturatie wordt publiekelijk getoond.
-
-- Niet alleen actieve Oins en SubOINs maar ook ingetrokken OINs en SubOINs worden publiekelijk getoond.
-
-- Er is een voorziening aangebracht waarmee het aantal bevragingen van de [=COR=] kan worden gerapporteerd.
-
-De [=COR=] wordt sinds de lancering steeds verder doorontwikkeld en aangepast;
-
-- het eFacturatie kenmerk wordt niet meer getoond in de [=COR=]. Deze informatie over is nu te vinden op [https://www.logius.nl/diensten/e-factureren](https://www.logius.nl/diensten/e-factureren)
-
-- Restful API op de [=COR=]: de [=COR=] API biedt verschillende mogelijkheden om het OIN register te bevragen
-
-- extra identificerende codes toegevoegd aan het OIN register. Hierdoor is het mogelijk om via de [=COR=] API de vertaling te maken van OIN naar Gemeentecode en omgekeerd. Naast Gemeentecode kan een vertaling worden opgevraagd naar Provincie-, Waterschap- of Ministeriecode
-
-Het gebruik van het OIN neemt steeds meer toe. Hierdoor zijn nieuwe knelpunten in de praktijk onstaan waarbij de OIN spelregels niet overeenkwamen met de behoefte en noden van organisaties.
-
-In 2020 legt Logius een aantal wijzigingsvoorstellen in de OIN spelregels aan de Digikoppeling Community. De nieuwe spelregels zijn verwerkt in de aangepaste *Voorwaarden Digikoppeling* en *Gebruiksvoorwaarden Digikoppeling*.
-
-Belangrijkste wijzigingen in het voorstel van 2020:
-
-- Private partijen met een publieke taak kunnen SubOINs aanvragen;
-
-- Private partijen kunnen ten behoeve van (SAAS-)dienstverlening voor hun publieke klanten SubOINs aanvragen
-
-Daarnaast zijn de beide Voorwaarden documenten verduidelijkt en up-to-date gebracht. Voor het OIN gaat het om de volgende onderdelen:
-
-- Geen vermelding meer tbv e-factureren in de [=COR=]
-
-- Vermelding van het gebruik van organisatiecodes in de [=COR=]
-
 ## Rollen in het OIN stelsel
 
 ### Afnemer
