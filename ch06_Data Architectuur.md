@@ -36,7 +36,7 @@ Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het r
 
 (*1) *00000006 Logius OIN Hoofdnummer: Voor organisaties uit het caribisch deel van het Koninkrijk der Nederlanden is dit nummer opgebouwd als 4 posities landnummer gevolgd door 5 posities volgnummer, conform landentabel BRP.*
 
-(*2) *00000010 TRR-BD-nummer: Hoofdnummer lengte is hier 8 posities, suffix is voor dit nummer 000
+(*2) *00000010 TRR-BD-nummer: Hoofdnummer lengte is hier 8 posities, suffix is voor dit nummer 000.*
 
 ## Voorbeeld OIN structuur
 
