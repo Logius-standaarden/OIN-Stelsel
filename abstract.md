@@ -1,4 +1,4 @@
-Htet OIN Stelsel docuement beschrijft het OIN beleid en de werking van het OIN. 
+Het OIN Stelsel document beschrijft het OIN beleid en de werking van het OIN. 
 
 In de nieuwe versie 3.0 zijn de volgende wijzigingen opgenomen:
 
