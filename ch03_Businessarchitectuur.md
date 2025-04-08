@@ -90,6 +90,11 @@ Daarnaast zijn de beide Voorwaarden documenten verduidelijkt en up-to-date gebra
 
 - Vermelding van het gebruik van organisatiecodes in de [=COR=]
 
+In 2025 zijn de volgende wijzigingen aangebracht:
+
+- OIN register registratie alleen voor bijzondere organisaties en organisaties met SubOIN's. Overige organisaties maken gebruik van het OIN nummersysteem maar worden in achterliggende bron registratie bijgehouden (bv KVK, ROO). (Aanpassingen in het kader van het nieuw OIN beleid): 
+- Nieuwe OIN prefix voor Buitenlandse Partijen in het TRR register
+
 ## Rollen in het OIN stelsel
 
 ### Afnemer
