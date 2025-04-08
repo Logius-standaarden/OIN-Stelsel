@@ -168,10 +168,8 @@ Rechtspersonen en samenwerkingsverbanden *Dit zijn de samenwerkingsverbanden die
 
 ### Buitenlandse rechtspersonen en organisaties
 
-Buitenlandse rechtspersonen en organisaties die niet ingeschreven kunnen worden in een Nederlands overheidsregister, maar wel voldoen aan de vereisten voor een PKIoverheidscertificaat, Kunnen zich aanmelden bij de belastingdienst voor een TRR-BD nummer (Tijdelijk Restgroepen Register). Op basis van het TRR-BD nummer wordt dan het OIN opgesteld conform de OIN nummersystematiek en de bijbehorende prefix ;
+Buitenlandse rechtspersonen en organisaties die niet ingeschreven kunnen worden in een Nederlands overheidsregister, maar wel voldoen aan de vereisten voor een PKIoverheidscertificaat, Kunnen zich aanmelden bij de belastingdienst voor een TRR-BD nummer (Tijdelijk Restgroepen Register). Op basis van het TRR-BD nummer wordt dan het OIN opgesteld conform de OIN nummersystematiek en de bijbehorende prefix. Zie [Hoofdstuk Data-architectuur](#data).
 
-
-kunnen bij een [=SubOIN-beheerder=] een aanvraag indienen voor een OIN. Na controle door een [=SubOIN-beheerder=] kunnen deze buitenlandse organisaties een OIN krijgen.
 
 ### OIN
 
