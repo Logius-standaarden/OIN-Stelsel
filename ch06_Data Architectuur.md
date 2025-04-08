@@ -27,14 +27,16 @@ Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het r
 | **00000003** | [=KVK-nummer=]| Handelsregister – Het [=KVK-nummer=] wordt gebruikt door private partijen in de communicatie met de overheid. Een nieuw [=OIN=] wordt altijd gebaseerd op het KVK-nummer indien aanwwezig |
 | **00000004** | subnummer | SubOIN register |
 | **00000005** | vrij | nog aan te wijzen |
-| **00000006** | Logius [=OIN=] Hoofdnummer | Door Logius uitgegeven [=OIN=] Hoofdnummers aan organisaties die in aanmerking komen voor een [=OIN=] maar waarvoor geen geschikt nummer uit de overige prefix categorieën beschikbaar is. (*) |
+| **00000006** | Logius [=OIN=] Hoofdnummer | Door Logius uitgegeven [=OIN=] Hoofdnummers aan organisaties die in aanmerking komen voor een [=OIN=] maar waarvoor geen geschikt nummer uit de overige prefix categorieën beschikbaar is. (*1) |
 | **00000007** | BRIN nummer | De Basisregistratie Instellingen (BRIN) is een register van onderwijsinstellingen dat door DUO wordt beheerd in opdracht van het Ministerie van OCW.|
 | **00000008** | Buitenlandse nummers| Op verzoek van een [=SubOIN-beheerder=] door Logius uitgegeven nummers voor buitenlandse organisaties die niet in het Handelsregister zijn ingeschreven|
 | **00000009** | UZI-nummer| Het Unieke Zorgverlener Identificatie Register (UZI-register) is de organisatie die de unieke identificatie van zorgaanbieders en indicatieorganen in het elektronisch verkeer mogelijk maakt.|
+| **00000010** | TRR-BD nummer| Restgroepen Register Belastingdienst (*2) | 
 | **00000099** | Test OIN's| Elke organisatie mag een test OIN gebruiken mits voorzien van deze prefix.|
 
- (*) *00000006 Logius OIN Hoofdnummer: Voor organisaties uit het caribisch deel van het Koninkrijk der Nederlanden is dit nummer opgebouwd als 4 posities landnummer gevolgd door 5 posities volgnummer, conform landentabel BRP.*
+(*1) *00000006 Logius OIN Hoofdnummer: Voor organisaties uit het caribisch deel van het Koninkrijk der Nederlanden is dit nummer opgebouwd als 4 posities landnummer gevolgd door 5 posities volgnummer, conform landentabel BRP.*
 
+(*2) *00000010 TRR-BD-nummer: Hoofdnummer lengte is hier 8 posities, suffix is voor dit nummer 000
 
 ## Voorbeeld OIN structuur
 
