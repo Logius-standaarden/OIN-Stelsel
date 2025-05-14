@@ -18,7 +18,8 @@ De lengte van het [=OIN=] is 20 posities, omdat dit wordt opgenomen in het *subj
 
 Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het register wordt toegevoegd aan het OIN-stelsel. Dit wordt ook een OIN register genoemd. De prefix tabel wordt als aparte lijst beheerd door de beheerder van het OIN-stelsel en wordt gepubliceerd op de website.
 
-
+> **Let op:**  
+> Nummers met een **BRIN**-prefix (00000007) en een **UZI**-prefix (00000009) worden **niet opgenomen** in het centrale OIN-register. Deze nummers zijn wel herkenbaar via hun prefix, maar maken géén deel uit van het primaire OIN-register.
 
 | **Prefix** | **Identificerend nummer** | **Bron**|
 |------------|-----------------------------------------|---|
