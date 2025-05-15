@@ -18,9 +18,6 @@ De lengte van het [=OIN=] is 20 posities, omdat dit wordt opgenomen in het *subj
 
 Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het register wordt toegevoegd aan het OIN-stelsel. Dit wordt ook een OIN register genoemd. De prefix tabel wordt als aparte lijst beheerd door de beheerder van het OIN-stelsel en wordt gepubliceerd op de website.
 
-> **Let op:**  
-> Nummers met een **BRIN**-prefix (00000007) en een **UZI**-prefix (00000009) worden **niet opgenomen** in het centrale OIN-register. 
-
 | **Prefix** | **Identificerend nummer** | **Bron**|
 |------------|-----------------------------------------|---|
 | **00000001** | [=RSIN=]| Handelsregister |
@@ -34,7 +31,8 @@ Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het r
 | **00000009** | UZI-nummer| Het Unieke Zorgverlener Identificatie Register (UZI-register) is de organisatie die de unieke identificatie van zorgaanbieders en indicatieorganen in het elektronisch verkeer mogelijk maakt.|
 | **00000099** | Test OIN's| Elke organisatie mag een test OIN gebruiken mits voorzien van deze prefix.|
 
- (*) *00000006 Logius OIN Hoofdnummer: Voor organisaties uit het caribisch deel van het Koninkrijk der Nederlanden is dit nummer opgebouwd als 4 posities landnummer gevolgd door 5 posities volgnummer, conform landentabel BRP.*
+ (*) *00000006 Logius OIN Hoofdnummer: Voor organisaties uit het caribisch deel van het Koninkrijk der Nederlanden is dit nummer opgebouwd als 4 posities landnummer gevolgd door 5 posities volgnummer, conform landentabel BRP.* <br>
+ (*) *Nummers met een BRIN-prefix (00000007) en een UZI-prefix (00000009) worden niet opgenomen in het centrale OIN-register.*
 
 
 ## Voorbeeld OIN structuur
