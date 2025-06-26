@@ -92,11 +92,17 @@ Daarnaast zijn de beide Voorwaarden documenten verduidelijkt en up-to-date gebra
 
 ## Rollen in het OIN stelsel
 
+De rollen in het OIN stelsel zijn vastgesteld in een aantal begrippen en hun definities. 
+Hieronder wordt aangegeven welke partijen een rol vervullen in het OIN stelsel. 
+De definities van de rollen staan in de begrijppenlijst.
+
 ### Afnemer
-Logius definieert dit bergip in de [[Algemene Voorwaarden Logius]] als volgt:
+Logius definieert dit bergip in de [Algemene Voorwaarden Logius](https://www.logius.nl/onze-organisatie/zakendoen-met-logius/voorwaarden/algemene-voorwaarden-logius) als volgt:
 > Een publiekrechtelijke of privaatrechtelijke organisatie, of college of een persoon met een publieke taak of bevoegdheid, die voor de uitoefening van die publieke taak elektronisch verkeer met andere overheden en burgers en/of bedrijven wenselijk acht en daarbij gebruik kan en mag maken van één of meer Diensten van Logius.
 
-Een [=afnemer=] van een OIN  kan zowel een aanbieder van diensten zijn als een organisatie die gebruikmaakt van diensten van andere organisaties.On der het begrip [=afnemer=] van een OIN vallen ook organisaties die beschreven zijn in de Algemene wet Bestuursrecht, zoals de Tweede en Eerste Kamer.
+Binnen het OIN kan een [=afnemer=] zowel een aanbieder van diensten zijn als een organisatie die 
+gebruikmaakt van diensten van andere organisaties.On der het begrip [=afnemer=] van een OIN vallen 
+ook organisaties die beschreven zijn in de Algemene wet Bestuursrecht, zoals de Tweede en Eerste Kamer.
 
 ### Stakeholders
 
@@ -126,11 +132,11 @@ De [=SubOIN-beheerder=] draagt zorg voor de registratie van SubOINs voor organis
 
 ### Certificatiedienstverlener (TSP)
 
-Een [=TSP=] geeft certificaten uit conform de eisen uit het PvE van PKIoverheid. Daarmee zijn zij verantwoordelijk voor de betrouwbaarheid van de genoemde certificaten. De [=TSP=]'s doen met het oog op het uitgeven van een certificaat onderzoek naar de identiteit van de organisatie en de tekenbevoegdheid van de aanvragers van een certificaat. De voorwaarden hiervoor zijn beschreven in het PvE PKIo PvE. Tevens controleren zij de identiteit van de aanvrager op grond van een face to face controle. De [=TSP=] raadpleegt het OIN van de aanvrager via de [=COR=] en neemt dit nummer en naam op in het PKIoverheid certificaat.
+Een [=TSP=] geeft certificaten uit conform de eisen uit het PvE van PKIoverheid. Daarmee zijn zij verantwoordelijk voor de betrouwbaarheid van de genoemde certificaten. De [=TSP=]'s doen met het oog op het uitgeven van een certificaat onderzoek naar de identiteit van de organisatie en de tekenbevoegdheid van de aanvragers van een certificaat. De voorwaarden hiervoor zijn beschreven in het PvE PKIo. Tevens controleren zij de identiteit van de aanvrager op grond van een face to face controle. De [=TSP=] raadpleegt het OIN van de aanvrager via de [=COR=] en neemt dit nummer en naam op in het PKIoverheid certificaat.
 
 ### OIN-houder
 
-De [=OIN-houder=] is een rechtspersoon met een publieke taak, die gebruik maakt van het OIN. Slechts een [=OIN-houder=] kan een [=SubOIN=] aanvragen voor een organisatie, organisatie-onderdeel of voorziening. De OIN houder is er verantwoordelijk voor dat de gegevens die gekoppeld aan zijn [=OIN=] en [=SubOIN=] juist zijn, en blijven.
+_Zie begrippenlijst voor de definitie._
 
 In dit document gebruiken we de term [=OIN-houder=] voor een organisatie die is ingeschreven in het handelregister en OINs of SubOINs aanvraagt en beheert. De [[[DK-Voorwaarden]]] en [[[DK-Gebruiksvoorwaarden]]] heeft het niet over OIN-houders maar gebruiken de begrippen *[=afnemer=]* en [=gebruiker=].
 
@@ -149,6 +155,7 @@ Er van uitgaande dat het OIN voorlopig geen wettelijke grondslag krijgt zijn de 
 Onderstaand schema beschrijft op welke manier organisaties een OIN of SubOINs bij Logius kunnen aanvragen
 
 ![Juridische instrumenten (onderdeel van Digikoppeling)](media/juridische_instrumenten-80p.png "Juridische instrumenten (onderdeel van Digikoppeling)")
+
 ### Identificatie
 
 Het gebruik van een Organisatie Identificatienummer (OIN) beoogt rechtspersonen en niet-rechtspersonen te identificeren ten behoeve van digitale berichtenverkeer met de overheid.
@@ -165,19 +172,19 @@ Rechtspersonen en samenwerkingsverbanden *Dit zijn de samenwerkingsverbanden die
 
 Buitenlandse rechtspersonen en organisaties die niet ingeschreven kunnen worden in een Nederlands overheidsregister, maar wel voldoen aan de vereisten voor een PKIoverheidscertificaat, kunnen bij een [=SubOIN-beheerder=] een aanvraag indienen voor een OIN. Na controle door een [=SubOIN-beheerder=] kunnen deze buitenlandse organisaties een OIN krijgen.
 
-### OIN
+### OIN en SubOIN
+
+_Zie begrippenlijst voor de definities._
 
 Organisaties, organisatieonderdelen en/of voorzieningen die niet in een aangesloten overheidsregister voorkomen, komen mogelijk toch in aanmerking voor een OIN. (In enkel bijzondere gevallen ook voor een OIN. Het gaat dan om het OIN dat wordt toegekend aan een onderdeel van de Staat der Nederlanden). Deze worden geregistreerd in het OIN-register. Een [=SubOIN=] is een identificerend nummer voor niet-rechtspersonen. Het [=SubOIN=] heeft dezelfde structuur als het OIN. Een [=SubOIN=] is altijd herleidbaar tot een rechtspersoon die is ingeschreven in het Handelsregister en valt onder de juridische verantwoordelijkheid van deze rechtspersoon.
+
+Als een organisatie geregistreerd is in een aangesloten register (niet het Handelsregister), dan kan het identificerend nummer uit dit register worden gebruikt als [=SubOIN=]s. Daarmee is een aangesloten register in feite een register van SubOINs voor een specifieke doelgroep.
 
 ### OIN-houder
 
 De [=OIN-houder=] is een rechtspersoon met een publieke taak die gebruik maakt van het OIN. Slechts de [=OIN-houder=] kan een OIN aanvragen voor een organisatie, een organisatieonderdeel of een voorziening die onder zijn juridische verantwoordelijkheid valt. De [[[DK-Voorwaarden]]] en [[[DK-Gebruiksvoorwaarden]]] heeft het niet over OIN-houders maar gebruiken de begrippen [=afnemer=] en gebruiker. De [=OIN-houder=] zal zich ervan moeten vergewissen dat hij middels juridische afspraken – zoals bijvoorbeeld statuten, een overeenkomst, een inschrijving in een register en/of een mandaatbesluit – juridische verantwoordelijkheid kan dragen voor het handelen van de organisatie of organisatieonderdeel, die gaat beschikken over een OIN. Een eis is dat de functionaris, die de aanvraag voor een OIN doet, tekenbevoegd is.
 
 De [=OIN-houder=] heeft een zorgplicht met betrekking tot het handelen door de houder van het [=OIN=], voor zover dit handelen betrekking heeft op de elektronische berichtenuitwisseling waarbij gebruik wordt gemaakt van het [=OIN=] en bijbehorende [=SubOIN=]s.
-
-### SubOINs op basis van een aangesloten register
-
-Als een organisatie geregistreerd is in een aangesloten register (niet het Handelsregister), dan kan het identificerend nummer uit dit register worden gebruikt als [=SubOIN=]s. Daarmee is een aangesloten register in feite een register van SubOINs voor een specifieke doelgroep.
 
 ### Opnemen OIN in PKIoverheidscertificaat
 
@@ -205,7 +212,7 @@ De opdrachtgever BZK beoordeelt binnen het regulier toezicht op de beheerder van
 
 ## Internationale uitwisselingen
 
-## OIN ICD Code
+### OIN ICD Code
 
 Volgens de ISO 6523 part 1 standaard is een ICD code (International Code Designator) nodig. Het OIN is sinds 2018 opgenomen in de ICD lijst
 
