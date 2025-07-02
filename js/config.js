@@ -3,7 +3,12 @@ var respecConfig = {
         "label" : "pdf",
         "uri" : "OIN-Stelsel.pdf"
       } ],
-  authors: [ { 
+  authors: [
+       { 
+        "company" : "Logius",
+        "companyURL" : "http://www.logius.nl/",
+        "name" : "Peter Haasnoot"
+      },{ 
         "company" : "Logius",
         "companyURL" : "http://www.logius.nl/",
         "name" : "Pieter Hering"
@@ -11,7 +16,7 @@ var respecConfig = {
   editors: [ { 
         "company" : "Logius",
         "companyURL" : "http://www.logius.nl/",
-        "name" : "Pieter Hering"
+        "name" : "Peter Haasnoot"
       } ],
   github: "https://github.com/Logius-standaarden/OIN-Stelsel",
   previousPublishVersion: "2.0.3",
