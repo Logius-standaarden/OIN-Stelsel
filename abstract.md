@@ -1,6 +1,6 @@
 Het OIN Stelsel document beschrijft het OIN beleid en de werking van het OIN. 
 
-In de nieuwe versie 3.0 zijn de volgende wijzigingen opgenomen:
+In de nieuwe versie 2.2 zijn de volgende wijzigingen opgenomen:
 
 - Aanpassingen aan nieuw OIN beleid: OIN register registratie alleen voor bijzondere organisaties en organisaties met SubOIN's. Overige organisaties maken gebruik van het OIN nummersysteem maar worden in achterliggende bron registratie bijgehouden (bv KVK, ROO)
 - Nieuwe OIN prefix voor Buitenlandse Partijen in het TRR register
