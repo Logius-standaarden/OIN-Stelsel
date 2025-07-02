@@ -18,7 +18,7 @@ Het [=OIN=] maakt een onderscheid in [=gebruikers=] en [=afnemers=]. Beiden kunn
 
 Organisaties die digitaal communiceren met of binnen de overheid hebben daarvoor in veel gevallen een identificerend nummer nodig. Dit identificerende nummer kan op twee manieren verkregen worden:
 
-1. Bij Logius: Door een [=OIN=] (Organisatie Identificatie Nummer) aan te vragen bij Logius via een aanvraagformulier op Logius.nl. Het [=OIN=] wordt afgeleid van het KVK-nummer uit het Handelsregister. Alleen wanneer een organisatie geen KVK-nummer heeft wordt het OIN gebaseerd op het [=RSIN=]. Het [=OIN=] wordt vastgelegd in een register dat publiek raadpleegbaar is via de centrale [=OIN=] Raadpleegvoorziening (https://oinregister.logius.nl/) via een website en een API. De regels uit de [[[DK-Voorwaarden]]] en de [[[DK-Gebruiksvoorwaarden]]] zijn van toepassing. Er zijn geen kosten verbonden aan deze registratie.
+1. Bij Logius: Door een [=OIN=] (Organisatie Identificatie Nummer) aan te vragen bij Logius via een aanvraagformulier op Logius.nl. Het [=OIN=] wordt afgeleid van het KVK-nummer uit het Handelsregister. Alleen wanneer een organisatie geen KVK-nummer heeft wordt het OIN gebaseerd op het [=RSIN=] (en bij bijzondere organisaties op het OIN nummersysteem).  Alleen van organsisaties met SubOIN's en van bijzondere organisaties wordt het [=OIN=] wordt vastgelegd in een register dat publiek raadpleegbaar is via de centrale [=OIN=] Raadpleegvoorziening (https://oinregister.logius.nl/) via een website en een API. De regels uit de [[[DK-Voorwaarden]]] en de [[[DK-Gebruiksvoorwaarden]]] zijn van toepassing. Er zijn geen kosten verbonden aan deze registratie.
 
 2. Bij de [=TSP=]: Bij de aanvraag van een PKIoverheid-certificaat zal de Trust Service Provider ([=TSP=]), bij ontbreken van een [=OIN=], het identificerend nummer bij de creatie van het certificaat zelf afleiden op basis van het KVK-nummer of eventueel op basis van het [=RSIN=] op gelijke wijze als bij de afleiding van het [=OIN=]. Dit nummer wordt een [=HRN=] genoemd.  Er vindt echter geen publiek raadpleegbare registratie plaats. Voor de werking van het dataverkeer met de overheid is er verder geen verschil.
 
@@ -89,6 +89,11 @@ Daarnaast zijn de beide Voorwaarden documenten verduidelijkt en up-to-date gebra
 - Geen vermelding meer tbv e-factureren in de [=COR=]
 
 - Vermelding van het gebruik van organisatiecodes in de [=COR=]
+
+In 2025 zijn de volgende wijzigingen aangebracht:
+
+- OIN register registratie alleen voor bijzondere organisaties en organisaties met SubOIN's. Overige organisaties maken gebruik van het OIN nummersysteem maar worden in achterliggende bron registratie bijgehouden (bv KVK, ROO). (Aanpassingen in het kader van het nieuw OIN beleid): 
+- Nieuwe OIN prefix voor Buitenlandse Partijen in het TRR register
 
 ## Rollen in het OIN stelsel
 
@@ -163,7 +168,8 @@ Rechtspersonen en samenwerkingsverbanden *Dit zijn de samenwerkingsverbanden die
 
 ### Buitenlandse rechtspersonen en organisaties
 
-Buitenlandse rechtspersonen en organisaties die niet ingeschreven kunnen worden in een Nederlands overheidsregister, maar wel voldoen aan de vereisten voor een PKIoverheidscertificaat, kunnen bij een [=SubOIN-beheerder=] een aanvraag indienen voor een OIN. Na controle door een [=SubOIN-beheerder=] kunnen deze buitenlandse organisaties een OIN krijgen.
+Buitenlandse rechtspersonen en organisaties die niet ingeschreven kunnen worden in een Nederlands overheidsregister, maar wel voldoen aan de vereisten voor een PKIoverheidscertificaat, Kunnen zich aanmelden bij de belastingdienst voor een TRR-BD nummer (Tijdelijk Restgroepen Register). Op basis van het TRR-BD nummer wordt dan het OIN opgesteld conform de OIN nummersystematiek en de bijbehorende prefix. Zie [Hoofdstuk Data-architectuur](#data).
+
 
 ### OIN
 
@@ -213,8 +219,7 @@ De volgende alinea's geven achtergrondinformatie over de ISO 6523 standaard.
 
 ### Mapping naar de ISO 6523 standaard
 
-Het OIN is aangemeld en opgenomen in in ICD Codelist: (zie [https://docs.peppol.eu/pracc/catalogue/1.0/codelist/ICD/](https://docs.peppol.eu/pracc/catalogue/1.0/codelist/ICD/)). Het OIN is geregistreerd onder *code id 0190* met de volgende beschrijving
+Het OIN is aangemeld en opgenomen in de _ISO 6523 ICD list_ (zie http://iso6523.info/ , zie ook https://docs.peppol.eu/poacc/billing/3.0/codelist/ICD/#0190). Het OIN is geregistreerd onder code `0190` met de volgende beschrijving.
 
->Organisatie Indentificatie Nummer (OIN)
->
+>**Organisatie Indentificatie Nummer (OIN)**<br>
 > The OIN is part of the Dutch standard ‘Digikoppeling’ and is used for identifying the organisations that take part in electronic message exchange with the Dutch Government. The OIN must also be included in the PKIo certificate.
