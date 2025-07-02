@@ -26,13 +26,13 @@ Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het r
 | **00000004** | subnummer | SubOIN register |
 | **00000005** | vrij | nog aan te wijzen |
 | **00000006** | Logius [=OIN=] Hoofdnummer | Door Logius uitgegeven [=OIN=] Hoofdnummers aan organisaties die in aanmerking komen voor een [=OIN=] maar waarvoor geen geschikt nummer uit de overige prefix categorieën beschikbaar is. (*1) |
-| **00000007** | BRIN nummer | De Basisregistratie Instellingen (BRIN) is een register van onderwijsinstellingen dat door DUO wordt beheerd in opdracht van het Ministerie van OCW. (*2)|
-| **00000008** | Buitenlandse nummers| Op verzoek van een [=SubOIN-beheerder=] door Logius uitgegeven nummers voor buitenlandse organisaties die niet in het Handelsregister zijn ingeschreven |
-| **00000009** | UZI-nummer| Het Unieke Zorgverlener Identificatie Register (UZI-register) is de organisatie die de unieke identificatie van zorgaanbieders en indicatieorganen in het elektronisch verkeer mogelijk maakt. (*2)|
+| **00000007** | BRIN nummer | De Basisregistratie Instellingen (BRIN) is een register van onderwijsinstellingen dat door DUO wordt beheerd in opdracht van het Ministerie van OCW.|
+| **00000008** | Buitenlandse nummers| Op verzoek van een [=SubOIN-beheerder=] door Logius uitgegeven nummers voor buitenlandse organisaties die niet in het Handelsregister zijn ingeschreven|
+| **00000009** | UZI-nummer| Het Unieke Zorgverlener Identificatie Register (UZI-register) is de organisatie die de unieke identificatie van zorgaanbieders en indicatieorganen in het elektronisch verkeer mogelijk maakt.|
+| **00000010** | TRR-BD nummer| In het Tijdelijk Register Restgroepen (TRR) staan niet in het Nederlands Handelsregister geregistreerde organisaties die zijn opgenomen in het Beheer van Relaties (BVR) systeem van de Belastingdienst. Het TRR wordt beheerd door Logius in opdracht van de Belastingdienst  | 
 | **00000099** | Test OIN's| Elke organisatie mag een test OIN gebruiken mits voorzien van deze prefix.|
 
- (*1) *00000006 Logius OIN Hoofdnummer: Voor organisaties uit het caribisch deel van het Koninkrijk der Nederlanden is dit nummer opgebouwd als 4 posities landnummer gevolgd door 5 posities volgnummer, conform landentabel BRP.* <br>
- (*2) *Nummers met een BRIN-prefix (00000007) en een UZI-prefix (00000009) worden niet opgenomen in het centrale OIN-register.*
+(*1) *00000006 Logius OIN Hoofdnummer: Voor organisaties uit het caribisch deel van het Koninkrijk der Nederlanden is dit nummer opgebouwd als 4 posities landnummer gevolgd door 5 posities volgnummer, conform landentabel BRP.*
 
 
 ## Voorbeeld OIN structuur
