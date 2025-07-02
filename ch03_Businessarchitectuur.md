@@ -213,8 +213,7 @@ De volgende alinea's geven achtergrondinformatie over de ISO 6523 standaard.
 
 ### Mapping naar de ISO 6523 standaard
 
-Het OIN is aangemeld en opgenomen in in ICD Codelist: (zie [https://docs.peppol.eu/pracc/catalogue/1.0/codelist/ICD/](https://docs.peppol.eu/pracc/catalogue/1.0/codelist/ICD/)). Het OIN is geregistreerd onder *code id 0190* met de volgende beschrijving
+Het OIN is aangemeld en opgenomen in de _ISO 6523 ICD list_ (zie http://iso6523.info/ , zie ook https://docs.peppol.eu/poacc/billing/3.0/codelist/ICD/#0190). Het OIN is geregistreerd onder code `0190` met de volgende beschrijving.
 
->Organisatie Indentificatie Nummer (OIN)
->
+>**Organisatie Indentificatie Nummer (OIN)**<br>
 > The OIN is part of the Dutch standard ‘Digikoppeling’ and is used for identifying the organisations that take part in electronic message exchange with the Dutch Government. The OIN must also be included in the PKIo certificate.
