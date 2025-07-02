@@ -18,8 +18,6 @@ De lengte van het [=OIN=] is 20 posities, omdat dit wordt opgenomen in het *subj
 
 Een aangesloten overheidsregister krijgt een prefix (per uniek nummer) als het register wordt toegevoegd aan het OIN-stelsel. Dit wordt ook een OIN register genoemd. De prefix tabel wordt als aparte lijst beheerd door de beheerder van het OIN-stelsel en wordt gepubliceerd op de website.
 
-
-
 | **Prefix** | **Identificerend nummer** | **Bron**|
 |------------|-----------------------------------------|---|
 | **00000001** | [=RSIN=]| Handelsregister |
