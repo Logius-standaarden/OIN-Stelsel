@@ -23,7 +23,7 @@ var respecConfig = {
   previousPublishDate: "2024-01-19",
   pubDomain: "dk",
   publishDate: "2025-06-10",
-  publishVersion: "2.2.0",
+  publishVersion: "2.2.1",
   shortName: "oin",
   specStatus: "WV",
   specType: "HR"

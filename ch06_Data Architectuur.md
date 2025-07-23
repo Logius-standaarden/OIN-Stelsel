@@ -87,7 +87,7 @@ Hieronder een voorbeeld van een REST-API call naar de [=COR=] API. In het voorbe
 Voorbeeldaanroep van de COR API:
 
 ```
-https://portaal.digikoppeling.nl/registers/api/v1/organisaties?naam=Digilevering Integrator
+https://oinregister.logius.nl/api/v1/organisaties?naam=Digilevering Integrator
 ```
 </aside>
  
@@ -98,14 +98,14 @@ Voorbeeldresultaat van de COR API:
 {
     "_links": {
         "self": {
-            "href": "https://portaal.digikoppeling.nl/registers/api/v1/organisaties?naam=Digilevering Integrator",
+            "href": "https://oinregister.logius.nl/api/v1/organisaties?naam=Digilevering Integrator",
             "type": "application/hal+json"
         }
     },
     "organisaties": [{
         "_links": {
             "self": {
-                "href": "https://portaal.digikoppeling.nl/registers/api/v1/organisaties/00000004194049711000",
+                "href": "https://oinregister.logius.nl/api/v1/organisaties/00000004194049711000",
                 "type": "application/hal+json"
             }
         },
@@ -121,7 +121,7 @@ Voorbeeldresultaat van de COR API:
         "hoofdOIN": {
             "_links": {
                 "self": {
-                    "href": "https://portaal.digikoppeling.nl/registers/api/v1/organisaties/00000001822477348000",
+                    "href": "https://oinregister.logius.nl/api/v1/organisaties/00000001822477348000",
                     "type": "application/hal+json"
                 }
             }
