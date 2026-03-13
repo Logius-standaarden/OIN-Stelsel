@@ -23,6 +23,6 @@ loadRespecWithConfiguration({
   publishDate: "2025-06-10",
   publishVersion: "2.2.2",
   shortName: "oin",
-  specStatus: "WV",
+  specStatus: "DEF",
   specType: "HR"
 });
