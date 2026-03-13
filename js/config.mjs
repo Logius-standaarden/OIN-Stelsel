@@ -1,10 +1,6 @@
 import { loadRespecWithConfiguration } from "https://logius-standaarden.github.io/publicatie/respec/organisation-config.mjs";
 
 loadRespecWithConfiguration({
-  alternateFormats: [ { 
-        "label" : "pdf",
-        "uri" : "OIN-Stelsel.pdf"
-      } ],
   authors: [
        { 
         "company" : "Logius",
@@ -25,8 +21,8 @@ loadRespecWithConfiguration({
   previousPublishDate: "2024-01-19",
   pubDomain: "dk",
   publishDate: "2025-06-10",
-  publishVersion: "2.2.1",
+  publishVersion: "2.2.2",
   shortName: "oin",
-  specStatus: "DEF",
+  specStatus: "WV",
   specType: "HR"
 });
