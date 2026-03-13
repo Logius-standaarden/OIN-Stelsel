@@ -17,11 +17,11 @@ loadRespecWithConfiguration({
         "name" : "Peter Haasnoot"
       } ],
   github: "https://github.com/Logius-standaarden/OIN-Stelsel",
-  previousPublishVersion: "2.1.0",
+  previousPublishVersion: "2.2.2",
   previousPublishDate: "2024-01-19",
   pubDomain: "dk",
-  publishDate: "2025-06-10",
-  publishVersion: "2.2.2",
+  publishDate: "2026-03-19",
+  publishVersion: "3.0.0",
   shortName: "oin",
   specStatus: "WV",
   specType: "HR"
