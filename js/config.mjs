@@ -21,7 +21,7 @@ loadRespecWithConfiguration({
   previousPublishDate: "2024-01-19",
   pubDomain: "dk",
   publishDate: "2025-06-10",
-  publishVersion: "2.2.1",
+  publishVersion: "2.2.2",
   shortName: "oin",
   specStatus: "WV",
   specType: "HR"

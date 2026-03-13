@@ -64,30 +64,9 @@ In 2016 zijn na brede afstemming met gebruikers de regels verduidelijkt van wie 
 Sinds de wijziging van 2016 staat de afkorting voor OIN voor <strong>Organisatie</strong> Identificatienummer.
 </aside>
 
-### Doorontwikkeling [=COR=]
-
-Logius heeft sinds 2017 een aantal wijzigingen doorgevoerd in de ontsluiting van het OIN register:
-
-- in 2017 werd de OIN website hernoemd in en uitgebreid naar de **Centrale OIN Raadpleegvoorziening ([=COR=])**. De [=COR=] toont op de website naast de OINs ook de (Hoofd)OIN-houder indien die aanwezig is.
-
-- De aanduiding of de vermelde OIN voor eFacturatie gebruikt kon worden is verwijderd, op verzoek van Logius;
-
-- in 2018 is op verzoek van een aantal organisaties een RESTful API toegevoegd waarmee het OIN register online bevraagd kan worden. De website bleef ongewijzigd;
-
-- in 2019 is aan het OIN register een aantal identificerende nummers toegevoegd, de BG codes voor gemeente en de CBS codes voor Waterschappen en Provincies. Deze gegevens zijn enkel via de [=COR=] API opvraagbaar.
-
-- in 2020 dient Logius een voorstel in dat mogelijk maakt dat *privaatrechtelijke partijen met een publieke taak* en *privaatrechtelijke partijen ten behoeve van (SAAS-)dienstverlening* aan hun publieke klanten SubOINs’s kunnen aanvragen.
-
-- in 2020 wordt voor het UZI register prefix '00000009' gereserveerd
-
-- De nieuwe voorstellen zijn na openbare consultatie vastgesteld door het Technisch Overleg Digikoppeling.  Op 1 januari 2021 zijn de [[[DK-Voorwaarden]]] en de [[[DK-Gebruiksvoorwaarden]]] gepubliceerd.
-
-- in 2023 is besloten het OIN te baseren op het KVK-nummer. Alleen als een organisatie _geen_ KVK-nummer heeft wordt het [=OIN=] gebaseerd op het [=RSIN=]. Hiermee komt het [=OIN=] overeen met het [=HRN=] wat een gebruiker zelf kan afleiden. Veel uitgegeven [=OIN=] nummers waren al gebaseerd op het KVK-nummer omdat dat in de [=COR=] software al was ingebouwd. Bestaande nummers worden niet aangepast. 
-
 ## Leeswijzer
 
 De structuur van dit document is gebaseerd op de TOGAF standaard - TOGAF staat voor The Open Group Architecture Framework- .
-
 
 |Hoofdstuk|Inhoud|
 |---|---|
