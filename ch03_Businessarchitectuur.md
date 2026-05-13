@@ -223,3 +223,15 @@ Het OIN is aangemeld en opgenomen in de _ISO 6523 ICD list_ (zie http://iso6523.
 
 >**Organisatie Indentificatie Nummer (OIN)**<br>
 > The OIN is part of the Dutch standard ‘Digikoppeling’ and is used for identifying the organisations that take part in electronic message exchange with the Dutch Government. The OIN must also be included in the PKIo certificate.
+
+## ETSI Legal Person Semantics Identifier
+
+*Trust Service Providers* (TSP's) die certificaten uitgeven en die tegen ETSI worden gecertificeerd moeten het `subject:organizationIdentifier`-veld opnemen in de uitgegeven certificaten indien die certificaten ook een `subject:organizationName`-veld bevatten. Hierbij kunnen zij zich houden aan de *Legal Person Semantics Identifier* beschreven in de ETSI *EN 412-1* standaard. Indien een TSP het OIN wil opnemen in het `subject:organizationIdentifier`-veld en zich daarbij wil houden aan de ETSI-standaard rondom de *Legal Person Semantics Identifier*, moet een prefix worden gebruikt volgens de volgende systematiek: 
+
+*The three initial characters shall have one of the following defined values [...] Two characters according to local definition within the specified country and name registration authority, identifying a national scheme that is considered appropriate for national and European level, followed by the character `:` (colon).*
+
+De "two characters" moeten worden bepaald door het OIN-stelsel, aangezien zij de *name registration authority* voor dat register is.
+
+### Codering voor de Legal Person Semantics Identifier
+
+De codering voor de OIN-prefix is vastgesteld op `OI:`, en samen met de verplichte landcodering wordt de volledige prefix dan `OI:NL`. Voorbeeld: in het geval van Logius (met OIN `00000004822477348004`) zou het OIN in het *Legal Person Semantics Identifier* format dus `OI:NL-00000004822477348004` worden.
