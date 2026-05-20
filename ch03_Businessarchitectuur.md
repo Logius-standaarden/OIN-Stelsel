@@ -226,7 +226,7 @@ Het OIN is aangemeld en opgenomen in de _ISO 6523 ICD list_ (zie http://iso6523.
 
 ## ETSI Legal Person Semantics Identifier
 
-*Trust Service Providers* (TSP's) die certificaten uitgeven en die tegen ETSI worden gecertificeerd moeten het `subject:organizationIdentifier`-veld opnemen in de uitgegeven certificaten indien die certificaten ook een `subject:organizationName`-veld bevatten. Hierbij kunnen zij zich houden aan de *Legal Person Semantics Identifier* beschreven in de ETSI *EN 412-1* standaard. Indien een TSP het OIN wil opnemen in het `subject:organizationIdentifier`-veld en zich daarbij wil houden aan de ETSI-standaard rondom de *Legal Person Semantics Identifier*, moet een prefix worden gebruikt volgens de volgende systematiek: 
+*Trust Service Providers* (TSP's) die certificaten uitgeven en die tegen ETSI worden gecertificeerd moeten het `subject:organizationIdentifier`-veld opnemen in de uitgegeven certificaten indien die certificaten ook een `subject:organizationName`-veld bevatten. Hierbij kunnen zij zich houden aan de *Legal Person Semantics Identifier* beschreven in de [ETSI EN 412-1](https://portal.etsi.org/webapp/workprogram/Report_WorkItem.asp?WKI_ID=75441) standaard. Indien een TSP het OIN wil opnemen in het `subject:organizationIdentifier`-veld en zich daarbij wil houden aan de ETSI-standaard rondom de *Legal Person Semantics Identifier*, moet een prefix worden gebruikt volgens de volgende systematiek: 
 
 > The three initial characters shall have one of the following defined values [...] Two characters according to local definition within the specified country and name registration authority, identifying a national scheme that is considered appropriate for national and European level, followed by the character `:` (colon).
 
