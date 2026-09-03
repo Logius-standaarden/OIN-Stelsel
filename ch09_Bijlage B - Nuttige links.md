@@ -13,5 +13,5 @@
 | Voorziening | url |
 | ---- | --- |
 | [=COR=] Web| https://oinregister.logius.nl/oin-register |
-| [=COR=] API - handleiding| https://oinregister.logius.nl/documenten/api-documentatie |
-| [=COR=] API - OpenAPI Specificatie| https://oinregister.logius.nl/api/v1/openapi.json |
+| [=COR=] API - handleiding| https://oinregister.logius.nl/documenten |
+| [=COR=] API - OpenAPI Specificatie| https://oinregister.logius.nl/api/v2/openapi.json |
