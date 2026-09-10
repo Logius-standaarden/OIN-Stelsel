@@ -35,7 +35,6 @@ De [=OIN-houder=] is verplicht een [=OIN=] in te trekken in de [=COR=], indien h
 De beheerder van een overheidsregister borgt dat wijzigingen worden gecontroleerd en worden doorgevoerd zodat een [=OIN=] alleen kan worden gebruikt zolang de registratie in het overheidsregister geldig is en de rechtspersoon bestaat. het [=OIN=] van de entiteit is altijd herleidbaar tot de juridisch verantwoordelijke rechtspersoon.
 
 
-## SubOINs: geldigheidsduur en bewaartermijnen
 
 ### Beëindigen
 
