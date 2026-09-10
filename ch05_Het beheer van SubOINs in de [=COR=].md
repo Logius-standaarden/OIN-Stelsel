@@ -37,10 +37,6 @@ De beheerder van een overheidsregister borgt dat wijzigingen worden gecontroleer
 
 ## SubOINs: geldigheidsduur en bewaartermijnen
 
-### Geldigheidsduur
-
-De door de [=SubOIN-beheerder=] uitgegeven SubOINs hebben een geldigheidsduur van drie jaar. SubOINs kunnen worden verlengd door de [=SubOIN-beheerder=] via een verzoek aan Logius.
-
 ### Beëindigen
 
 Als het KVK-nummer of [=RSIN=] vervalt, vervalt het [=OIN=]. Als het [=OIN=] vervalt, mogen de daaraan gerelateerde SubOINs niet meer worden gebruikt, en moeten deze worden ingetrokken.
