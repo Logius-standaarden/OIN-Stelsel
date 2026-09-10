@@ -4,8 +4,8 @@
 
 | Documentatie | url |
 | --- | --- |
-| Voorwaarden Digikoppeling  | [[[[DK-Voorwaarden]]]]|
-| Digikoppeling Gebruiksvoorwaarden |[[[[DK-Gebruiksvoorwaarden]]]]|
+| Voorwaarden Digikoppeling  | [[[DK-Voorwaarden]]]|
+| Digikoppeling Gebruiksvoorwaarden |[[[DK-Gebruiksvoorwaarden]]]|
 | Informatie over OIN op Logius |[https://www.logius.nl/diensten/oin](https://www.logius.nl/diensten/oin)|
 
 <br>
