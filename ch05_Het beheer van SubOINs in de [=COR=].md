@@ -8,7 +8,8 @@
 
 Een rechtspersoon, die [=OIN-houder=] is, kan een [=OIN=] aanvragen voor een entiteit zonder rechtspersoonlijkheid - te weten een organisatie, organisatieonderdeel of voorziening - waarvoor hij de juridische verantwoordelijkheid neemt voor het gebruik van [=SubOIN=]s. De [=SubOIN=]s worden beheerd in het *SubOIN-register*, onderdeel van de [=COR=]. Onder de definitie van een entiteit vallen ook diensten zoals (landelijke) voorzieningen, mits deze als een onderdeel van een organisatie beschouwd kunnen worden en geïdentificeerd moeten worden voor informatie-uitwisseling. Logius maakt op verzoek van een [=SubOIN-beheerders=] [=SubOIN=]s aan in de [=COR=].
 
-SubOINs worden uitsluitend bijgehouden in het SubOIN-register van de [=COR=] en kunnen niet onder een nummerreeks van een extern register worden bijgehouden.
+SubOINs worden uitsluitend bijgehouden in het SubOIN-register van de [=COR=] 
+en kunnen alleen onder nummerreeksen worden geregistreerd waarvan de bron het oinregister is of het handelsregister
 
 #### Organisaties in andere registers dan het Handelsregister
 
